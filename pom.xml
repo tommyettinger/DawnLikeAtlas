@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.tommyettinger</groupId>
+    <artifactId>dawnliker</artifactId>
+    <version>0.1-SNAPSHOT</version>
+
+    <name>dawnliker</name>
+
+    <description>Tools for handling the DawnLike tileset</description>
+
+    <url>https://github.com/tommyettinger/DawnLikeAtlas</url>
+
+    <developers>
+        <developer>
+            <name>Tommy Ettinger ( https://github.com/tommyettinger )</name>
+            <email>example@example.com</email>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Creative Commons Attribution</name>
+            <url>
+                https://creativecommons.org/licenses/by/4.0/
+            </url>
+            <comments>LICENSE.txt</comments>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <inceptionYear>2019</inceptionYear>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>sonatype-nexus-staging</id>
+            <name>Nexus Release Repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+    <repositories>
+        <repository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </repository>
+		<repository>
+		    <id>jitpack.io</id>
+            <name>JitPack.io</name>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.version>3.8.0</maven.compiler.version>
+        <maven.javadoc.version>3.0.1</maven.javadoc.version>
+        <maven.resources.version>3.1.0</maven.resources.version>
+        <maven.source.version>3.0.1</maven.source.version>
+        <maven.gpg.version>1.6</maven.gpg.version>
+        <jdk.version>1.7</jdk.version>
+        <junit.version>4.11</junit.version>
+        <squidlib.version>651e8b7caf</squidlib.version>
+        <gdx.version>1.9.10</gdx.version>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.SquidPony.SquidLib</groupId>
+            <artifactId>squidlib-util</artifactId>
+            <version>${squidlib.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.badlogicgames.gdx</groupId>
+            <artifactId>gdx</artifactId>
+            <version>${gdx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.badlogicgames.gdx</groupId>
+            <artifactId>gdx-backend-lwjgl3</artifactId>
+            <version>${gdx.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.badlogicgames.gdx</groupId>
+            <artifactId>gdx-platform</artifactId>
+            <version>${gdx.version}</version>
+            <classifier>natives-desktop</classifier>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations-java5</artifactId>
+            <version>17.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <!--        <dependency>-->
+<!--            <groupId>com.github.Anuken</groupId>-->
+<!--            <artifactId>GdxGifRecorder</artifactId>-->
+<!--            <version>1.3</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.github.tommyettinger.fastutil-gwt</groupId>-->
+            <!--<artifactId>fastutil-base</artifactId>-->
+            <!--<version>${fastutil.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.github.tommyettinger.fastutil-gwt</groupId>-->
+            <!--<artifactId>fastutil-intbase</artifactId>-->
+            <!--<version>${fastutil.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.github.tommyettinger.fastutil-gwt</groupId>-->
+            <!--<artifactId>fastutil-inthashmap</artifactId>-->
+            <!--<version>${fastutil.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.github.aikar.fastutil-lite</groupId>-->
+            <!--<artifactId>fastutil-base</artifactId>-->
+            <!--<version>6f751f51e5</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.github.aikar.fastutil-lite</groupId>-->
+            <!--<artifactId>fastutil-intbase</artifactId>-->
+            <!--<version>6f751f51e5</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>com.github.aikar.fastutil-lite</groupId>-->
+            <!--<artifactId>fastutil-inthashmap</artifactId>-->
+            <!--<version>6f751f51e5</version>-->
+        <!--</dependency>-->
+    </dependencies>
+
+    <issueManagement>
+        <url>https://github.com/tommyettinger/DawnLikeAtlas/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <scm>
+        <connection>scm:git:git@github.com:tommyettinger/DawnLikeAtlas.git</connection>
+        <developerConnection>scm:git:git@github.com:tommyettinger/DawnLikeAtlas.git</developerConnection>
+        <url>git@github.com:tommyettinger/DawnLikeAtlas.git</url>
+    </scm>
+    <profiles>
+        <profile>
+            <!--
+            To sign (only needed for Maven Central), add this argument to the mvn command line, just after mvn...
+            -DperformRelease=true
+            -->
+            <id>release-sign-artifacts</id>
+            <activation>
+                <property>
+                    <name>performRelease</name>
+                    <value>true</value>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>${maven.gpg.version}</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+    <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+            </testResource>
+            <testResource>
+                <directory>assets</directory>
+            </testResource>
+        </testResources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.version}</version>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                    <excludes>
+                        <exclude>**/emu/**</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>${maven.source.version}</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <includePom>true</includePom>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>${maven.javadoc.version}</version>
+                <inherited>true</inherited>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <debug>false</debug>
+                    <minmemory>256m</minmemory>
+                    <maxmemory>1024m</maxmemory>
+                    <quiet>true</quiet>
+                    <doctitle>${project.name} ${project.version}</doctitle>
+                    <windowtitle>${project.name} ${project.version}</windowtitle>
+                    <splitindex>true</splitindex>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                    <javadocVersion>${jdk.version}</javadocVersion>
+                    <links>
+                        <!--<link>http://docs.oracle.com/javase/8/docs/api/</link>-->
+                        <link>http://docs.oracle.com/javase/7/docs/api/</link>
+                        <link>http://docs.oracle.com/javase/6/docs/api/</link>
+                        <link>http://docs.oracle.com/javase/1.5.0/docs/api/</link>
+                    </links>
+                    <linksource>true</linksource>
+                    <detectOfflineLinks>false</detectOfflineLinks>
+                    <excludePackageNames>*emu*</excludePackageNames>
+                    <doclint>none</doclint>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

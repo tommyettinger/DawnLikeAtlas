@@ -467,26 +467,26 @@ public class Coloring {
 
 
     /**
-     * DawnBringer16 palette, plus transparent first.
+     * DawnBringer16 palette, plus transparent first. Has slight changes to match the palette used in DawnLike.
      */
     public static final int[] DB16 = {
             0x00000000,
-            0x140C1CFF,
-            0x442434FF,
-            0x30346DFF,
-            0x4E4A4EFF,
-            0x854C30FF,
+            0x140c1cFF,
+            0x452434FF,
+            0x30346dFF,
+            0x4d494dFF,
+            0x864d30FF,
             0x346524FF,
-            0xD04648FF,
+            0xd34549FF,
             0x757161FF,
-            0x597DCEFF,
-            0xD27D2CFF,
-            0x8595A1FF,
-            0x6DAA2CFF,
-            0xD2AA99FF,
-            0x6DC2CAFF,
-            0xDAD45EFF,
-            0xDEEED6FF,
+            0x597dcfFF,
+            0xd37d2cFF,
+            0x8696a2FF,
+            0x6daa2cFF,
+            0xd3aa9aFF,
+            0x6dc3cbFF,
+            0xdbd75dFF,
+            0xdfefd7FF,
     };
 
     /**

@@ -3,7 +3,6 @@
 package org.cie;
 
 import com.badlogic.gdx.graphics.Color;
-import squidpony.squidmath.NumberTools;
 
 public class CIELABConverter {
 
@@ -230,13 +229,13 @@ public class CIELABConverter {
 		if (Math.abs(lab1.B) < 0x1p-32 && Math.abs(a1Prime) < 0x1p-32)
 			hPrime1 = 0.0;
 		else {
-			hPrime1 = 360.0*NumberTools.atan2_(lab1.B, a1Prime);
+			hPrime1 = Math.toDegrees(Math.atan2(lab1.B, a1Prime));
 		}
 		double hPrime2;
 		if (Math.abs(lab2.B) < 0x1p-32 && Math.abs(a2Prime) < 0x1p-32)
 			hPrime2 = 0.0;
 		else {
-			hPrime2 = 360.0*NumberTools.atan2_(lab2.B, a2Prime);
+			hPrime2 = Math.toDegrees(Math.atan2(lab2.B, a2Prime));
 		}
 		double deltahPrime;
 		if (Math.abs(CPrimeProduct) < 0x1p-32)
@@ -249,7 +248,7 @@ public class CIELABConverter {
 				deltahPrime -= deg360InRad;
 		}
 
-		double deltaHPrime = 2.0 * Math.sqrt(CPrimeProduct) * NumberTools.sin_(deltahPrime / 720.0);
+		double deltaHPrime = 2.0 * Math.sqrt(CPrimeProduct) * Math.sin(Math.toRadians(deltahPrime * 0.5));
 		double hPrimeSum = hPrime1 + hPrime2;
 		if (Math.abs(CPrimeProduct) < 0x1p-32) {
 			barhPrime = hPrimeSum;
@@ -267,10 +266,10 @@ public class CIELABConverter {
 
 		barCPrime = ((CPrime1 + CPrime2) * 0.5);
 		double T = 1.0 - 
-				(0.17 * NumberTools.cos_((barhPrime - deg2Rad30) / 360.0)) + 
-				(0.24 * NumberTools.cos_((2.0 * barhPrime)) / 360.0) + 
-				(0.32 * NumberTools.cos_(((3.0 * barhPrime) + deg2Rad6)) / 360.0) - 
-				(0.20 * NumberTools.cos_(((4.0 * barhPrime) - deg2Rad63)) / 360.0);
+				(0.17 * Math.cos(Math.toDegrees(barhPrime - deg2Rad30))) + 
+				(0.24 * Math.cos(Math.toDegrees(2.0 * barhPrime))) + 
+				(0.32 * Math.cos(Math.toDegrees((3.0 * barhPrime) + deg2Rad6))) - 
+				(0.20 * Math.cos(Math.toDegrees((4.0 * barhPrime) - deg2Rad63)));
 		double S_H = 1 + (0.015 * barCPrime * T);
 		return deltaHPrime / (k_H * S_H);
 	}
@@ -281,7 +280,7 @@ public class CIELABConverter {
 		final double barCPrimeTo7 = Math.pow(barCPrime, 7.0);
 		double deltaTheta = deg2Rad30 * Math.exp(-Math.pow((barhPrime - deg2Rad275) / deg2Rad25, 2.0));
 		double R_C = -2.0 * Math.sqrt(barCPrimeTo7 / (barCPrimeTo7 + pow25To7));
-		double R_T = NumberTools.sin_(deltaTheta / 180.0) * R_C;
+		double R_T = Math.sin(Math.toRadians(deltaTheta * 2.0)) * R_C;
 		return R_T;
 	}
 
@@ -313,10 +312,10 @@ public class CIELABConverter {
 		double xff = xC1 * xC1;
 		xff *= xC2 * xC2;
 		xff = Math.sqrt(xff / (xff + 1900));
-		double xH1 = NumberTools.atan2_(b1, a1) * 360.0;
+		double xH1 = Math.toDegrees(Math.atan2(b1, a1));
 		double xTT, xSL;
-		if ( xH1 < 164 || xH1 > 345 ) xTT = 0.36 + Math.abs( 0.4 * NumberTools.cos_(( 35 + xH1) / 360.0));
-		else                          xTT = 0.56 + Math.abs( 0.2 * NumberTools.cos_((168 + xH1) / 360.0));
+		if ( xH1 < 164 || xH1 > 345 ) xTT = 0.36 + Math.abs( 0.4 * Math.cos(Math.toRadians( 35 + xH1)));
+		else                          xTT = 0.56 + Math.abs( 0.2 * Math.cos(Math.toRadians(168 + xH1)));
 
 		if ( l1 < 16 ) xSL = 0.511;
 		else           xSL = (0.040975 * l1) / (1.0 + (0.01765 * l1));

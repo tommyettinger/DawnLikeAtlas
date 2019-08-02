@@ -20,8 +20,6 @@
 
 package org.hsluv;
 
-import squidpony.StringKit;
-
 public class HSLUVColorConverter {
     private static final double[][] m = new double[][]
             {
@@ -346,6 +344,9 @@ public class HSLUVColorConverter {
         result[0] = H;
         result[1] = C / max * 100;
     }
+    public static final char[] hexDigits = {
+            '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'
+    };
 
     public static String rgbToHex(double[] tuple) {
         final char[] cs = {'#', '0', '0', '0', '0', '0', '0'};
@@ -357,8 +358,8 @@ public class HSLUVColorConverter {
                 throw new IllegalArgumentException("Illegal rgb value: " + rounded);
             }
             int rdd = (int) (rounded * 255 + 0.5);
-            cs[c++] = StringKit.hexDigits[rdd >>> 4];
-            cs[c++] = StringKit.hexDigits[rdd & 15];
+            cs[c++] = hexDigits[rdd >>> 4];
+            cs[c++] = hexDigits[rdd & 15];
         }
         return String.valueOf(cs);
     }

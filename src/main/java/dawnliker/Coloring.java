@@ -1,7 +1,5 @@
 package dawnliker;
 
-import squidpony.squidmath.OrderedMap;
-
 /**
  * Created by Tommy Ettinger on 11/4/2017.
  */
@@ -450,118 +448,6 @@ public class Coloring {
             0xFCD9FBFF, 0xFDB8C7FF, 0xFD97AAFF, 0xF46E7EFF, 0xC65365FF, 0x9E303CFF, 0x741B28FF, 0x50071AFF,
     };
 
-    /**
-     * @param name Name of a color
-     * @return Retrieves color as a byte from RINSED_NAMES, or 0 if the name isn't found
-     */
-    public static byte rinsed(String name) {
-        return RINSED_NAMES.getOrDefault(name, 0).byteValue();
-    }
-
-    /**
-     * Big OrderedMap of a name for each color in {@link #RINSED}, mapping String keys to index values, while also
-     * allowing lookup from an index to the corresponding String key using {@link OrderedMap#keyAt(int)}.
-     * Colors with numbers after the names have 0 mean the lightest color in a ramp and 7 mean the darkest.
-     * If you're reading the source, there's a comment above each ramp saying which index that ramp would have out of
-     * the full list of 30 ramps (each with 8 colors). The first ramp, which goes from white to black, takes up index 16
-     * to index 23. Before that, there's various special-use colors, such as invisible connectors for joining parts of
-     * some larger model, and a reserved black outline for when solid black surrounds the edges of a render.
-     */
-    public static final OrderedMap<String, Integer> RINSED_NAMES = OrderedMap.makeMap(
-            "Transparent", 0, "Shadow", 1, "Black Outline", 2, "Outlined Glass", 3,
-            "Gleaming Eyes", 4, "Green Placeholder", 5, "Blue Placeholder", 6, "Dark Placeholder", 7,
-            "Connector A", 8, "Connector B", 9, "Connector C", 10, "Connector D", 11,
-            "Connector E", 12, "Connector F", 13, "Connector G", 14, "Connector H", 15,
-            //0
-            "Gray 0", 16, "Gray 1", 17, "Gray 2", 18, "Gray 3", 19,
-            "Gray 4", 20, "Gray 5", 21, "Gray 6", 22, "Gray 7", 23,
-            //1
-            "Blush Skin 0", 24, "Blush Skin 1", 25, "Blush Skin 2", 26, "Blush Skin 3", 27,
-            "Blush Skin 4", 28, "Blush Skin 5", 29, "Blush Skin 6", 30, "Blush Skin 7", 31,
-            //2
-            "Dark Deepening Skin 0", 32, "Dark Deepening Skin 1", 33, "Dark Deepening Skin 2", 34, "Dark Deepening Skin 3", 35,
-            "Dark Deepening Skin 4", 36, "Dark Deepening Skin 5", 37, "Dark Deepening Skin 6", 38, "Dark Deepening Skin 7", 39,
-            //3
-            "Warm Skin 0", 40, "Warm Skin 1", 41, "Warm Skin 2", 42, "Warm Skin 3", 43,
-            "Warm Skin 4", 44, "Warm Skin 5", 45, "Warm Skin 6", 46, "Warm Skin 7", 47,
-            //4
-            "Dark Skin 0", 48, "Dark Skin 1", 49, "Dark Skin 2", 50, "Dark Skin 3", 51,
-            "Dark Skin 4", 52, "Dark Skin 5", 53, "Dark Skin 6", 54, "Dark Skin 7", 55,
-            //5
-            "Bold Skin 0", 56, "Bold Skin 1", 57, "Bold Skin 2", 58, "Bold Skin 3", 59,
-            "Bold Skin 4", 60, "Bold Skin 5", 61, "Bold Skin 6", 62, "Bold Skin 7", 63,
-            //6
-            "Light Deepening Skin 0", 64, "Light Deepening Skin 1", 65, "Light Deepening Skin 2", 66, "Light Deepening Skin 3", 67,
-            "Light Deepening Skin 4", 68, "Light Deepening Skin 5", 69, "Light Deepening Skin 6", 70, "Light Deepening Skin 7", 71,
-            //7
-            "Yellow Orange 0", 72, "Yellow Orange 1", 73, "Yellow Orange 2", 74, "Yellow Orange 3", 75,
-            "Yellow Orange 4", 76, "Yellow Orange 5", 77, "Yellow Orange 6", 78, "Yellow Orange 7", 79,
-            //8
-            "Wood 0", 80, "Wood 1", 81, "Wood 2", 82, "Wood 3", 83,
-            "Wood 4", 84, "Wood 5", 85, "Wood 6", 86, "Wood 7", 87,
-            //9
-            "Discolored Gray 0", 88, "Discolored Gray 1", 89, "Discolored Gray 2", 90, "Discolored Gray 3", 91,
-            "Discolored Gray 4", 92, "Discolored Gray 5", 93, "Discolored Gray 6", 94, "Discolored Gray 7", 95,
-            //10
-            "Bronze Skin 0", 96, "Bronze Skin 1", 97, "Bronze Skin 2", 98, "Bronze Skin 3", 99,
-            "Bronze Skin 4", 100, "Bronze Skin 5", 101, "Bronze Skin 6", 102, "Bronze Skin 7", 103,
-            //11
-            "Gold Fur 0", 104, "Gold Fur 1", 105, "Gold Fur 2", 106, "Gold Fur 3", 107,
-            "Gold Fur 4", 108, "Gold Fur 5", 109, "Gold Fur 6", 110, "Gold Fur 7", 111,
-            //12
-            "Fire 0", 112, "Fire 1", 113, "Fire 2", 114, "Fire 3", 115,
-            "Fire 4", 116, "Fire 5", 117, "Fire 6", 118, "Fire 7", 119,
-            //13
-            "Avocado 0", 120, "Avocado 1", 121, "Avocado 2", 122, "Avocado 3", 123,
-            "Avocado 4", 124, "Avocado 5", 125, "Avocado 6", 126, "Avocado 7", 127,
-            //14
-            "Dull Green 0", 128, "Dull Green 1", 129, "Dull Green 2", 130, "Dull Green 3", 131,
-            "Dull Green 4", 132, "Dull Green 5", 133, "Dull Green 6", 134, "Dull Green 7", 135,
-            //15
-            "Vivid Green 0", 136, "Vivid Green 1", 137, "Vivid Green 2", 138, "Vivid Green 3", 139,
-            "Vivid Green 4", 140, "Vivid Green 5", 141, "Vivid Green 6", 142, "Vivid Green 7", 143,
-            //16
-            "Gray Green 0", 144, "Gray Green 1", 145, "Gray Green 2", 146, "Gray Green 3", 147,
-            "Gray Green 4", 148, "Gray Green 5", 149, "Gray Green 6", 150, "Gray Green 7", 151,
-            //17
-            "Cold Forest 0", 152, "Cold Forest 1", 153, "Cold Forest 2", 154, "Cold Forest 3", 155,
-            "Cold Forest 4", 156, "Cold Forest 5", 157, "Cold Forest 6", 158, "Cold Forest 7", 159,
-            //18
-            "Turquoise 0", 160, "Turquoise 1", 161, "Turquoise 2", 162, "Turquoise 3", 163,
-            "Turquoise 4", 164, "Turquoise 5", 165, "Turquoise 6", 166, "Turquoise 7", 167,
-            //19
-            "Coastal Water 0", 168, "Coastal Water 1", 169, "Coastal Water 2", 170, "Coastal Water 3", 171,
-            "Coastal Water 4", 172, "Coastal Water 5", 173, "Coastal Water 6", 174, "Coastal Water 7", 175,
-            //20
-            "Ice 0", 176, "Ice 1", 177, "Ice 2", 178, "Ice 3", 179,
-            "Ice 4", 180, "Ice 5", 181, "Ice 6", 182, "Ice 7", 183,
-            //21
-            "Powder Blue 0", 184, "Powder Blue 1", 185, "Powder Blue 2", 186, "Powder Blue 3", 187,
-            "Powder Blue 4", 188, "Powder Blue 5", 189, "Powder Blue 6", 190, "Powder Blue 7", 191,
-            //22
-            "Dusty Gray 0", 192, "Dusty Gray 1", 193, "Dusty Gray 2", 194, "Dusty Gray 3", 195,
-            "Dusty Gray 4", 196, "Dusty Gray 5", 197, "Dusty Gray 6", 198, "Dusty Gray 7", 199,
-            //23
-            "Blue Steel 0", 200, "Blue Steel 1", 201, "Blue Steel 2", 202, "Blue Steel 3", 203,
-            "Blue Steel 4", 204, "Blue Steel 5", 205, "Blue Steel 6", 206, "Blue Steel 7", 207,
-            //24
-            "Lavender 0", 208, "Lavender 1", 209, "Lavender 2", 210, "Lavender 3", 211,
-            "Lavender 4", 212, "Lavender 5", 213, "Lavender 6", 214, "Lavender 7", 215,
-            //25
-            "Heliotrope 0", 216, "Heliotrope 1", 217, "Heliotrope 2", 218, "Heliotrope 3", 219,
-            "Heliotrope 4", 220, "Heliotrope 5", 221, "Heliotrope 6", 222, "Heliotrope 7", 223,
-            //26
-            "Purple 0", 224, "Purple 1", 225, "Purple 2", 226, "Purple 3", 227,
-            "Purple 4", 228, "Purple 5", 229, "Purple 6", 230, "Purple 7", 231,
-            //27
-            "Hot Pink 0", 232, "Hot Pink 1", 233, "Hot Pink 2", 234, "Hot Pink 3", 235,
-            "Hot Pink 4", 236, "Hot Pink 5", 237, "Hot Pink 6", 238, "Hot Pink 7", 239,
-            //28
-            "Withered Plum 0", 240, "Withered Plum 1", 241, "Withered Plum 2", 242, "Withered Plum 3", 243,
-            "Withered Plum 4", 244, "Withered Plum 5", 245, "Withered Plum 6", 246, "Withered Plum 7", 247,
-            //29
-            "Red 0", 248, "Red 1", 249, "Red 2", 250, "Red 3", 251,
-            "Red 4", 252, "Red 5", 253, "Red 6", 254, "Red 7", 255);
     
     public static final int[] PURE = {
             0x00000000, 

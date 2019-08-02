@@ -8,7 +8,6 @@ import com.badlogic.gdx.utils.ByteArray;
 import com.badlogic.gdx.utils.Disposable;
 import com.badlogic.gdx.utils.IntIntMap;
 import com.badlogic.gdx.utils.StreamUtils;
-import squidpony.annotation.GwtIncompatible;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
@@ -64,10 +63,6 @@ import static dawnliker.PaletteReducer.randomXi;
  * @author Nathan Sweet
  * @author Tommy Ettinger (PNG-8 parts only) */
 
-// If you're porting this into libGDX, remove the GwtIncompatible annotation and exclude this from GWT reflection.
-// You'll also need to include the PaletteReducer class, which only depends on libGDX and the JDK, and does not need to
-// be excluded from GWT in any way. 
-@GwtIncompatible
 public class PNG8 implements Disposable {
     static private final byte[] SIGNATURE = {(byte)137, 80, 78, 71, 13, 10, 26, 10};
     static private final int IHDR = 0x49484452, IDAT = 0x49444154, IEND = 0x49454E44,

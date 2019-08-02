@@ -67,17 +67,11 @@
         <maven.gpg.version>1.6</maven.gpg.version>
         <jdk.version>1.7</jdk.version>
         <junit.version>4.11</junit.version>
-        <squidlib.version>651e8b7caf</squidlib.version>
         <gdx.version>1.9.10</gdx.version>
     </properties>
 
 
     <dependencies>
-        <dependency>
-            <groupId>com.github.SquidPony.SquidLib</groupId>
-            <artifactId>squidlib-util</artifactId>
-            <version>${squidlib.version}</version>
-        </dependency>
         <dependency>
             <groupId>com.badlogicgames.gdx</groupId>
             <artifactId>gdx</artifactId>

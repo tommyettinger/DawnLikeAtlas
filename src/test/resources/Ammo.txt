@@ -1,0 +1,6 @@
+silver bullets	large bullets	mid bullets	small bullets	silver pellets	large pellets	mid pellets	small pellets
+longbow	composite bow	shortbow	shining bow	sling	crossbow		
+silver arrow	arrow	bent arrow	shining arrow	crossbow bolt	missile		
+dart	shuriken	boomerang					
+pistol	rifle						
+fire bomb	poison bomb	flash bomb					

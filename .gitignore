@@ -240,3 +240,5 @@ target/
 
 GeneratedPalette.txt
 GeneratedPalette.png
+
+\.\~lock*

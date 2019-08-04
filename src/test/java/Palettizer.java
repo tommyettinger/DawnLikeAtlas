@@ -145,6 +145,7 @@ public class Palettizer extends ApplicationAdapter {
         try {
             for(String name : listing) {
                 Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
+                png8.writePrecisely(Gdx.files.local("flat/" + name), p, Coloring.DB16, true, 0);
                 int frame = -1;
                 String abbr;
                 if(name.endsWith("0.png")){

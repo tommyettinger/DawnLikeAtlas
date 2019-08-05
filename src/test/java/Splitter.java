@@ -20,9 +20,8 @@ public class Splitter extends ApplicationAdapter {
 
     public static final String[] listing = {
 //            "Ammo",
-            "Amulet",
-//            "Aquatic0.png",
-//            "Aquatic1.png",
+//            "Amulet",
+            "Aquatic0",
 //            "Armor.png",
 //            "Avian0.png",
 //            "Avian1.png",
@@ -133,12 +132,29 @@ public class Splitter extends ApplicationAdapter {
         for(String name : listing) {
             String contents = Gdx.files.internal(name + ".txt").readString();
             String[] lines = contents.split("\\R");
-            for (int i = 0; i < lines.length; i++) {
-                String[] cell = lines[i].split("\t");
-                for (int j = 0; j < cell.length; j++) {
-                    if(! "".equals(cell[j]))
-                    {
-                        Gdx.files.local("individual/"+name+"_"+j+"x"+i+".png").copyTo(Gdx.files.local("renamed/"+cell[j]+".png"));
+            if(name.endsWith("0"))
+            {
+                String name2 = name.substring(0, name.length()-1);
+                for (int i = 0; i < lines.length; i++) {
+                    String[] cell = lines[i].split("\t");
+                    for (int j = 0; j < cell.length; j++) {
+                        if(! "".equals(cell[j]))
+                        {
+                            Gdx.files.local("individual/"+name2+"_"+j+"x"+i+"_0.png").copyTo(Gdx.files.local("renamed/"+cell[j]+"_0.png"));
+                            Gdx.files.local("individual/"+name2+"_"+j+"x"+i+"_1.png").copyTo(Gdx.files.local("renamed/"+cell[j]+"_1.png"));
+                        }
+                    }
+                }
+            }
+            else
+            {
+                for (int i = 0; i < lines.length; i++) {
+                    String[] cell = lines[i].split("\t");
+                    for (int j = 0; j < cell.length; j++) {
+                        if(! "".equals(cell[j]))
+                        {
+                            Gdx.files.local("individual/"+name+"_"+j+"x"+i+".png").copyTo(Gdx.files.local("renamed/"+cell[j]+".png"));
+                        }
                     }
                 }
             }

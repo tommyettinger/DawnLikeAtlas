@@ -1,0 +1,6 @@
+fighting fish	red snapper	stonefish	catfish	piranha	lobster	jellyfish	man o war
+barracuda	great white shark	tiger shark	beluga whale	blue whale	river dolphin		
+snakefish	bobbit worm	eel	electric eel				
+sea nymph	river nymph	bog nymph					
+kraken	sea tiger	platypus					
+leech	frog						

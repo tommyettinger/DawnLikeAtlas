@@ -1,0 +1,9 @@
+sphinx armor	wyvern armor	dreadwyrm armor	glendrake armor	firedrake armor	icewyrm armor	sanddrake armor	stormwyrm armor
+darkwyrm armor	lightwyrm armor	bogwyrm armor	sheenwyrm armor				
+sphinx scales	wyvern scales	dreadwyrm scales	glendrake scales	firedrake scales	icewyrm scales	sanddrake scales	stormwyrm scales
+darkwyrm scales	lightwyrm scales	bogwyrm scales	sheenwyrm scales				
+forest cloak	desert cloak	frost garb	rain jacket	flame garb	backpack	hill cloak	moldy cloak
+royal outfit	stealth outfit	spidersilk cape	luggage				
+bronze armor	brass armor	iron armor	scale armor	banded mail	breastplate	full plate	mirror plate
+monk robes	peasant robes	hawaiian shirt	chain shirt	novelty tee	jujitsu gi	prisoner outfit	red dress
+shockfrost mail	hotrock mail	grandmaster mail	colorwind mail	blacksludge mail	lacquered armor	animal hide	

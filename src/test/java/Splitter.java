@@ -21,8 +21,8 @@ public class Splitter extends ApplicationAdapter {
     public static final String[] listing = {
 //            "Ammo",
 //            "Amulet",
-            "Aquatic0",
-//            "Armor.png",
+//            "Aquatic0",
+            "Armor",
 //            "Avian0.png",
 //            "Avian1.png",
 //            "Book.png",

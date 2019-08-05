@@ -19,8 +19,8 @@ public class Splitter extends ApplicationAdapter {
     protected PNG8 png8;
 
     public static final String[] listing = {
-            "Ammo",
-//            "Amulet.png",
+//            "Ammo",
+            "Amulet",
 //            "Aquatic0.png",
 //            "Aquatic1.png",
 //            "Armor.png",
@@ -132,7 +132,7 @@ public class Splitter extends ApplicationAdapter {
         Gdx.files.local("renamed/").mkdirs();
         for(String name : listing) {
             String contents = Gdx.files.internal(name + ".txt").readString();
-            String[] lines = contents.split("\n");
+            String[] lines = contents.split("\\R");
             for (int i = 0; i < lines.length; i++) {
                 String[] cell = lines[i].split("\t");
                 for (int j = 0; j < cell.length; j++) {

@@ -1,0 +1,13 @@
+baby plains chickabay	plains chickabay	baby fen chickabay	fen chickabay	baby taiga chickabay	taiga chickabay	baby doom chickabay	doom chickabay
+baby nighthawk	nighthawk	baby cave swift	cave swift	baby arctic tern	arctic tern	baby robin	robin
+baby osprey	osprey	baby phoenix	phoenix	baby aluminum falcon	aluminum falcon		
+baby cave penguin	cave penguin	baby penguin	penguin	baby pelican	pelican	baby duck	duck
+baby puffin	puffin	baby swan	swan	baby albatross	albatross	baby condor	condor
+baby green parrot	green parrot	baby dove	dove	baby parakeet	parakeet	baby thrush	thrush
+baby cormorant	cormorant	baby seagull	seagull	baby bald eagle	bald eagle	golden eagle	baby golden eagle
+baby ostrich	ostrich	baby emu	emu	baby kiwi	kiwi		
+chick	hen	rooster	baby peacock	peahen	peacock		
+baby griffon	griffon	baby snow griffon	snow griffon				
+baby barn owl	barn owl	baby snowy owl	snowy owl				
+white nosed bat	giant bat	vampire bat	werebat	baby bat			
+baby gray parrot	gray parrot						

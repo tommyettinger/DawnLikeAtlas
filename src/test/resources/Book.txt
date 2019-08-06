@@ -1,0 +1,9 @@
+hardcover book	paperback book	worn book	dog eared book	stained book	moldy book	military text	flimsy book
+ice tome	fleshy book	wasteland guide	earth tome	yellow pages	comic book	poison tome	glowing book
+field guide	water tome	navigation guide	diving guide	self help book	maddening book	delving guide	political treatise
+recipe book	election ballot	fire tome	slaying guide	little black book	wind tome	book of ruin	gold book
+order tome	locked diary	golden ticket	lightning tome	light tome	history book	pamphlet	encyclopedia
+elemental tome	code book	memoir	medical textbook	tall book	illustrated manuscript	heroic story	rambling screed
+wide book	funny story	shimmering tome	dark tome	mystery story	chaos tome	spiral notebook	wall calendar
+drama story	natural tome	acid tome	spliced book	atlas	dread tome	horror story	blank book
+book of the dead							

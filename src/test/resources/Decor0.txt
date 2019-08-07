@@ -1,0 +1,21 @@
+window frame center	window frame left	window frame right	window frame inner	hole frame center	hole frame left	hole frame right	hole frame inner
+window center	window left	window right	window inner	hole center	hole left	hole right	hole inner
+smoke up	smoke down	smoke left	smoke right	sparks a	sparks b	sparks c	sparks d
+bottle	pot	dairy bottle	dairy pot	ornate bottle	ornate pot	shards a	shards b
+empty shelves	assorted shelves	crystal shelves	food shelves	sparse shelves	full bookshelves	sparse bookshelves	dusty shelves
+sign a	sign b	sign c	spooky sign	board a	board b	board c	spooky board
+empty shop sign	restaurant sign	armory sign	smithy sign	church sign	pub sign	inn sign	home sign
+wooden chair left	wooden table	wooden chair right	stone chair left	stone table	stone chair right	throne	
+candle	candle pair	ornate candle	ornate candelabra	black candle	black candle pair	sacrificial candle	sacrificial candelabra
+bed a	bed b	trunk a	trunk b	sleeping bag a	sleeping bag b	mat a	mat b
+pew left	pew horizontal	pew right	pew up	pew vertical	pew down	coffin a	coffin b
+skull	bones	old skull	old bones	magic skull	magic bones		
+dragon skull	ribcage	old dragon skull	old ribcage	magic dragon skull	magic ribcage		
+red carpet nw	red carpet n	red carpet ne	gray carpet nw	gray carpet n	gray carpet ne		
+red carpet w	red carpet c	red carpet e	gray carpet w	gray carpet c	gray carpet e		
+red carpet sw	red carpet s	red carpet se	gray carpet sw	gray carpet s	gray carpet se		
+gravestone a	gravestone b	gravestone c	gravestone d	broken gravestone a			
+gravestone e	gravestone f	gravestone g	gravestone h	broken gravestone b			
+webbing a	webbing b	webbing c	webbing d	webbing e			
+altar	bloodied altar	pedestal	statue	mounted statue			
+basin	fountain						

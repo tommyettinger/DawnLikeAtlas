@@ -1,0 +1,3 @@
+closed chest	closed big chest	broken chest	closed safe	closed big safe	broken safe	closed ice chest	broken ice chest
+closed barrel	closed keg	broken barrel	broken keg				
+bag	waterskin	magic bag_0	hungry bag				

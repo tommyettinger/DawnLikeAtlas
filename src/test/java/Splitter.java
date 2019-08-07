@@ -26,8 +26,9 @@ public class Splitter extends ApplicationAdapter {
 //            "Avian0",
 //            "Book",
 //            "Boot",
-            "Cat0",
-//            "Chest0",
+//            "Cat0",
+            "Chest_Closed",
+            "Chest_Open",
 //            "Decor0",
 //            "Demon0",
 //            "Dog0",
@@ -124,6 +125,21 @@ public class Splitter extends ApplicationAdapter {
                         }
                     }
                 }
+            }
+            else if(name.endsWith("_Closed") || name.endsWith("_Open"))
+            {
+                boolean open = name.endsWith("_Open");
+                String name2 = name.substring(0, name.lastIndexOf('_'));
+                for (int i = 0; i < lines.length; i++) {
+                    String[] cell = lines[i].split("\t");
+                    for (int j = 0; j < cell.length; j++) {
+                        if(! "".equals(cell[j]))
+                        {
+                            Gdx.files.local("individual/"+name2+"_"+j+"x"+i+"_"+(open ? "1" : "0")+".png").copyTo(Gdx.files.local("renamed/"+cell[j]+".png"));
+                        }
+                    }
+                }
+                
             }
             else
             {

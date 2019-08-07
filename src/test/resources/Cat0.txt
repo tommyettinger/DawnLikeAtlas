@@ -1,0 +1,5 @@
+bobcat	leopard	panther	tiger	lion
+puma kitten	puma	fierce puma		
+lynx kitten	lynx	fierce lynx		
+barn kitten	barn cat	fierce barn cat		
+weretiger	werecat			

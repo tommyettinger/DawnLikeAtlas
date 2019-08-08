@@ -1,0 +1,9 @@
+barbed devil	marilith	vrock	hezrou	juiblex	yeenoghu	orcus	erinys
+fire devil	lesser devil	nalfeshnee	pit fiend	horned devil	djinn	water demon	mail daemon
+nalzok	baalzebub	dispater	asmodeus	demogorgon	geryon	balrog	
+bone devil	ice devil	minion of huhetotl					
+homunculus	manes	lemure					
+imp	quasit						
+succubus	incubus						
+cyclops slaver	cyclops brute						
+tengu	hezrou						

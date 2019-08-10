@@ -1,0 +1,6 @@
+jackal	fox	dingo	coyote	rabid jackal	werejackal
+wolf	warg	baby winter wolf	winter wolf	rabid wolf	werewolf
+little hound	hound	big hound			
+little cogdog	cogdog	big cogdog			
+little terrier	terrier	big terrier			
+heck puppy	hell hound	cerberus			

@@ -1,0 +1,6 @@
+closed wooden door front	closed wooden door side	locked wooden door front	locked wooden door side	fortified wooden door front	fortified wooden door side	wooden door frame	broken wooden door
+closed stone door front	closed stone door side	locked stone door front	locked stone door side	fortified stone door front	fortified stone door side	stone door frame	broken stone door
+closed iron portcullis front	closed iron portcullis side	locked iron portcullis front	locked iron portcullis side	fortified iron portcullis front	fortified iron portcullis side	iron portcullis frame	broken iron portcullis
+closed gold portcullis front	closed gold portcullis side	locked gold portcullis front	locked gold portcullis side	fortified gold portcullis front	fortified gold portcullis side	gold portcullis frame	broken gold portcullis
+		locks front	locks side	fortifications front	fortifications side		
+stone archway	stone portal_0	gold archway	gold portal_0	heavenly archway	heavenly portal_0	infernal archway	infernal portal_0

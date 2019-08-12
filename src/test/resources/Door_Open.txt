@@ -1,0 +1,6 @@
+open wooden door front	open wooden door side						
+open stone door front	open stone door side						
+open iron portcullis front	open iron portcullis side						
+open gold portcullis front	open gold portcullis side						
+							
+stone archway	stone portal_1	gold archway	gold portal_1	heavenly archway	heavenly portal_1	infernal archway	infernal portal_1

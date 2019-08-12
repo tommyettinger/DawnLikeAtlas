@@ -1,0 +1,25 @@
+fire burst nw	fire burst n	fire burst ne	mud burst nw	mud burst n	mud burst ne		
+fire burst w	fire burst c	fire burst e	mud burst w	mud burst c	mud burst e		
+fire burst sw	fire burst s	fire burst se	mud burst sw	mud burst s	mud burst se		
+dark burst nw	dark burst n	dark burst ne	noxious burst nw	noxious burst n	noxious burst ne		
+dark burst w	dark burst c	dark burst e	noxious burst w	noxious burst c	noxious burst e		
+dark burst sw	dark burst s	dark burst se	noxious burst sw	noxious burst s	noxious burst se		
+wet burst nw	wet burst n	wet burst ne	bright burst nw	bright burst n	bright burst ne		
+wet burst w	wet burst c	wet burst e	bright burst w	bright burst c	bright burst e		
+wet burst sw	wet burst s	wet burst se	bright burst sw	bright burst s	bright burst se		
+magic burst nw	magic burst n	magic burst ne					
+magic burst w	magic burst c	magic burst e					
+magic burst sw	magic burst s	magic burst se					
+stomach nw	stomach n	stomach ne					
+stomach w	stomach c	stomach e					
+stomach sw	stomach s	stomach se					
+fire beam v	fire beam h	fire beam l	fire beam r	flash beam v	flash beam h	flash beam l	flash beam r
+cold beam v	cold beam h	cold beam l	cold beam r	sleep beam v	sleep beam h	sleep beam l	sleep beam r
+shock beam v	shock beam h	shock beam l	shock beam r	death beam v	death beam h	death beam l	death beam r
+force beam v	force beam h	force beam l	force beam r	zap beam v	zap beam h	zap beam l	zap beam r
+rope v	rope h	rope l	rope r	grappling hook v	grappling hook h	grappling hook l	grappling hook r
+little flame	big flame	little flood	big flood	little freeze	big freeze	little distortion	big distortion
+little thorns	big thorns	little quake	big quake	little tornado	big tornado	little shine	big shine
+big terror	little terror	little protection	big protection	ward a	ward b	ward c	ward d
+steam cloud	volcanic cloud	toxic cloud	smoke cloud	symbol white	symbol black	symbol red	symbol blue
+burrow							

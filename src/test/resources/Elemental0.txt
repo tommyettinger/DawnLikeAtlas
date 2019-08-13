@@ -1,0 +1,11 @@
+straw golem	paper golem	wax golem	rope golem	gold golem	leather golem	wood golem	flesh golem
+clay golem	stone golem	glass golem	iron golem	snow golem	crystal golem		
+fog cloud	dust vortex	ice vortex	energy vortex	steam vortex	fire vortex		
+stalker	air elemental	fire elemental	earth elemental	water elemental			
+gas spore	freezing sphere	flaming sphere	shocking sphere				
+floating eye	evil eye	eye tyrant					
+rock piercer	iron piercer	glass piercer					
+small mimic	large mimic	giant mimic					
+strange object	xorn	invisible creature					
+lurker above	lurker below						
+yellow light	black light						

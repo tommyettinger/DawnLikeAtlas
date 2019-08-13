@@ -1,0 +1,12 @@
+					
+					
+					
+stone fence down right	stone fence left right	stone fence down left		stone fence down left right	
+stone fence up down			stone fence up down left	stone fence up down left right	stone fence up down right
+stone fence up right		stone fence up left		stone fence up left right	
+metal fence down right	metal fence left right	metal fence down left		metal fence down left right	
+metal fence up down			metal fence up down left	metal fence up down left right	metal fence up down right
+metal fence up right		metal fence up left		metal fence up left right	
+ice fence down right	ice fence left right	ice fence down left		ice fence down left right	
+ice fence up down			ice fence up down left	ice fence up down left right	ice fence up down right
+ice fence up right		ice fence up left		ice fence up left right	

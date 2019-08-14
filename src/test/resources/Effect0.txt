@@ -10,9 +10,9 @@ wet burst sw	wet burst s	wet burst se	bright burst sw	bright burst s	bright burs
 magic burst nw	magic burst n	magic burst ne					
 magic burst w	magic burst c	magic burst e					
 magic burst sw	magic burst s	magic burst se					
-stomach nw	stomach n	stomach ne					
-stomach w	stomach c	stomach e					
-stomach sw	stomach s	stomach se					
+engulf nw	engulf n	engulf ne					
+engulf w	engulf c	engulf e					
+engulf sw	engulf s	engulf se					
 fire beam v	fire beam h	fire beam l	fire beam r	flash beam v	flash beam h	flash beam l	flash beam r
 cold beam v	cold beam h	cold beam l	cold beam r	sleep beam v	sleep beam h	sleep beam l	sleep beam r
 shock beam v	shock beam h	shock beam l	shock beam r	death beam v	death beam h	death beam l	death beam r

@@ -1,0 +1,9 @@
+corpse	meatball	meat wand	huge meat blob	meat ring	meat book	heart	liver
+marbled cut of meat	fingers	toes	eyeball	connective tissue	brain	lung	intestines
+stomach	ear	gall bladder	kidney	throat	bodily fluid	buns	raw fish
+snout	tentacle	strip of meat					
+spoiled corpse	spoiled meatball	spoiled meat wand	spoiled huge meat blob	spoiled meat ring	spoiled meat book	spoiled heart	spoiled liver
+spoiled marbled cut of meat	spoiled fingers	spoiled toes	spoiled eyeball	spoiled connective tissue	spoiled brain	spoiled lung	spoiled intestines
+spoiled stomach	spoiled ear	spoiled gall bladder	spoiled kidney	spoiled throat	spoiled bodily fluid	spoiled buns	spoiled raw fish
+spoiled snout	spoiled tentacle	spoiled strip of meat					
+arthropod claw	thorn	parasite	meat hat	tusk	meat instrument	meat device	beak

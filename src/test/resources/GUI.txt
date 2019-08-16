@@ -1,0 +1,19 @@
+question a_0	question b_0	question c_0	question d_0	question e_0	question f_0	gauge chrome left_0	gauge chrome center_0	gauge chrome right_0	gauge chrome single_0						
+red heart full_0	red heart half_0	red heart low_0	red heart sliver_0	broken heart	pointer n	gauge red full_0	gauge red most_0	gauge red half_0	gauge red low_0	talk box					
+green heart full_0	green heart half_0	green heart low_0	green heart sliver_0		pointer e	gauge blue full_0	gauge blue most_0	gauge blue half_0	gauge blue low_0	confirm box_0	cancel box_0	yes box_0	no box_0		
+blue heart full_0	blue heart half_0	blue heart low_0	blue heart sliver_0		pointer s	gauge green full_0	gauge green most_0	gauge green half_0	gauge green low_0	love box_0	hate box_0	alert box_0	confused box_0		
+black heart full_0	black heart half_0	black heart low_0	black heart sliver_0		pointer w	gauge yellow full_0	gauge yellow most_0	gauge yellow half_0	gauge yellow low_0	asleep box_0	blind box_0	stunned box_0	deaf box_0		
+heart marker_0	peace marker_0	pet marker_0	mount marker_0	wet marker_0	dead marker_0	gauge gray full_0	gauge gray most_0	gauge gray half_0	gauge gray low_0						
+down marker_0	up marker_0														
+red black square	red black nw	red black n	red black ne	green red square	green red nw	green red n	green red ne	white black square	white black nw	white black n	white black ne	gray white square	gray white nw	gray white n	gray white ne
+	red black w	red black c	red black e		green red w	green red c	green red e		white black w	white black c	white black e		gray white w	gray white c	gray white e
+	red black sw	red black s	red black se		green red sw	green red s	green red se		white black sw	white black s	white black se		gray white sw	gray white s	gray white se
+blue black square	blue black nw	blue black n	blue black ne	green blue square	green blue nw	green blue n	green blue ne	gray black square	gray black nw	gray black n	gray black ne	brown gray square	brown gray nw	brown gray n	brown gray ne
+	blue black w	blue black c	blue black e		green blue w	green blue c	green blue e		gray black w	gray black c	gray black e		brown gray w	brown gray c	brown gray e
+	blue black sw	blue black s	blue black se		green blue sw	green blue s	green blue se		gray black sw	gray black s	gray black se		brown gray sw	brown gray s	brown gray se
+green black square	green black nw	green black n	green black ne	red green square	red green nw	red green n	red green ne	brown black square	brown black nw	brown black n	brown black ne	dark brown square	dark brown nw	dark brown n	dark brown ne
+	green black w	green black c	green black e		red green w	red green c	red green e		brown black w	brown black c	brown black e		dark brown w	dark brown c	dark brown e
+	green black sw	green black s	green black se		red green sw	red green s	red green se		brown black sw	brown black s	brown black se		dark brown sw	dark brown s	dark brown se
+yellow black square	yellow black nw	yellow black n	yellow black ne	black yellow square	black yellow nw	black yellow n	black yellow ne	dark black square	dark black nw	dark black n	dark black ne	brown dark square	brown dark nw	brown dark n	brown dark ne
+	yellow black w	yellow black c	yellow black e		black yellow w	black yellow c	black yellow e		dark black w	dark black c	dark black e		brown dark w	brown dark c	brown dark e
+	yellow black sw	yellow black s	yellow black se		black yellow sw	black yellow s	black yellow se		dark black sw	dark black s	dark black se		brown dark sw	brown dark s	brown dark se

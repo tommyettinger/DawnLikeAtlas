@@ -143,15 +143,16 @@ public class Splitter extends ApplicationAdapter {
             }
             else if("GUI".equals(name))
             {
-                String name2 = name;
                 for (int i = 0; i < lines.length; i++) {
                     String[] cell = lines[i].split("\t");
                     for (int j = 0; j < cell.length; j++) {
-                        if(! "".equals(cell[j]))
-                        {
-                            if(cell[j].endsWith("0"))
-                            {
-                                Gdx.files.local("individual/"+name2+"_"+j+"x"+i+"_0"+".png").copyTo(Gdx.files.local("renamed/"+cell[j]+".png"));
+                        if(! "".equals(cell[j])) {
+                            if (cell[j].endsWith("_0")) {
+                                Gdx.files.local("individual/" + name + "_" + j + "x" + i + "_0" + ".png").copyTo(Gdx.files.local("renamed/" + cell[j] + ".png"));
+                                Gdx.files.local("individual/" + name + "_" + j + "x" + i + "_1" + ".png").copyTo(Gdx.files.local("renamed/" + cell[j].substring(0, cell[j].length() - 2) + "_1.png"));
+                            }
+                            else
+                                Gdx.files.local("individual/"+name+"_"+j+"x"+i+"_0.png").copyTo(Gdx.files.local("renamed/"+cell[j]+".png"));
                         }
                     }
                 }

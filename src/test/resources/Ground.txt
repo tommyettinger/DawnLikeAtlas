@@ -1,0 +1,7 @@
+green grass	sparse green grass	dry grass	sparse dry grass	gray pebbles	sparse gray pebbles	brown pebbles	sparse brown pebbles
+green scrub	sparse green scrub	dry scrub	sparse dry scrub	gray rocks	sparse gray rocks	brown rocks	sparse brown rocks
+white flowers	sparse white flowers	blue flowers	sparse blue flowers	gold flowers	sparse gold flowers	red flowers	sparse red flowers
+young leafy vegetable	ripe leafy vegetable	young vine vegetable	ripe vine vegetable	young root vegetable	ripe root vegetable	potted seedlings	potted plants
+young herb cluster	ripe herb cluster	young fruit tree	ripe fruit tree	young corn stalk	ripe corn stalk	small rotting plant	large rotting plant
+red liquid spatter	red liquid drizzle	green liquid spatter	green liquid drizzle	blue liquid spatter	blue liquid drizzle	lava spatter_0	lava drizzle_0
+red pool	red puddle	green pool	green puddle	blue pool	blue puddle	lava pool_0	lava puddle_0

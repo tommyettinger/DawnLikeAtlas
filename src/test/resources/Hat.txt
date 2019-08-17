@@ -1,0 +1,4 @@
+dented pot	orcish helm	plumed helm	etched helm	crested helm	visored helm
+elven leather helm	helmet	dwarvish iron helm			
+fedora	wizard hat	dunce cap			
+headband	princely crown	kingly crown			

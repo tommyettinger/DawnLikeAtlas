@@ -1,0 +1,18 @@
+blue peak nw	blue peak n	blue peak ne	blue peak alone	yellow peak nw	yellow peak n	yellow peak ne	yellow peak alone	brown peak nw	brown peak n	brown peak ne	brown peak alone	green mound nw	green mound n	green mound ne	green mound alone
+blue peak w	blue peak c	blue peak e		yellow peak w	yellow peak c	yellow peak e		brown peak w	brown peak c	brown peak e		green mound w	green mound c	green mound e	
+blue peak sw	blue peak s	blue peak se		yellow peak sw	yellow peak s	yellow peak se		brown peak sw	brown peak s	brown peak se		green mound sw	green mound s	green mound se	
+red peak nw	red peak n	red peak ne	red peak alone	green peak nw	green peak n	green peak ne	green peak alone	dark peak nw	dark peak n	dark peak ne	dark peak alone	yellow mound nw	yellow mound n	yellow mound ne	yellow mound alone
+red peak w	red peak c	red peak e		green peak w	green peak c	green peak e		dark peak w	dark peak c	dark peak e		yellow mound w	yellow mound c	yellow mound e	
+red peak sw	red peak s	red peak se		green peak sw	green peak s	green peak se		dark peak sw	dark peak s	dark peak se		yellow mound sw	yellow mound s	yellow mound se	
+blue snowcap nw	blue snowcap n	blue snowcap ne	blue snowcap alone	yellow snowcap nw	yellow snowcap n	yellow snowcap ne	yellow snowcap alone	brown snowcap nw	brown snowcap n	brown snowcap ne	brown snowcap alone				
+blue snowcap w	blue snowcap c	blue snowcap e	snowcap effect	yellow snowcap w	yellow snowcap c	yellow snowcap e		brown snowcap w	brown snowcap c	brown snowcap e					
+blue snowcap sw	blue snowcap s	blue snowcap se		yellow snowcap sw	yellow snowcap s	yellow snowcap se		brown snowcap sw	brown snowcap s	brown snowcap se					
+red snowcap nw	red snowcap n	red snowcap ne	red snowcap alone	green snowcap nw	green snowcap n	green snowcap ne	green snowcap alone	dark snowcap nw	dark snowcap n	dark snowcap ne	dark snowcap alone				
+red snowcap w	red snowcap c	red snowcap e		green snowcap w	green snowcap c	green snowcap e		dark snowcap w	dark snowcap c	dark snowcap e					
+red snowcap sw	red snowcap s	red snowcap se		green snowcap sw	green snowcap s	green snowcap se		dark snowcap sw	dark snowcap s	dark snowcap se					
+blue volcano nw_0	blue volcano n_0	blue volcano ne_0	blue volcano alone_0	yellow volcano nw_0	yellow volcano n_0	yellow volcano ne_0	yellow volcano alone_0	brown volcano nw_0	brown volcano n_0	brown volcano ne_0	brown volcano alone_0				
+blue volcano w_0	blue volcano c_0	blue volcano e_0	eruption effect_0	yellow volcano w_0	yellow volcano c_0	yellow volcano e_0		brown volcano w_0	brown volcano c_0	brown volcano e_0					
+blue volcano sw_0	blue volcano s_0	blue volcano se_0		yellow volcano sw_0	yellow volcano s_0	yellow volcano se_0		brown volcano sw_0	brown volcano s_0	brown volcano se_0					
+red volcano nw_0	red volcano n_0	red volcano ne_0	red volcano alone_0	green volcano nw_0	green volcano n_0	green volcano ne_0	green volcano alone_0	dark volcano nw_0	dark volcano n_0	dark volcano ne_0	dark volcano alone_0				
+red volcano w_0	red volcano c_0	red volcano e_0		green volcano w_0	green volcano c_0	green volcano e_0		dark volcano w_0	dark volcano c_0	dark volcano e_0					
+red volcano sw_0	red volcano s_0	red volcano se_0		green volcano sw_0	green volcano s_0	green volcano se_0		dark volcano sw_0	dark volcano s_0	dark volcano se_0					

@@ -44,9 +44,9 @@ public class Splitter extends ApplicationAdapter {
 //            "Food",
 //            "GUI",
 //            "Glove",
-            "Ground",
+//            "Ground",
 //            "Hat",
-//            "Hill0",
+            "Hill",
 //            "Humanoid0",
 //            "Icons",
 //            "Key",
@@ -141,7 +141,7 @@ public class Splitter extends ApplicationAdapter {
                     }
                 }
             }
-            else if("GUI".equals(name) || "Ground".equals(name))
+            else if("GUI".equals(name) || "Ground".equals(name) || "Hill".equals(name))
             {
                 for (int i = 0; i < lines.length; i++) {
                     String[] cell = lines[i].split("\t");

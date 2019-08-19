@@ -1,0 +1,3 @@
+inventory icon	enter icon	save icon
+fire icon	ice icon	lightning icon
+health icon	stamina icon	surrounded icon

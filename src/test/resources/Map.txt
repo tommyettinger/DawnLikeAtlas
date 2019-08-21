@@ -1,0 +1,15 @@
+sand trail down right	sand trail left right	sand trail down left		sand trail down left right		clear river down right_0	clear river left right_0	clear river down left_0		clear river down left right_0	
+sand trail up down			sand trail up down left	sand trail up down left right	sand trail up down right	clear river up down_0			clear river up down left_0	clear river up down left right_0	clear river up down right_0
+sand trail up right		sand trail up left		sand trail up left right		clear river up right_0		clear river up left_0		clear river up left right_0	
+dirt trail down right	dirt trail left right	dirt trail down left		dirt trail down left right		cloudy river down right_0	cloudy river left right_0	cloudy river down left_0		cloudy river down left right_0	
+dirt trail up down			dirt trail up down left	dirt trail up down left right	dirt trail up down right	cloudy river up down_0			cloudy river up down left_0	cloudy river up down left right_0	cloudy river up down right_0
+dirt trail up right		dirt trail up left		dirt trail up left right		cloudy river up right_0		cloudy river up left_0		cloudy river up left right_0	
+rocky trail down right	rocky trail left right	rocky trail down left		rocky trail down left right		noxious river down right_0	noxious river left right_0	noxious river down left_0		noxious river down left right_0	
+rocky trail up down			rocky trail up down left	rocky trail up down left right	rocky trail up down right	noxious river up down_0			noxious river up down left_0	noxious river up down left right_0	noxious river up down right_0
+rocky trail up right		rocky trail up left		rocky trail up left right		noxious river up right_0		noxious river up left_0		noxious river up left right_0	
+arduous trail down right	arduous trail left right	arduous trail down left		arduous trail down left right		lava flow down right_0	lava flow left right_0	lava flow down left_0		lava flow down left right_0	
+arduous trail up down			arduous trail up down left	arduous trail up down left right	arduous trail up down right	lava flow up down_0			lava flow up down left_0	lava flow up down left right_0	lava flow up down right_0
+arduous trail up right		arduous trail up left		arduous trail up left right		lava flow up right_0		lava flow up left_0		lava flow up left right_0	
+castle wall down right	castle wall left right	castle wall down left		castle wall down left right		campsite	homestead	town	city		
+castle wall up down			castle wall up down left	castle wall up down left right	castle wall up down right	checkpoint	fort	castle	palace		
+castle wall up right		castle wall up left		castle wall up left right		bridge n s	bridge ne sw	bridge nw se	bridge e w		

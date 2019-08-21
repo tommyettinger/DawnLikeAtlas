@@ -53,9 +53,9 @@ public class Splitter extends ApplicationAdapter {
 //            "Light",
 //            "Logo",
 //            "LongWep",
-            "Mage",
+//            "Mage",
 //            "Mage_Clothes",
-//            "Map0",
+            "Map",
 //            "MedWep",
 //            "Misc0",
 //            "Money",
@@ -141,7 +141,7 @@ public class Splitter extends ApplicationAdapter {
                     }
                 }
             }
-            else if("GUI".equals(name) || "Ground".equals(name) || "Hill".equals(name))
+            else if("GUI".equals(name) || "Ground".equals(name) || "Hill".equals(name) || "Map".equals(name))
             {
                 for (int i = 0; i < lines.length; i++) {
                     String[] cell = lines[i].split("\t");

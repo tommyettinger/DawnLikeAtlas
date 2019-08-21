@@ -1,0 +1,4 @@
+mage s_0	mage s_1	mage s_2	mage s_3
+mage w_0	mage w_1	mage w_2	mage w_3
+mage e_0	mage e_1	mage e_2	mage e_3
+mage n_0	mage n_1	mage n_2	mage n_3

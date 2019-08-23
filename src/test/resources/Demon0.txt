@@ -1,9 +1,9 @@
-barbed devil	marilith	vrock	hezrou	juiblex	yeenoghu	orcus	erinys
+barbed devil	marilith	vrock	lava demon	juiblex	yeenoghu	orcus	geryon
 sandestin	lesser devil	nalfeshnee	pit fiend	horned devil	minion of huhetotl	water demon	mail daemon
-nalzok	baalzebub	dispater	asmodeus	demogorgon	geryon	balrog	
+asmodeus	baalzebub	dispater	erinys	demogorgon	cthulhu	balrog	
 bone devil	ice devil	fire devil					
 homunculus	manes	lemure					
 imp	quasit						
 succubus	incubus						
 derro slaver	derro brute						
-tengu	hezrou						
+nalfeshnee	hezrou						

@@ -2,7 +2,7 @@ giant	stone giant	hill giant	fire giant	frost giant	storm giant	ettin	titan
 minotaur	cyclops	surtur					
 keystone kop	kop sergeant	kop lieutenant	kop kaptain	shopkeeper	executioner	ninja	prisoner
 forest sprite	forest fairy	forest spirit	mountain sprite	mountain fairy	mountain spirit	green wings	gold wings
-goblin	orc	hill orc	dark orc	orc shaman	orc king	uruk	
+orc	hill orc	deep orc	militant orc	orc shaman	orc king	uruk	
 soldier	sergeant	lieutenant	captain	watchman	watch captain	guard	
 elf	wood elf	green elf	gray elf	elf lord	elf king		
 troll	ice troll	rock troll	water troll	olog hai			
@@ -13,14 +13,14 @@ wood nymph	water nymph	mountain nymph	fire nymph
 quest leader a	quest leader b	quest leader c	quest leader d				
 satyr	plains centaur	forest centaur	mountain centaur				
 ogre	ogre lord	ogre king					
-quantum mechanic	nurse	croesus					
+quantum mechanic		croesus					
 angel	dark angel	archon					
-gremlin	gargoyle	harpy					
+weeping angel	weeping archangel	tengu					
 djinn	marid	dao					
-kobold	large kobold	kobold lord					
+goblin	hobgoblin	goblin king					
 mind flayer	master mind flayer						
 bugbear	yeti						
-oracle							
+oracle	nurse						
 aligned priest	high priest						
 ocean spirit	river spirit						
 snow puff	sand puff						

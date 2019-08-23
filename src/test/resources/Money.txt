@@ -1,0 +1,8 @@
+pile of copper coins	handful of copper coins	copper coin	pile of stone coins	handful of stone coins	stone coin	stack of green bills	green bill
+pile of gold coins	handful of gold coins	gold coin	pile of silver coins	handful of silver coins	silver coin	stack of red bills	red bill
+gleaming clear gem	gleaming white gem	gleaming red gem	gleaming orange gem	gleaming blue gem	gleaming black gem	gleaming violet gem	gleaming green gem
+gleaming brown gem	gleaming gray gem	gleaming yellow gem	prism	loadstone	luckstone	gold foil	molten gold
+tinfoil hat	raw crystal ore	lens	obsidian point	touchstone	flint stone		
+dull clear gem	dull white gem	dull red gem	dull orange gem	dull blue gem	dull black gem	dull violet gem	dull green gem
+dull brown gem	dull gray gem	dull yellow gem	dull prism	dull loadstone	dull luckstone	lead foil	blob of melted metal
+smudged tinfoil hat	tarnished crystal ore	cloudy lens	dull obsidian point	dull touchstone	dull flint stone		

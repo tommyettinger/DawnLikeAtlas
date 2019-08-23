@@ -1,0 +1,6 @@
+tin whistle	magic whistle	wooden flute	magic flute
+tooled horn	frost horn	fire horn	horn of plenty
+leather drum	earthquake drum		
+wooden harp	magic harp		
+bell	opening bell		
+bugle			

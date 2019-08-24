@@ -1,0 +1,11 @@
+giant tick	giant flea	giant louse	giant beetle	larva	maggot	dung worm	tunnel worm
+walking stick	dragonfly	bee grub	queen bee	tsetse fly	killer bee		
+cave spider	giant spider	shelob	scorpion	giant scorpion	scorpius		
+baby long worm	long worm	long worm tail	baby purple worm	purple worm			
+giant ant	soldier ant	fire ant	snow ant				
+firefly	locust	assassin bug					
+grid bug	xan	chillbug					
+baby slug	giant slug	baby snail	giant snail				
+spark bug	arc bug						
+phase spider	centipede						
+spitting beetle	killer beetle						

@@ -1,0 +1,4 @@
+paladin s_0	paladin s_1	paladin s_2	paladin s_3
+paladin w_0	paladin w_1	paladin w_2	paladin w_3
+paladin e_0	paladin e_1	paladin e_2	paladin e_3
+paladin n_0	paladin n_1	paladin n_2	paladin n_3

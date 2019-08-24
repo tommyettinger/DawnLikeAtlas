@@ -1,0 +1,7 @@
+
+red ore up	red ore left	red ore right	red ore left right		blue ore up	blue ore left	blue ore right	blue ore left right
+orange ore up	orange ore left	orange ore right	orange ore left right		silvery ore up	silvery ore left	silvery ore right	silvery ore left right
+yellow ore up	yellow ore left	yellow ore right	yellow ore left right		pearly ore up	pearly ore left	pearly ore right	pearly ore left right
+oily ore up	oily ore left	oily ore right	oily ore left right		black ore up	black ore left	black ore right	black ore left right
+green ore up	green ore left	green ore right	green ore left right		violet ore up	violet ore left	violet ore right	violet ore left right
+glowing ore up	glowing ore left	glowing ore right	glowing ore left right		pink ore up	pink ore left	pink ore right	pink ore left right

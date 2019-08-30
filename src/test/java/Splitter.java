@@ -63,8 +63,8 @@ public class Splitter extends ApplicationAdapter {
 //            "Ore0",
 //            "Paladin",
 //            "Paladin_Clothes",
-            "Pest0",
-//            "Pit0",
+//            "Pest0",
+            "Pit",
 //            "Plant0",
 //            "Player0",
 //            "Potion",
@@ -141,7 +141,7 @@ public class Splitter extends ApplicationAdapter {
                     }
                 }
             }
-            else if("GUI".equals(name) || "Ground".equals(name) || "Hill".equals(name) || "Map".equals(name))
+            else if("GUI".equals(name) || "Ground".equals(name) || "Hill".equals(name) || "Map".equals(name) || "Pit".equals(name))
             {
                 for (int i = 0; i < lines.length; i++) {
                     String[] cell = lines[i].split("\t");

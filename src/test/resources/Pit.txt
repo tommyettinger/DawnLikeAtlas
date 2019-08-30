@@ -1,0 +1,32 @@
+							
+							
+brick pit left up	brick pit up	brick pit right up		brick pit left right up	brick pit left down	brick pit divider	brick pit right down
+brick pit left	brick pit center	brick pit right		brick pit left right			
+stone pit left up	stone pit up	stone pit right up		stone pit left right up	stone pit left down	stone pit divider	stone pit right down
+stone pit left	stone pit center	stone pit right		stone pit left right			
+metal pit left up	metal pit up	metal pit right up		metal pit left right up	metal pit left down	metal pit divider	metal pit right down
+metal pit left	metal pit center	metal pit right		metal pit left right			
+brick clear pool left up	brick clear pool up	brick clear pool right up		brick clear pool left right up	brick clear pool left down	brick clear pool divider	brick clear pool right down
+brick clear pool left	brick clear pool center	brick clear pool right		brick clear pool left right			
+stone clear pool left up	stone clear pool up	stone clear pool right up		stone clear pool left right up	stone clear pool left down	stone clear pool divider	stone clear pool right down
+stone clear pool left	stone clear pool center	stone clear pool right		stone clear pool left right			
+metal clear pool left up	metal clear pool up	metal clear pool right up		metal clear pool left right up	metal clear pool left down	metal clear pool divider	metal clear pool right down
+metal clear pool left	metal clear pool center	metal clear pool right		metal clear pool left right			
+brick murky pool left up	brick murky pool up	brick murky pool right up		brick murky pool left right up	brick murky pool left down	brick murky pool divider	brick murky pool right down
+brick murky pool left	brick murky pool center	brick murky pool right		brick murky pool left right			
+stone murky pool left up	stone murky pool up	stone murky pool right up		stone murky pool left right up	stone murky pool left down	stone murky pool divider	stone murky pool right down
+stone murky pool left	stone murky pool center	stone murky pool right		stone murky pool left right			
+metal murky pool left up	metal murky pool up	metal murky pool right up		metal murky pool left right up	metal murky pool left down	metal murky pool divider	metal murky pool right down
+metal murky pool left	metal murky pool center	metal murky pool right		metal murky pool left right			
+brick toxic pool left up	brick toxic pool up	brick toxic pool right up		brick toxic pool left right up	brick toxic pool left down	brick toxic pool divider	brick toxic pool right down
+brick toxic pool left	brick toxic pool center	brick toxic pool right		brick toxic pool left right			
+stone toxic pool left up	stone toxic pool up	stone toxic pool right up		stone toxic pool left right up	stone toxic pool left down	stone toxic pool divider	stone toxic pool right down
+stone toxic pool left	stone toxic pool center	stone toxic pool right		stone toxic pool left right			
+metal toxic pool left up	metal toxic pool up	metal toxic pool right up		metal toxic pool left right up	metal toxic pool left down	metal toxic pool divider	metal toxic pool right down
+metal toxic pool left	metal toxic pool center	metal toxic pool right		metal toxic pool left right			
+lava pool left up_0	lava pool up_0	lava pool right up_0		lava pool left right up_0	lava pool left down_0	lava pool divider_0	lava pool right down_0
+lava pool left_0	lava pool center_0	lava pool right_0		lava pool left right_0			
+turbulent pool left up_0	turbulent pool up_0	turbulent pool right up_0		turbulent pool left right up_0	turbulent pool left down_0	turbulent pool divider_0	turbulent pool right down_0
+turbulent pool left_0	turbulent pool center_0	turbulent pool right_0		turbulent pool left right_0			
+acid pool left up_0	acid pool up_0	acid pool right up_0		acid pool left right up_0	acid pool left down_0	acid pool divider_0	acid pool right down_0
+acid pool left_0	acid pool center_0	acid pool right_0		acid pool left right_0			

@@ -90,6 +90,7 @@ public class Splitter extends ApplicationAdapter {
 //            "Warrior",
 //            "Warrior_Clothes",
 //            "Warrior_Clothes_Back"
+            "Dungeon"
     };
     public static void main(String[] arg) {
         Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
@@ -153,6 +154,18 @@ public class Splitter extends ApplicationAdapter {
                             }
                             else
                                 Gdx.files.local("individual/"+name+"_"+j+"x"+i+"_0.png").copyTo(Gdx.files.local("renamed/"+cell[j]+".png"));
+                        }
+                    }
+                }
+            }
+            else if("Dungeon".equals(name))
+            {
+                for (int i = 0; i < lines.length; i++) {
+                    String[] cell = lines[i].split("\t");
+                    for (int j = 0; j < cell.length; j++) {
+                        if(! "".equals(cell[j]))
+                        {
+                            Gdx.files.local("altIndividual/"+name+"_"+j+"x"+i+".png").moveTo(Gdx.files.local("altIndividual/"+cell[j]+".png"));
                         }
                     }
                 }

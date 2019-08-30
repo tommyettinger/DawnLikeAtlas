@@ -118,7 +118,9 @@ public class Palettizer extends ApplicationAdapter {
             "Wand.png",
             "Warrior.png",
             "Warrior_Clothes.png",
-            "Warrior_Clothes_Back.png"
+            "Warrior_Clothes_Back.png",
+    }, altListing = {
+            "Dungeon.png"
     };
     public static void main(String[] arg) {
         Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
@@ -143,31 +145,46 @@ public class Palettizer extends ApplicationAdapter {
 
     public void split() {
         try {
-            for(String name : listing) {
+//            for(String name : listing) {
+//                Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
+//                png8.writePrecisely(Gdx.files.local("flat/" + name), p, Coloring.DB16, true, 0);
+//                int frame = -1;
+//                String abbr;
+//                if(name.endsWith("0.png")){
+//                    abbr = name.substring(0, name.length() - 5);
+//                    frame = 0;
+//                }
+//                else if(name.endsWith("1.png")){
+//                    abbr = name.substring(0, name.length() - 5);
+//                    frame = 1;
+//                }
+//                else
+//                    abbr = name.substring(0, name.length() - 4);
+//                int w = p.getWidth() >>> 4, h = p.getHeight() >>> 4;
+//                Gdx.files.local("individual").mkdirs();
+//                for (int y = 0; y < h; y++) {
+//                    for (int x = 0; x < w; x++) {
+//                        if(frame >= 0)
+//                            png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+"_"+frame+".png"),
+//                                    p, Coloring.DB16, x<<4, y<<4, 16, 16);
+//                        else
+//                            png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+".png"),
+//                                    p, Coloring.DB16, x<<4, y<<4, 16, 16);
+//                    }
+//                }
+//            }
+            for(String name : altListing) {
                 Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
-                png8.writePrecisely(Gdx.files.local("flat/" + name), p, Coloring.DB16, true, 0);
+                reducer.analyze(p, 0);
+//                png8.writePrecisely(Gdx.files.local("flat/" + name), p, true, 0);
                 int frame = -1;
-                String abbr;
-                if(name.endsWith("0.png")){
-                    abbr = name.substring(0, name.length() - 5);
-                    frame = 0;
-                }
-                else if(name.endsWith("1.png")){
-                    abbr = name.substring(0, name.length() - 5);
-                    frame = 1;
-                }
-                else
-                    abbr = name.substring(0, name.length() - 4);
+                String abbr = name.substring(0, name.length() - 4);
                 int w = p.getWidth() >>> 4, h = p.getHeight() >>> 4;
-                Gdx.files.local("individual").mkdirs();
+                Gdx.files.local("altIndividual").mkdirs();
                 for (int y = 0; y < h; y++) {
                     for (int x = 0; x < w; x++) {
-                        if(frame >= 0) 
-                            png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+"_"+frame+".png"),
-                                    p, Coloring.DB16, x<<4, y<<4, 16, 16);
-                        else
-                            png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+".png"),
-                                    p, Coloring.DB16, x<<4, y<<4, 16, 16);
+                        png8.writePreciseSection(Gdx.files.local("altIndividual/"+abbr+"_"+x+"x"+y+".png"),
+                                p, null, x<<4, y<<4, 16, 16);
                     }
                 }
             }

@@ -1,0 +1,15 @@
+ordinary human	fighter	ranger	bandit	valkyrie	slayer	wizard	monk
+priest	aide	samurai	collector	brute	nomad	tourist	convict
+							
+man	knight	yeoman	rogue	champion	exterminator	archmage	sensei
+bishop	healer	ninja	archaeologist	barbarian	caveman	sightseer	desperado
+ordinary woman	priestess	cavewoman					
+							
+earendil	king arthur	orion	master of thieves	norn	van helsing	neferet the green	grand master
+arch priest	hippocrates	ninja master	lord carnavon	pelias	shaman karnov	twoflower	robert the lifer
+							
+							
+ordinary dwarf	dwarf knight	dwarf barbarian	dwarf archaeologist	dwarf ranger	dwarf nomad	dwarf healer	dwarf expert
+ordinary orc	orc knight	orc samurai	orc monk	orc rogue	orc barbarian	orc wizard	orc marine
+ordinary goblin	goblin prince						
+ordinary kobold	kobold knight	kobold priest	kobold rogue	kobold ranger	kobold barbarian	kobold convict	kobold ascendant

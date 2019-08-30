@@ -1,0 +1,8 @@
+evil shrub	burning evil shrub	demon shrub	burning demon shrub	blizzard shrub	withered blizzard shrub	maelstrom shrub	withered maelstrom shrub
+evil tree	burning evil tree	demon tree	burning demon tree	blizzard tree	withered blizzard tree	maelstrom tree	withered maelstrom tree
+dungeon fern	dungeon fern sprout	dungeon fern spore					
+arctic fern	arctic fern sprout	arctic fern spore					
+blazing fern	blazing fern sprout	blazing fern spore					
+swamp fern	swamp fern sprout	swamp fern spore					
+devil snare	mould	ungenomold					
+shrieker							

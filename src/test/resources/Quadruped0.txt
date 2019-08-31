@@ -1,0 +1,12 @@
+baby pig	pig	baby hog	hog	feral hog	baby black boar	black boar	vicious black boar
+baby dairy cow	dairy cow	baby bull	bull	raging bull	camel	llama	
+baby white goat	white goat	baby gray goat	gray goat	baby black goat	black goat		
+baby white sheep	white sheep	baby gray sheep	gray sheep	baby black sheep	black sheep		
+brown unicorn	white unicorn	gray unicorn	black unicorn				
+newborn brown horse	baby brown horse	brown horse	strong brown horse				
+baby gray horse	gray horse	strong gray horse					
+baby black horse	black horse	strong black horse					
+baby deer	deer						
+mastodon	mumak						
+titanothere	baluchitherium  						
+wumpus	leocrotta						

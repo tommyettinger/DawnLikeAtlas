@@ -66,8 +66,8 @@ public class Splitter extends ApplicationAdapter {
 //            "Pest0",
 //            "Pit",
 //            "Plant0",
-            "Player0",
-//            "Potion",
+//            "Player0",
+            "Potion",
 //            "Quadruped0",
 //            "Reptile0",
 //            "Ring",
@@ -90,7 +90,8 @@ public class Splitter extends ApplicationAdapter {
 //            "Warrior",
 //            "Warrior_Clothes",
 //            "Warrior_Clothes_Back"
-            "Dungeon"
+
+//            "Dungeon"
     };
     public static void main(String[] arg) {
         Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();

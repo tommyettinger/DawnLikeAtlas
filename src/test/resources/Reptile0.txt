@@ -1,0 +1,15 @@
+baby sphinx	sphinx	baby wyvern	wyvern	baby dreadwyrm	dreadwyrm	baby glendrake	glendrake
+baby firedrake	firedrake	baby icewyrm	icewyrm	baby sanddrake	sanddrake	baby stormwyrm	storrmwyrm
+baby darkwyrm	darkwyrm	baby lightwyrm	lightwyrm	baby bogwyrm	bogwyrm	baby sheenwyrm	sheenwyrm
+baby kingwyrm	kingwyrm	baby searwyrm	searwyrm	hydra	baby hydra		
+garter snake	snake	python	water moccasin	pit viper	cobra	asp	serpent
+baby red naga	red naga	baby black naga	black naga	baby golden naga	golden naga	baby white naga	white naga
+baby guardian naga	guardian naga						
+baby cockatrice	cockatrice	baby pyrolisk	baby pyrolisk				
+lizard	iguana	chameleon					
+baby crocodile	crocodile						
+gecko	komodo dragon	gila monster	newt				
+giant turtle	giant tortoise	salamander					
+			platino				
+
+

@@ -1,0 +1,4 @@
+red squirrel	gray squirrel	rabbit	jackrabbit	woodchuck
+sewer rat	giant rat	rabid rat	enormous rat	
+disintegrator	rust monster	rock mole		
+wererat				

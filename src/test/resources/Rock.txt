@@ -1,0 +1,2 @@
+uranium ore	infernal ore	silvery metal stone	rock
+unknown metal tube	pebble	boulder	pile of stones

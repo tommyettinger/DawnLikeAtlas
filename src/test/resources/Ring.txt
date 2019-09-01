@@ -1,0 +1,6 @@
+wooden ring	granite ring	engagement ring	steel ring	glass ring	obsidian ring	copper ring	ivory ring
+black onyx ring	moonstone ring	tiger eye ring	jade ring	brass ring	opal ring	pearl ring	sapphire ring
+ruby ring	topaz ring	agate ring	clay ring	coral ring	bronze ring	twisted ring	iron ring
+silver ring	gold ring	plain ring	emerald ring	wire ring	diamond ring	shiny ring	unique ring a
+unique ring b	unique ring c	unique ring d	unique ring e	unique ring f	unique ring g	unique ring h	unique ring i
+unique ring j	unique ring k	unique ring l	unique ring m				

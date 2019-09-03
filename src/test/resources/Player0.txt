@@ -1,7 +1,7 @@
 ordinary human	fighter	ranger	bandit	valkyrie	slayer	wizard	monk
 priest	aide	samurai	collector	brute	nomad	tourist	convict
 							
-man	knight	yeoman	rogue	champion	exterminator	archmage	sensei
+man	knight	yeoman	thief	champion	exterminator	archmage	sensei
 bishop	healer	ninja	archaeologist	barbarian	caveman	sightseer	desperado
 ordinary woman	priestess	cavewoman					
 							

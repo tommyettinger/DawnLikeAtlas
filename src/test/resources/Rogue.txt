@@ -1,0 +1,4 @@
+rogue s_0	rogue s_1	rogue s_2	rogue s_3
+rogue w_0	rogue w_1	rogue w_2	rogue w_3
+rogue e_0	rogue e_1	rogue e_2	rogue e_3
+rogue n_0	rogue n_1	rogue n_2	rogue n_3

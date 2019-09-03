@@ -1,0 +1,5 @@
+dagger	elven dagger	orcish dagger	silver dagger	crysknife	scalpel	knife	stiletto
+athame	silver saber	unicorn horn	worm tooth				
+club	aklys	flail					
+hammer	pick axe	mattock					
+mace	morning star						

@@ -1,0 +1,5 @@
+lichen	brown mold	yellow mold	green mold	red mold	violet fungus
+gray ooze	brown pudding	black pudding			
+acid blob	quivering blob	gelatinous cube			
+blue jelly	spotted jelly	ochre jelly			
+green slime	blue slime				

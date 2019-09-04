@@ -1,5 +1,5 @@
 spear	orcish spear	elven spear	dwarvish spear	silver spear	javelin	trident
-broadsword	elven broadsword	long sword	two handed sword	katana	runesword	
+broadsword	elven broadsword	long sword	two handed sword	tsurugi	runesword	
 vulgar polearm	hilted polearm	forked polearm	single edged polearm	pole cleaver		
 pole sickle	pruning hook	hooked polearm	pronged polearm	beaked polearm		
 angled poleaxe	long poleaxe	quarterstaff	scythe	mace		

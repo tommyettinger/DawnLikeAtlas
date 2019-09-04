@@ -1,0 +1,4 @@
+template s_0	template s_1	template s_2	template s_3
+template w_0	template w_1	template w_2	template w_3
+template e_0	template e_1	template e_2	template e_3
+template n_0	template n_1	template n_2	template n_3

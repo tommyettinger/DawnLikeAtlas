@@ -1,2 +1,2 @@
-short sword	elven short sword	orcish short sword	dwarvish short sword	scimitar	silver saber
+short sword	elven short sword	orcish short sword	dwarvish short sword	scimitar	katana
 axe	battle axe				

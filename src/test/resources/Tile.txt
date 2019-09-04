@@ -1,0 +1,4 @@
+brown tile	deep water tile	shallow water tile	ice tile	acid tile	lava tile	hazard tile	sky tile
+small stairs up	small stairs down	large stairs up	large stairs down	small ladder up	small ladder down	large ladder up	large ladder down
+totally dark tile	very dark tile	dark tile	lit tile	very lit tile	totally lit tile	plus tile	diamond tile
+				staircase up right	staircase up left	staircase down left	staircase down right

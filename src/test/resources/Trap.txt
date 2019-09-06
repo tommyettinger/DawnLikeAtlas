@@ -1,0 +1,4 @@
+arrow trap tile	dart trap tile	falling rock trap tile	squeaky board tile	bear trap tile	land mine tile	rolling boulder trap tile	sleeping gas trap tile
+rust trap tile	fire trap tile	teleportation trap tile	level teleporter tile	magic portal tile	statue trap tile	magic trap tile	anti magic field tile
+ice trap tile	polymorph trap tile	pit tile	spiked pit tile	hole tile	trap door tile		
+spikes	thrusting spikes_0	tiny spikes_0	wave spikes_0	thrusting saw_0	slicing saw_0	thrusting teeth_0	intermittent teeth_0

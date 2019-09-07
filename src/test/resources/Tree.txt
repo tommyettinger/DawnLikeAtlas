@@ -1,0 +1,36 @@
+											
+											
+											
+light oak nw ne sw	light oak nw ne	light oak nw ne se	light oak nw ne sw se	light oak se	light oak sw	bare oak nw ne sw	bare oak nw ne	bare oak nw ne se	bare oak nw ne sw se	bare oak se	bare oak sw
+light oak nw sw	light oak dense	light oak ne se		light oak ne	light oak nw	bare oak nw sw	bare oak dense	bare oak ne se		bare oak ne	bare oak nw
+light oak nw sw se	light oak sw se	light oak ne sw se		light oak nw se	light oak ne sw	bare oak nw sw se	bare oak sw se	bare oak ne sw se		bare oak nw se	bare oak ne sw
+dark oak nw ne sw	dark oak nw ne	dark oak nw ne se	dark oak nw ne sw se	dark oak se	dark oak sw	burning oak nw ne sw_0	burning oak nw ne_0	burning oak nw ne se_0	burning oak nw ne sw se_0	burning oak se_0	burning oak sw_0
+dark oak nw sw	dark oak dense	dark oak ne se		dark oak ne	dark oak nw	burning oak nw sw_0	burning oak dense_0	burning oak ne se_0		burning oak ne_0	burning oak nw_0
+dark oak nw sw se	dark oak sw se	dark oak ne sw se		dark oak nw se	dark oak ne sw	burning oak nw sw se_0	burning oak sw se_0	burning oak ne sw se_0		burning oak nw se_0	burning oak ne sw_0
+light snowy oak nw ne sw	light snowy oak nw ne	light snowy oak nw ne se	light snowy oak nw ne sw se	light snowy oak se	light snowy oak sw	light snowy bare oak nw ne sw	light snowy bare oak nw ne	light snowy bare oak nw ne se	light snowy bare oak nw ne sw se	light snowy bare oak se	light snowy bare oak sw
+light snowy oak nw sw	light snowy oak dense	light snowy oak ne se		light snowy oak ne	light snowy oak nw	light snowy bare oak nw sw	light snowy bare oak dense	light snowy bare oak ne se		light snowy bare oak ne	light snowy bare oak nw
+light snowy oak nw sw se	light snowy oak sw se	light snowy oak ne sw se		light snowy oak nw se	light snowy oak ne sw	light snowy bare oak nw sw se	light snowy bare oak sw se	light snowy bare oak ne sw se		light snowy bare oak nw se	light snowy bare oak ne sw
+dark snowy oak nw ne sw	dark snowy oak nw ne	dark snowy oak nw ne se	dark snowy oak nw ne sw se	dark snowy oak se	dark snowy oak sw	dark snowy bare oak nw ne sw	dark snowy bare oak nw ne	dark snowy bare oak nw ne se	dark snowy bare oak nw ne sw se	dark snowy bare oak se	dark snowy bare oak sw
+dark snowy oak nw sw	dark snowy oak dense	dark snowy oak ne se		dark snowy oak ne	dark snowy oak nw	dark snowy bare oak nw sw	dark snowy bare oak dense	dark snowy bare oak ne se		dark snowy bare oak ne	dark snowy bare oak nw
+dark snowy oak nw sw se	dark snowy oak sw se	dark snowy oak ne sw se		dark snowy oak nw se	dark snowy oak ne sw	dark snowy bare oak nw sw se	dark snowy bare oak sw se	dark snowy bare oak ne sw se		dark snowy bare oak nw se	dark snowy bare oak ne sw
+light pine nw ne sw	light pine nw ne	light pine nw ne se	light pine nw ne sw se	light pine se	light pine sw	bare pine nw ne sw	bare pine nw ne	bare pine nw ne se	bare pine nw ne sw se	bare pine se	bare pine sw
+light pine nw sw	light pine dense	light pine ne se		light pine ne	light pine nw	bare pine nw sw	bare pine dense	bare pine ne se		bare pine ne	bare pine nw
+light pine nw sw se	light pine sw se	light pine ne sw se		light pine nw se	light pine ne sw	bare pine nw sw se	bare pine sw se	bare pine ne sw se		bare pine nw se	bare pine ne sw
+dark pine nw ne sw	dark pine nw ne	dark pine nw ne se	dark pine nw ne sw se	dark pine se	dark pine sw	burning pine nw ne sw_0	burning pine nw ne_0	burning pine nw ne se_0	burning pine nw ne sw se_0	burning pine se_0	burning pine sw_0
+dark pine nw sw	dark pine dense	dark pine ne se		dark pine ne	dark pine nw	burning pine nw sw_0	burning pine dense_0	burning pine ne se_0		burning pine ne_0	burning pine nw_0
+dark pine nw sw se	dark pine sw se	dark pine ne sw se		dark pine nw se	dark pine ne sw	burning pine nw sw se_0	burning pine sw se_0	burning pine ne sw se_0		burning pine nw se_0	burning pine ne sw_0
+light snowy pine nw ne sw	light snowy pine nw ne	light snowy pine nw ne se	light snowy pine nw ne sw se	light snowy pine se	light snowy pine sw	light snowy bare pine nw ne sw	light snowy bare pine nw ne	light snowy bare pine nw ne se	light snowy bare pine nw ne sw se	light snowy bare pine se	light snowy bare pine sw
+light snowy pine nw sw	light snowy pine dense	light snowy pine ne se		light snowy pine ne	light snowy pine nw	light snowy bare pine nw sw	light snowy bare pine dense	light snowy bare pine ne se		light snowy bare pine ne	light snowy bare pine nw
+light snowy pine nw sw se	light snowy pine sw se	light snowy pine ne sw se		light snowy pine nw se	light snowy pine ne sw	light snowy bare pine nw sw se	light snowy bare pine sw se	light snowy bare pine ne sw se		light snowy bare pine nw se	light snowy bare pine ne sw
+dark snowy pine nw ne sw	dark snowy pine nw ne	dark snowy pine nw ne se	dark snowy pine nw ne sw se	dark snowy pine se	dark snowy pine sw	dark snowy bare pine nw ne sw	dark snowy bare pine nw ne	dark snowy bare pine nw ne se	dark snowy bare pine nw ne sw se	dark snowy bare pine se	dark snowy bare pine sw
+dark snowy pine nw sw	dark snowy pine dense	dark snowy pine ne se		dark snowy pine ne	dark snowy pine nw	dark snowy bare pine nw sw	dark snowy bare pine dense	dark snowy bare pine ne se		dark snowy bare pine ne	dark snowy bare pine nw
+dark snowy pine nw sw se	dark snowy pine sw se	dark snowy pine ne sw se		dark snowy pine nw se	dark snowy pine ne sw	dark snowy bare pine nw sw se	dark snowy bare pine sw se	dark snowy bare pine ne sw se		dark snowy bare pine nw se	dark snowy bare pine ne sw
+cactus nw ne sw	cactus nw ne	cactus nw ne se	cactus nw ne sw se	cactus se	cactus sw	palm nw ne sw	palm nw ne	palm nw ne se	palm nw ne sw se	palm se	palm sw
+cactus nw sw	cactus dense	cactus ne se		cactus ne	cactus nw	palm nw sw	palm dense	palm ne se		palm ne	palm nw
+cactus nw sw se	cactus sw se	cactus ne sw se		cactus nw se	cactus ne sw	palm nw sw se	palm sw se	palm ne sw se		palm nw se	palm ne sw
+brown fungus nw ne sw	brown fungus nw ne	brown fungus nw ne se	brown fungus nw ne sw se	brown fungus se	brown fungus sw	white fungus nw ne sw	white fungus nw ne	white fungus nw ne se	white fungus nw ne sw se	white fungus se	white fungus sw
+brown fungus nw sw	brown fungus dense	brown fungus ne se		brown fungus ne	brown fungus nw	white fungus nw sw	white fungus dense	white fungus ne se		white fungus ne	white fungus nw
+brown fungus nw sw se	brown fungus sw se	brown fungus ne sw se		brown fungus nw se	brown fungus ne sw	white fungus nw sw se	white fungus sw se	white fungus ne sw se		white fungus nw se	white fungus ne sw
+light mangrove nw ne sw	light mangrove nw ne	light mangrove nw ne se	light mangrove nw ne sw se	light mangrove se	light mangrove sw	dark mangrove nw ne sw	dark mangrove nw ne	dark mangrove nw ne se	dark mangrove nw ne sw se	dark mangrove se	dark mangrove sw
+light mangrove nw sw	light mangrove dense	light mangrove ne se		light mangrove ne	light mangrove nw	dark mangrove nw sw	dark mangrove dense	dark mangrove ne se		dark mangrove ne	dark mangrove nw
+light mangrove nw sw se	light mangrove sw se	light mangrove ne sw se		light mangrove nw se	light mangrove ne sw	dark mangrove nw sw se	dark mangrove sw se	dark mangrove ne sw se		dark mangrove nw se	dark mangrove ne sw

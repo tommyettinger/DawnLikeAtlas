@@ -82,8 +82,8 @@ public class Splitter extends ApplicationAdapter {
 //            "Template",
 //            "Tile",
 //            "Tool",
-            "Trap",
-//            "Tree0",
+//            "Trap",
+            "Tree",
 //            "Undead0",
 //            "Wall",
 //            "Wand",
@@ -144,7 +144,7 @@ public class Splitter extends ApplicationAdapter {
                 }
             }
             else if("GUI".equals(name) || "Ground".equals(name) || "Hill".equals(name) || "Map".equals(name)
-                    || "Pit".equals(name) || "Trap".equals(name))
+                    || "Pit".equals(name) || "Trap".equals(name) || "Tree".equals(name))
             {
                 for (int i = 0; i < lines.length; i++) {
                     String[] cell = lines[i].split("\t");

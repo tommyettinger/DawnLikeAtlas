@@ -1,0 +1,10 @@
+kobold zombie	gnome zombie	orc zombie	dwarf zombie	elf zombie	human zombie	ettin zombie	giant zombie
+kobold mummy	gnome mummy	orc mummy	dwarf mummy	elf mummy	human mummy	ettin mummy	giant mummy
+skeleton	fire skeleton	plague skeleton	shadow skeleton	ghoul	ghast	ghoul king	punisher
+vampire	vampire lord	vampire mage	vlad the impaler				
+wisp	spirit	ghost	shade				
+death	pestilence	famine					
+wraith	nazgul	barrow wight					
+charon	wizard of yendor	war					
+possessed corpse	dark one						
+meathead	small meathead						

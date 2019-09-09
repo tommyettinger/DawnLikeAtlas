@@ -1,0 +1,7 @@
+glass wand	balsa wand	crystal wand	maple wand	pine wand	oak wand	ebony wand	marble wand
+tin wand	brass wand	copper wand	silver wand	platinum wand	iridium wand	zinc wand	aluminum wand
+uranium wand	iron wand	steel wand	hexagonal wand	short wand	runed wand	long wand	curved wand
+forked wand	spiked wand	jeweled wand	black wand	cold steel wand	ivory wand	chilly wand	hot wand
+thick wand	swollen wand	perforated wand	cherry wand	koa wand	redwood wand	fortified wand	glimmering wand
+dull wand	mirrored wand	rusted wand	bent wand	adamantine wand	bone wand	white wand	pocket wand
+glowing wand							

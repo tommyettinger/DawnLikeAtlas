@@ -84,9 +84,9 @@ public class Splitter extends ApplicationAdapter {
 //            "Tool",
 //            "Trap",
 //            "Tree",
-            "Undead0",
+//            "Undead0",
 //            "Wall",
-//            "Wand",
+            "Wand",
 //            "Warrior",
 //            "Warrior_Clothes",
 //            "Warrior_Clothes_Back"

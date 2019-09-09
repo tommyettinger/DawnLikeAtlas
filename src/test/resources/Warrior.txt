@@ -1,0 +1,4 @@
+warrior s_0	warrior s_1	warrior s_2	warrior s_3
+warrior w_0	warrior w_1	warrior w_2	warrior w_3
+warrior e_0	warrior e_1	warrior e_2	warrior e_3
+warrior n_0	warrior n_1	warrior n_2	warrior n_3

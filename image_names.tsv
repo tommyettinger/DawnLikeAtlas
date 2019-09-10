@@ -1,4 +1,4 @@
-Column1 Column2 Column3 Column4 Column5 Column6 Column7 Column8 Column9 Column10	Column11	Column12	Column13	Column14	Column15	Column16	Column17	Column18	Column19	Column20
+Column1	Column2	Column3	Column4	Column5	Column6	Column7	Column8	Column9	Column10	Column11	Column12	Column13	Column14	Column15	Column16	Column17	Column18	Column19	Column20	Column21
 Ammo																				
 silver bullets	large bullets	mid bullets	small bullets	silver pellets	large pellets	mid pellets	small pellets													
 longbow	composite bow	shortbow	shining bow	sling	crossbow															
@@ -526,7 +526,7 @@ baby gray horse	gray horse	strong gray horse
 baby black horse	black horse	strong black horse																		
 baby deer	deer																			
 mastodon	mumak																			
-titanothere	baluchitherium 																				
+titanothere	baluchitherium 																			
 wumpus	leocrotta																			
 																				
 Reptile0																				

@@ -1,0 +1,738 @@
+Column1 Column2 Column3 Column4 Column5 Column6 Column7 Column8 Column9 Column10	Column11	Column12	Column13	Column14	Column15	Column16	Column17	Column18	Column19	Column20
+Ammo																				
+silver bullets	large bullets	mid bullets	small bullets	silver pellets	large pellets	mid pellets	small pellets													
+longbow	composite bow	shortbow	shining bow	sling	crossbow															
+silver arrow	arrow	bent arrow	shining arrow	crossbow bolt	missile															
+dart	shuriken	boomerang																		
+pistol	rifle																			
+fire bomb	poison bomb	flash bomb																		
+																				
+Amulet																				
+keepsake necklace	amethyst pendant	garnet pendant	ruby pendant	cow bell	jade pendant	aquamarine pendant	sapphire pendant													
+pearl necklace	squid netsuke	jasper amulet	choker necklace	fuzzy amulet	balance talisman	misshapen talisman														
+fake amulet of yendor	amulet of yendor																			
+																				
+Aquatic0																				
+fighting fish	red snapper	stonefish	catfish	piranha	lobster	jellyfish	man o war													
+barracuda	great white shark	tiger shark	beluga whale	blue whale	river dolphin															
+snakefish	bobbit worm	eel	electric eel																	
+sea nymph	river nymph	swamp nymph																		
+kraken	sea tiger	platypus																		
+leech	frog																			
+																				
+Armor																				
+sphinx armor	wyvern armor	dreadwyrm armor	glendrake armor	firedrake armor	icewyrm armor	sanddrake armor	stormwyrm armor													
+darkwyrm armor	lightwyrm armor	bogwyrm armor	sheenwyrm armor																	
+sphinx scales	wyvern scales	dreadwyrm scales	glendrake scales	firedrake scales	icewyrm scales	sanddrake scales	stormwyrm scales													
+darkwyrm scales	lightwyrm scales	bogwyrm scales	sheenwyrm scales																	
+forest cloak	desert cloak	frost garb	rain jacket	flame garb	backpack	hill cloak	moldy cloak													
+royal outfit	stealth outfit	spidersilk cape	luggage																	
+bronze armor	brass armor	iron armor	scale armor	banded mail	breastplate	full plate	mirror plate													
+monk robes	peasant robes	hawaiian shirt	chain shirt	novelty tee	jujitsu gi	prisoner outfit	red dress													
+shockfrost mail	hotrock mail	grandmaster mail	colorwind mail	blacksludge mail	lacquered armor	animal hide														
+																				
+Avian0																				
+baby plains chickabay	plains chickabay	baby fen chickabay	fen chickabay	baby taiga chickabay	taiga chickabay	baby doom chickabay	doom chickabay													
+baby nighthawk	nighthawk	baby cave swift	cave swift	baby arctic tern	arctic tern	baby robin	robin													
+baby osprey	osprey	baby phoenix	phoenix	baby aluminum falcon	aluminum falcon															
+baby cave penguin	cave penguin	baby penguin	penguin	baby pelican	pelican	baby duck	duck													
+baby puffin	puffin	baby swan	swan	baby albatross	albatross	baby condor	condor													
+baby green parrot	green parrot	baby dove	dove	baby parakeet	parakeet	baby thrush	thrush													
+baby cormorant	cormorant	baby seagull	seagull	baby bald eagle	bald eagle	golden eagle	baby golden eagle													
+baby ostrich	ostrich	baby emu	emu	baby kiwi	kiwi															
+chick	hen	rooster	baby peacock	peahen	peacock															
+baby griffon	griffon	baby snow griffon	snow griffon																	
+baby barn owl	barn owl	baby snowy owl	snowy owl																	
+white nosed bat	giant bat	vampire bat	werebat	baby bat																
+baby gray parrot	gray parrot																			
+																				
+Book																				
+hardcover book	paperback book	worn book	dog eared book	stained book	moldy book	military text	flimsy book													
+ice tome	fleshy book	wasteland guide	earth tome	yellow pages	comic book	poison tome	glowing book													
+field guide	water tome	navigation guide	diving guide	self help book	maddening book	delving guide	political treatise													
+recipe book	election ballot	fire tome	slaying guide	little black book	wind tome	book of ruin	gold book													
+order tome	locked diary	golden ticket	lightning tome	light tome	history book	pamphlet	encyclopedia													
+elemental tome	code book	memoir	medical textbook	tall book	illustrated manuscript	heroic story	rambling screed													
+wide book	funny story	shimmering tome	dark tome	mystery story	chaos tome	spiral notebook	wall calendar													
+drama story	natural tome	acid tome	spliced book	atlas	dread tome	horror story	blank book													
+book of the dead																				
+																				
+Boots																				
+leather shoes	lead shoes	leather boots	elven boots	bog waders	tailored shoes	quiet boots	buckled shoes													
+exquisite boots	mountaineer boots																			
+																				
+Cat0																				
+bobcat	leopard	panther	tiger	lion																
+puma kitten	puma	fierce puma																		
+lynx kitten	lynx	fierce lynx																		
+barn kitten	barn cat	fierce barn cat																		
+weretiger	werecat																			
+																				
+Chest_Closed																				
+closed chest	closed big chest	broken chest	closed safe	closed big safe	broken safe	closed ice chest	broken ice chest													
+closed barrel	closed keg	broken barrel	broken keg																	
+bag	waterskin	magic bag_0	hungry bag																	
+																				
+Chest_Open																				
+open chest	open big chest	broken chest	open safe	open big safe	broken safe	open ice chest	broken ice chest													
+open barrel	open keg	broken barrel	broken keg																	
+bag	waterskin	magic bag_1	hungry bag																	
+																				
+Decor0																				
+window frame center	window frame left	window frame right	window frame inner	hole frame center	hole frame left	hole frame right	hole frame inner													
+window center	window left	window right	window inner	hole center	hole left	hole right	hole inner													
+smoke up	smoke down	smoke left	smoke right	sparks a	sparks b	sparks c	sparks d													
+bottle	pot	dairy bottle	dairy pot	ornate bottle	ornate pot	shards a	shards b													
+empty shelves	assorted shelves	crystal shelves	food shelves	sparse shelves	full bookshelves	sparse bookshelves	dusty shelves													
+sign a	sign b	sign c	spooky sign	board a	board b	board c	spooky board													
+empty shop sign	restaurant sign	armory sign	smithy sign	church sign	pub sign	inn sign	home sign													
+wooden chair left	wooden table	wooden chair right	stone chair left	stone table	stone chair right	throne														
+candle	candle pair	ornate candle	ornate candelabra	black candle	black candle pair	sacrificial candle	sacrificial candelabra													
+bed a	bed b	trunk a	trunk b	sleeping bag a	sleeping bag b	mat a	mat b													
+pew left	pew horizontal	pew right	pew up	pew vertical	pew down	coffin a	coffin b													
+skull	bones	old skull	old bones	magic skull	magic bones															
+dragon skull	ribcage	old dragon skull	old ribcage	magic dragon skull	magic ribcage															
+red carpet nw	red carpet n	red carpet ne	gray carpet nw	gray carpet n	gray carpet ne															
+red carpet w	red carpet c	red carpet e	gray carpet w	gray carpet c	gray carpet e															
+red carpet sw	red carpet s	red carpet se	gray carpet sw	gray carpet s	gray carpet se															
+gravestone a	gravestone b	gravestone c	gravestone d	broken gravestone a																
+gravestone e	gravestone f	gravestone g	gravestone h	broken gravestone b																
+webbing a	webbing b	webbing c	webbing d	webbing e																
+altar	bloodied altar	pedestal	statue	mounted statue																
+basin	fountain																			
+																				
+Demon0																				
+barbed devil	marilith	vrock	lava demon	juiblex	yeenoghu	orcus	geryon													
+sandestin	lesser devil	nalfeshnee	pit fiend	horned devil	minion of huhetotl	water demon	mail daemon													
+asmodeus	baalzebub	dispater	erinys	demogorgon	cthulhu	balrog														
+bone devil	ice devil	fire devil																		
+homunculus	manes	lemure																		
+imp	quasit																			
+succubus	incubus																			
+derro slaver	derro brute																			
+nalfeshnee	hezrou																			
+																				
+Dog0																				
+jackal	fox	dingo	coyote	rabid jackal	werejackal															
+wolf	warg	baby winter wolf	winter wolf	rabid wolf	werewolf															
+little hound	hound	big hound																		
+little cogdog	cogdog	big cogdog																		
+little terrier	terrier	big terrier																		
+heck puppy	hell hound	cerberus																		
+																				
+Door_Closed																				
+closed wooden door front	closed wooden door side	locked wooden door front	locked wooden door side	fortified wooden door front	fortified wooden door side	wooden door frame	broken wooden door													
+closed stone door front	closed stone door side	locked stone door front	locked stone door side	fortified stone door front	fortified stone door side	stone door frame	broken stone door													
+closed iron portcullis front	closed iron portcullis side	locked iron portcullis front	locked iron portcullis side	fortified iron portcullis front	fortified iron portcullis side	iron portcullis frame	broken iron portcullis													
+closed gold portcullis front	closed gold portcullis side	locked gold portcullis front	locked gold portcullis side	fortified gold portcullis front	fortified gold portcullis side	gold portcullis frame	broken gold portcullis													
+		locks front	locks side	fortifications front	fortifications side															
+stone archway	stone portal_0	gold archway	gold portal_0	heavenly archway	heavenly portal_0	infernal archway	infernal portal_0													
+																				
+Door_Open																				
+open wooden door front	open wooden door side																			
+open stone door front	open stone door side																			
+open iron portcullis front	open iron portcullis side																			
+open gold portcullis front	open gold portcullis side																			
+																				
+stone archway	stone portal_1	gold archway	gold portal_1	heavenly archway	heavenly portal_1	infernal archway	infernal portal_1													
+																				
+Effect0																				
+fire burst nw	fire burst n	fire burst ne	mud burst nw	mud burst n	mud burst ne															
+fire burst w	fire burst c	fire burst e	mud burst w	mud burst c	mud burst e															
+fire burst sw	fire burst s	fire burst se	mud burst sw	mud burst s	mud burst se															
+dark burst nw	dark burst n	dark burst ne	noxious burst nw	noxious burst n	noxious burst ne															
+dark burst w	dark burst c	dark burst e	noxious burst w	noxious burst c	noxious burst e															
+dark burst sw	dark burst s	dark burst se	noxious burst sw	noxious burst s	noxious burst se															
+wet burst nw	wet burst n	wet burst ne	bright burst nw	bright burst n	bright burst ne															
+wet burst w	wet burst c	wet burst e	bright burst w	bright burst c	bright burst e															
+wet burst sw	wet burst s	wet burst se	bright burst sw	bright burst s	bright burst se															
+magic burst nw	magic burst n	magic burst ne																		
+magic burst w	magic burst c	magic burst e																		
+magic burst sw	magic burst s	magic burst se																		
+engulf nw	engulf n	engulf ne																		
+engulf w	engulf c	engulf e																		
+engulf sw	engulf s	engulf se																		
+fire beam v	fire beam h	fire beam l	fire beam r	flash beam v	flash beam h	flash beam l	flash beam r													
+cold beam v	cold beam h	cold beam l	cold beam r	sleep beam v	sleep beam h	sleep beam l	sleep beam r													
+shock beam v	shock beam h	shock beam l	shock beam r	death beam v	death beam h	death beam l	death beam r													
+force beam v	force beam h	force beam l	force beam r	zap beam v	zap beam h	zap beam l	zap beam r													
+rope v	rope h	rope l	rope r	grappling hook v	grappling hook h	grappling hook l	grappling hook r													
+little flame	big flame	little flood	big flood	little freeze	big freeze	little distortion	big distortion													
+little thorns	big thorns	little quake	big quake	little tornado	big tornado	little shine	big shine													
+big terror	little terror	little protection	big protection	ward a	ward b	ward c	ward d													
+steam cloud	volcanic cloud	toxic cloud	smoke cloud	symbol white	symbol black	symbol red	symbol blue													
+burrow																				
+																				
+Elemental0																				
+straw golem	paper golem	wax golem	rope golem	gold golem	leather golem	wood golem	flesh golem													
+clay golem	stone golem	glass golem	iron golem	snow golem	crystal golem															
+fog cloud	dust vortex	ice vortex	energy vortex	steam vortex	fire vortex															
+stalker	air elemental	fire elemental	earth elemental	water elemental																
+gas spore	freezing sphere	flaming sphere	shocking sphere																	
+floating eye	evil eye	eye tyrant																		
+rock piercer	iron piercer	glass piercer																		
+small mimic	large mimic	giant mimic																		
+strange object	xorn	invisible creature																		
+lurker above	lurker below																			
+yellow light	black light																			
+																				
+Engineer																				
+engineer s_0	engineer s_1	engineer s_2	engineer s_3																	
+engineer w_0	engineer w_1	engineer w_2	engineer w_3																	
+engineer e_0	engineer e_1	engineer e_2	engineer e_3																	
+engineer n_0	engineer n_1	engineer n_2	engineer n_3																	
+																				
+Fence																				
+																				
+																				
+																				
+stone fence down right	stone fence left right	stone fence down left		stone fence down left right																
+stone fence up down			stone fence up down left	stone fence up down left right	stone fence up down right															
+stone fence up right		stone fence up left		stone fence up left right																
+metal fence down right	metal fence left right	metal fence down left		metal fence down left right																
+metal fence up down			metal fence up down left	metal fence up down left right	metal fence up down right															
+metal fence up right		metal fence up left		metal fence up left right																
+ice fence down right	ice fence left right	ice fence down left		ice fence down left right																
+ice fence up down			ice fence up down left	ice fence up down left right	ice fence up down right															
+ice fence up right		ice fence up left		ice fence up left right																
+																				
+Flesh																				
+corpse	meatball	meat wand	huge meat blob	meat ring	meat book	heart	liver													
+marbled cut of meat	fingers	toes	eyeball	connective tissue	brain	lung	intestines													
+stomach	ear	gall bladder	kidney	throat	bodily fluid	buns	raw fish													
+snout	tentacle	strip of meat																		
+spoiled corpse	spoiled meatball	spoiled meat wand	spoiled huge meat blob	spoiled meat ring	spoiled meat book	spoiled heart	spoiled liver													
+spoiled marbled cut of meat	spoiled fingers	spoiled toes	spoiled eyeball	spoiled connective tissue	spoiled brain	spoiled lung	spoiled intestines													
+spoiled stomach	spoiled ear	spoiled gall bladder	spoiled kidney	spoiled throat	spoiled bodily fluid	spoiled buns	spoiled raw fish													
+spoiled snout	spoiled tentacle	spoiled strip of meat																		
+arthropod claw	thorn	parasite	meat hat	tusk	meat instrument	meat device	beak													
+																				
+Floor																				
+																				empty
+																				
+																				
+morning tile floor nw	morning tile floor n	morning tile floor ne	morning tile floor nwe		morning tile floor nswe		morning grass floor nw	morning grass floor n	morning grass floor ne	morning grass floor nwe		morning grass floor nswe		morning stone floor nw	morning stone floor n	morning stone floor ne	morning stone floor nwe		morning stone floor nswe	
+morning tile floor w	morning tile floor c	morning tile floor e	morning tile floor we	morning tile floor nsw	morning tile floor ns	morning tile floor nse	morning grass floor w	morning grass floor c	morning grass floor e	morning grass floor we	morning grass floor nsw	morning grass floor ns	morning grass floor nse	morning stone floor w	morning stone floor c	morning stone floor e	morning stone floor we	morning stone floor nsw	morning stone floor ns	morning stone floor nse
+morning tile floor sw	morning tile floor s	morning tile floor se	morning tile floor swe				morning grass floor sw	morning grass floor s	morning grass floor se	morning grass floor swe				morning stone floor sw	morning stone floor s	morning stone floor se	morning stone floor swe			
+day tile floor nw	day tile floor n	day tile floor ne	day tile floor nwe		day tile floor nswe		day grass floor nw	day grass floor n	day grass floor ne	day grass floor nwe		day grass floor nswe		day stone floor nw	day stone floor n	day stone floor ne	day stone floor nwe		day stone floor nswe	
+day tile floor w	day tile floor c	day tile floor e	day tile floor we	day tile floor nsw	day tile floor ns	day tile floor nse	day grass floor w	day grass floor c	day grass floor e	day grass floor we	day grass floor nsw	day grass floor ns	day grass floor nse	day stone floor w	day stone floor c	day stone floor e	day stone floor we	day stone floor nsw	day stone floor ns	day stone floor nse
+day tile floor sw	day tile floor s	day tile floor se	day tile floor swe				day grass floor sw	day grass floor s	day grass floor se	day grass floor swe				day stone floor sw	day stone floor s	day stone floor se	day stone floor swe			
+dusk tile floor nw	dusk tile floor n	dusk tile floor ne	dusk tile floor nwe		dusk tile floor nswe		dusk grass floor nw	dusk grass floor n	dusk grass floor ne	dusk grass floor nwe		dusk grass floor nswe		dusk stone floor nw	dusk stone floor n	dusk stone floor ne	dusk stone floor nwe		dusk stone floor nswe	
+dusk tile floor w	dusk tile floor c	dusk tile floor e	dusk tile floor we	dusk tile floor nsw	dusk tile floor ns	dusk tile floor nse	dusk grass floor w	dusk grass floor c	dusk grass floor e	dusk grass floor we	dusk grass floor nsw	dusk grass floor ns	dusk grass floor nse	dusk stone floor w	dusk stone floor c	dusk stone floor e	dusk stone floor we	dusk stone floor nsw	dusk stone floor ns	dusk stone floor nse
+dusk tile floor sw	dusk tile floor s	dusk tile floor se	dusk tile floor swe				dusk grass floor sw	dusk grass floor s	dusk grass floor se	dusk grass floor swe				dusk stone floor sw	dusk stone floor s	dusk stone floor se	dusk stone floor swe			
+night tile floor nw	night tile floor n	night tile floor ne	night tile floor nwe		night tile floor nswe		night grass floor nw	night grass floor n	night grass floor ne	night grass floor nwe		night grass floor nswe		night stone floor nw	night stone floor n	night stone floor ne	night stone floor nwe		night stone floor nswe	
+night tile floor w	night tile floor c	night tile floor e	night tile floor we	night tile floor nsw	night tile floor ns	night tile floor nse	night grass floor w	night grass floor c	night grass floor e	night grass floor we	night grass floor nsw	night grass floor ns	night grass floor nse	night stone floor w	night stone floor c	night stone floor e	night stone floor we	night stone floor nsw	night stone floor ns	night stone floor nse
+night tile floor sw	night tile floor s	night tile floor se	night tile floor swe				night grass floor sw	night grass floor s	night grass floor se	night grass floor swe				night stone floor sw	night stone floor s	night stone floor se	night stone floor swe			
+morning dirt floor nw	morning dirt floor n	morning dirt floor ne	morning dirt floor nwe		morning dirt floor nswe		morning brick floor nw	morning brick floor n	morning brick floor ne	morning brick floor nwe		morning brick floor nswe		morning boulder nw	morning boulder n	morning boulder ne	morning boulder nwe		morning boulder nswe	
+morning dirt floor w	morning dirt floor c	morning dirt floor e	morning dirt floor we	morning dirt floor nsw	morning dirt floor ns	morning dirt floor nse	morning brick floor w	morning brick floor c	morning brick floor e	morning brick floor we	morning brick floor nsw	morning brick floor ns	morning brick floor nse	morning boulder w	morning boulder c	morning boulder e	morning boulder we	morning boulder nsw	morning boulder ns	morning boulder nse
+morning dirt floor sw	morning dirt floor s	morning dirt floor se	morning dirt floor swe				morning brick floor sw	morning brick floor s	morning brick floor se	morning brick floor swe				morning boulder sw	morning boulder s	morning boulder se	morning boulder swe			
+day dirt floor nw	day dirt floor n	day dirt floor ne	day dirt floor nwe		day dirt floor nswe		day brick floor nw	day brick floor n	day brick floor ne	day brick floor nwe		day brick floor nswe		day boulder nw	day boulder n	day boulder ne	day boulder nwe		day boulder nswe	
+day dirt floor w	day dirt floor c	day dirt floor e	day dirt floor we	day dirt floor nsw	day dirt floor ns	day dirt floor nse	day brick floor w	day brick floor c	day brick floor e	day brick floor we	day brick floor nsw	day brick floor ns	day brick floor nse	day boulder w	day boulder c	day boulder e	day boulder we	day boulder nsw	day boulder ns	day boulder nse
+day dirt floor sw	day dirt floor s	day dirt floor se	day dirt floor swe				day brick floor sw	day brick floor s	day brick floor se	day brick floor swe				day boulder sw	day boulder s	day boulder se	day boulder swe			
+dusk dirt floor nw	dusk dirt floor n	dusk dirt floor ne	dusk dirt floor nwe		dusk dirt floor nswe		dusk brick floor nw	dusk brick floor n	dusk brick floor ne	dusk brick floor nwe		dusk brick floor nswe		dusk boulder nw	dusk boulder n	dusk boulder ne	dusk boulder nwe		dusk boulder nswe	
+dusk dirt floor w	dusk dirt floor c	dusk dirt floor e	dusk dirt floor we	dusk dirt floor nsw	dusk dirt floor ns	dusk dirt floor nse	dusk brick floor w	dusk brick floor c	dusk brick floor e	dusk brick floor we	dusk brick floor nsw	dusk brick floor ns	dusk brick floor nse	dusk boulder w	dusk boulder c	dusk boulder e	dusk boulder we	dusk boulder nsw	dusk boulder ns	dusk boulder nse
+dusk dirt floor sw	dusk dirt floor s	dusk dirt floor se	dusk dirt floor swe				dusk brick floor sw	dusk brick floor s	dusk brick floor se	dusk brick floor swe				dusk boulder sw	dusk boulder s	dusk boulder se	dusk boulder swe			
+night dirt floor nw	night dirt floor n	night dirt floor ne	night dirt floor nwe		night dirt floor nswe		night brick floor nw	night brick floor n	night brick floor ne	night brick floor nwe		night brick floor nswe		night boulder nw	night boulder n	night boulder ne	night boulder nwe		night boulder nswe	
+night dirt floor w	night dirt floor c	night dirt floor e	night dirt floor we	night dirt floor nsw	night dirt floor ns	night dirt floor nse	night brick floor w	night brick floor c	night brick floor e	night brick floor we	night brick floor nsw	night brick floor ns	night brick floor nse	night boulder w	night boulder c	night boulder e	night boulder we	night boulder nsw	night boulder ns	night boulder nse
+night dirt floor sw	night dirt floor s	night dirt floor se	night dirt floor swe				night brick floor sw	night brick floor s	night brick floor se	night brick floor swe				night boulder sw	night boulder s	night boulder se	night boulder swe			
+morning plowed field nw	morning plowed field n	morning plowed field ne	morning plowed field nwe		morning plowed field nswe															
+morning plowed field w	morning plowed field c	morning plowed field e	morning plowed field we	morning plowed field nsw	morning plowed field ns	morning plowed field nse														
+morning plowed field sw	morning plowed field s	morning plowed field se	morning plowed field swe																	
+day plowed field nw	day plowed field n	day plowed field ne	day plowed field nwe		day plowed field nswe															
+day plowed field w	day plowed field c	day plowed field e	day plowed field we	day plowed field nsw	day plowed field ns	day plowed field nse														
+day plowed field sw	day plowed field s	day plowed field se	day plowed field swe																	
+dusk plowed field nw	dusk plowed field n	dusk plowed field ne	dusk plowed field nwe		dusk plowed field nswe															
+dusk plowed field w	dusk plowed field c	dusk plowed field e	dusk plowed field we	dusk plowed field nsw	dusk plowed field ns	dusk plowed field nse														
+dusk plowed field sw	dusk plowed field s	dusk plowed field se	dusk plowed field swe																	
+night plowed field nw	night plowed field n	night plowed field ne	night plowed field nwe		night plowed field nswe															
+night plowed field w	night plowed field c	night plowed field e	night plowed field we	night plowed field nsw	night plowed field ns	night plowed field nse														
+night plowed field sw	night plowed field s	night plowed field se	night plowed field swe																	
+																				
+Food																				
+red cap mushroom	big snout mushroom	hardball mushroom	luminous mushroom	slimy mushroom	christmas fungus	globe fungus	disc fungus													
+umbrella mushroom	spotted mushroom	saddle mushroom	puffball fungus	fairy step mushrooms	hog ear mushrooms	bamboo shoots	tin coffee cup													
+apple	orange	pear	pumpkin	banana	slime mold	tomato	cherries													
+carrot	radish	sprig of wolfsbane	kelp frond	eucalyptus leaf	cabbage	corn														
+lembas wafer	loaf of bread	food ration	k ration	c ration	tin															
+lump of royal jelly	cream pie	candy bar	fortune cookie	pancake																
+																				
+Glove																				
+iron gauntlet	leather glove	clumsy mitt	surgical glove																	
+																				
+Ground																				
+green grass	sparse green grass	dry grass	sparse dry grass	gray pebbles	sparse gray pebbles	brown pebbles	sparse brown pebbles													
+green scrub	sparse green scrub	dry scrub	sparse dry scrub	gray rocks	sparse gray rocks	brown rocks	sparse brown rocks													
+white flowers	sparse white flowers	blue flowers	sparse blue flowers	gold flowers	sparse gold flowers	red flowers	sparse red flowers													
+young leafy vegetable	ripe leafy vegetable	young vine vegetable	ripe vine vegetable	young root vegetable	ripe root vegetable	potted seedlings	potted plants													
+young herb cluster	ripe herb cluster	young fruit tree	ripe fruit tree	young corn stalk	ripe corn stalk	small rotting plant	large rotting plant													
+red liquid spatter	red liquid drizzle	green liquid spatter	green liquid drizzle	blue liquid spatter	blue liquid drizzle	lava spatter_0	lava drizzle_0													
+red pool	red puddle	green pool	green puddle	blue pool	blue puddle	lava pool_0	lava puddle_0													
+																				
+GUI0																				
+question a_0	question b_0	question c_0	question d_0	question e_0	question f_0	gauge chrome left_0	gauge chrome center_0	gauge chrome right_0	gauge chrome single_0											
+red heart full_0	red heart half_0	red heart low_0	red heart sliver_0	broken heart	pointer n	gauge red full_0	gauge red most_0	gauge red half_0	gauge red low_0	talk box										
+green heart full_0	green heart half_0	green heart low_0	green heart sliver_0		pointer e	gauge blue full_0	gauge blue most_0	gauge blue half_0	gauge blue low_0	confirm box_0	cancel box_0	yes box_0	no box_0							
+blue heart full_0	blue heart half_0	blue heart low_0	blue heart sliver_0		pointer s	gauge green full_0	gauge green most_0	gauge green half_0	gauge green low_0	love box_0	hate box_0	alert box_0	confused box_0							
+black heart full_0	black heart half_0	black heart low_0	black heart sliver_0		pointer w	gauge yellow full_0	gauge yellow most_0	gauge yellow half_0	gauge yellow low_0	asleep box_0	blind box_0	stunned box_0	deaf box_0							
+heart marker_0	peace marker_0	pet marker_0	mount marker_0	wet marker_0	dead marker_0	gauge gray full_0	gauge gray most_0	gauge gray half_0	gauge gray low_0											
+down marker_0	up marker_0																			
+red black square	red black nw	red black n	red black ne	green red square	green red nw	green red n	green red ne	white black square	white black nw	white black n	white black ne	gray white square	gray white nw	gray white n	gray white ne					
+	red black w	red black c	red black e		green red w	green red c	green red e		white black w	white black c	white black e		gray white w	gray white c	gray white e					
+	red black sw	red black s	red black se		green red sw	green red s	green red se		white black sw	white black s	white black se		gray white sw	gray white s	gray white se					
+blue black square	blue black nw	blue black n	blue black ne	green blue square	green blue nw	green blue n	green blue ne	gray black square	gray black nw	gray black n	gray black ne	brown gray square	brown gray nw	brown gray n	brown gray ne					
+	blue black w	blue black c	blue black e		green blue w	green blue c	green blue e		gray black w	gray black c	gray black e		brown gray w	brown gray c	brown gray e					
+	blue black sw	blue black s	blue black se		green blue sw	green blue s	green blue se		gray black sw	gray black s	gray black se		brown gray sw	brown gray s	brown gray se					
+green black square	green black nw	green black n	green black ne	red green square	red green nw	red green n	red green ne	brown black square	brown black nw	brown black n	brown black ne	dark brown square	dark brown nw	dark brown n	dark brown ne					
+	green black w	green black c	green black e		red green w	red green c	red green e		brown black w	brown black c	brown black e		dark brown w	dark brown c	dark brown e					
+	green black sw	green black s	green black se		red green sw	red green s	red green se		brown black sw	brown black s	brown black se		dark brown sw	dark brown s	dark brown se					
+yellow black square	yellow black nw	yellow black n	yellow black ne	black yellow square	black yellow nw	black yellow n	black yellow ne	dark black square	dark black nw	dark black n	dark black ne	brown dark square	brown dark nw	brown dark n	brown dark ne					
+	yellow black w	yellow black c	yellow black e		black yellow w	black yellow c	black yellow e		dark black w	dark black c	dark black e		brown dark w	brown dark c	brown dark e					
+	yellow black sw	yellow black s	yellow black se		black yellow sw	black yellow s	black yellow se		dark black sw	dark black s	dark black se		brown dark sw	brown dark s	brown dark se					
+																				
+Hat																				
+dented pot	orcish helm	plumed helm	etched helm	crested helm	visored helm															
+elven leather helm	helmet	dwarvish iron helm																		
+fedora	wizard hat	dunce cap																		
+headband	princely crown	kingly crown																		
+																				
+Hill																				
+blue peak nw	blue peak n	blue peak ne	blue peak alone	yellow peak nw	yellow peak n	yellow peak ne	yellow peak alone	brown peak nw	brown peak n	brown peak ne	brown peak alone	green mound nw	green mound n	green mound ne	green mound alone					
+blue peak w	blue peak c	blue peak e		yellow peak w	yellow peak c	yellow peak e		brown peak w	brown peak c	brown peak e		green mound w	green mound c	green mound e						
+blue peak sw	blue peak s	blue peak se		yellow peak sw	yellow peak s	yellow peak se		brown peak sw	brown peak s	brown peak se		green mound sw	green mound s	green mound se						
+red peak nw	red peak n	red peak ne	red peak alone	green peak nw	green peak n	green peak ne	green peak alone	dark peak nw	dark peak n	dark peak ne	dark peak alone	yellow mound nw	yellow mound n	yellow mound ne	yellow mound alone					
+red peak w	red peak c	red peak e		green peak w	green peak c	green peak e		dark peak w	dark peak c	dark peak e		yellow mound w	yellow mound c	yellow mound e						
+red peak sw	red peak s	red peak se		green peak sw	green peak s	green peak se		dark peak sw	dark peak s	dark peak se		yellow mound sw	yellow mound s	yellow mound se						
+blue snowcap nw	blue snowcap n	blue snowcap ne	blue snowcap alone	yellow snowcap nw	yellow snowcap n	yellow snowcap ne	yellow snowcap alone	brown snowcap nw	brown snowcap n	brown snowcap ne	brown snowcap alone									
+blue snowcap w	blue snowcap c	blue snowcap e	snowcap effect	yellow snowcap w	yellow snowcap c	yellow snowcap e		brown snowcap w	brown snowcap c	brown snowcap e										
+blue snowcap sw	blue snowcap s	blue snowcap se		yellow snowcap sw	yellow snowcap s	yellow snowcap se		brown snowcap sw	brown snowcap s	brown snowcap se										
+red snowcap nw	red snowcap n	red snowcap ne	red snowcap alone	green snowcap nw	green snowcap n	green snowcap ne	green snowcap alone	dark snowcap nw	dark snowcap n	dark snowcap ne	dark snowcap alone									
+red snowcap w	red snowcap c	red snowcap e		green snowcap w	green snowcap c	green snowcap e		dark snowcap w	dark snowcap c	dark snowcap e										
+red snowcap sw	red snowcap s	red snowcap se		green snowcap sw	green snowcap s	green snowcap se		dark snowcap sw	dark snowcap s	dark snowcap se										
+blue volcano nw_0	blue volcano n_0	blue volcano ne_0	blue volcano alone_0	yellow volcano nw_0	yellow volcano n_0	yellow volcano ne_0	yellow volcano alone_0	brown volcano nw_0	brown volcano n_0	brown volcano ne_0	brown volcano alone_0									
+blue volcano w_0	blue volcano c_0	blue volcano e_0	eruption effect_0	yellow volcano w_0	yellow volcano c_0	yellow volcano e_0		brown volcano w_0	brown volcano c_0	brown volcano e_0										
+blue volcano sw_0	blue volcano s_0	blue volcano se_0		yellow volcano sw_0	yellow volcano s_0	yellow volcano se_0		brown volcano sw_0	brown volcano s_0	brown volcano se_0										
+red volcano nw_0	red volcano n_0	red volcano ne_0	red volcano alone_0	green volcano nw_0	green volcano n_0	green volcano ne_0	green volcano alone_0	dark volcano nw_0	dark volcano n_0	dark volcano ne_0	dark volcano alone_0									
+red volcano w_0	red volcano c_0	red volcano e_0		green volcano w_0	green volcano c_0	green volcano e_0		dark volcano w_0	dark volcano c_0	dark volcano e_0										
+red volcano sw_0	red volcano s_0	red volcano se_0		green volcano sw_0	green volcano s_0	green volcano se_0		dark volcano sw_0	dark volcano s_0	dark volcano se_0										
+																				
+Humanoid0																				
+giant	stone giant	hill giant	fire giant	frost giant	storm giant	ettin	titan													
+minotaur	cyclops	surtur																		
+keystone kop	kop sergeant	kop lieutenant	kop kaptain	shopkeeper	executioner	ninja	prisoner													
+forest sprite	forest fairy	forest spirit	mountain sprite	mountain fairy	mountain spirit	green wings	gold wings													
+orc	hill orc	deep orc	militant orc	orc shaman	orc king	uruk														
+soldier	sergeant	lieutenant	captain	watchman	watch captain	guard														
+elf	wood elf	green elf	gray elf	elf lord	elf king															
+troll	ice troll	rock troll	water troll	olog hai																
+gnome	gnome lord	gnome wizard	gnome king	leprechaun																
+peasant man	peasant woman	farmer man	farmer woman	miner																
+hobbit	dwarf	dwarf lord	dwarf king																	
+wood nymph	water nymph	mountain nymph	fire nymph																	
+quest leader a	quest leader b	quest leader c	quest leader d																	
+satyr	plains centaur	forest centaur	mountain centaur																	
+ogre	ogre lord	ogre king																		
+quantum mechanic		croesus																		
+angel	dark angel	archon																		
+weeping angel	weeping archangel	tengu																		
+djinn	marid	dao																		
+goblin	hobgoblin	goblin king																		
+mind flayer	master mind flayer																			
+bugbear	yeti																			
+oracle	nurse																			
+aligned priest	high priest																			
+ocean spirit	river spirit																			
+snow puff	sand puff																			
+medusa																				
+																				
+Icons																				
+inventory icon	enter icon	save icon																		
+fire icon	ice icon	lightning icon																		
+health icon	stamina icon	surrounded icon																		
+																				
+Key																				
+key	lockpicks	invitation																		
+																				
+Light																				
+tallow candle	wax candle	candelabrum	brass lantern	lamp	magic lamp	camera														
+																				
+LongWep																				
+spear	orcish spear	elven spear	dwarvish spear	silver spear	javelin	trident														
+broadsword	elven broadsword	long sword	two handed sword	tsurugi	runesword															
+vulgar polearm	hilted polearm	forked polearm	single edged polearm	pole cleaver																
+pole sickle	pruning hook	hooked polearm	pronged polearm	beaked polearm																
+angled poleaxe	long poleaxe	quarterstaff	scythe	mace																
+rubber hose	bullwhip	grappling hook																		
+war hammer	lance																			
+																				
+Mage																				
+mage s_0	mage s_1	mage s_2	mage s_3																	
+mage w_0	mage w_1	mage w_2	mage w_3																	
+mage e_0	mage e_1	mage e_2	mage e_3																	
+mage n_0	mage n_1	mage n_2	mage n_3																	
+																				
+Map																				
+sand trail down right	sand trail left right	sand trail down left		sand trail down left right		clear river down right_0	clear river left right_0	clear river down left_0		clear river down left right_0										
+sand trail up down			sand trail up down left	sand trail up down left right	sand trail up down right	clear river up down_0			clear river up down left_0	clear river up down left right_0	clear river up down right_0									
+sand trail up right		sand trail up left		sand trail up left right		clear river up right_0		clear river up left_0		clear river up left right_0										
+dirt trail down right	dirt trail left right	dirt trail down left		dirt trail down left right		cloudy river down right_0	cloudy river left right_0	cloudy river down left_0		cloudy river down left right_0										
+dirt trail up down			dirt trail up down left	dirt trail up down left right	dirt trail up down right	cloudy river up down_0			cloudy river up down left_0	cloudy river up down left right_0	cloudy river up down right_0									
+dirt trail up right		dirt trail up left		dirt trail up left right		cloudy river up right_0		cloudy river up left_0		cloudy river up left right_0										
+rocky trail down right	rocky trail left right	rocky trail down left		rocky trail down left right		noxious river down right_0	noxious river left right_0	noxious river down left_0		noxious river down left right_0										
+rocky trail up down			rocky trail up down left	rocky trail up down left right	rocky trail up down right	noxious river up down_0			noxious river up down left_0	noxious river up down left right_0	noxious river up down right_0									
+rocky trail up right		rocky trail up left		rocky trail up left right		noxious river up right_0		noxious river up left_0		noxious river up left right_0										
+arduous trail down right	arduous trail left right	arduous trail down left		arduous trail down left right		lava flow down right_0	lava flow left right_0	lava flow down left_0		lava flow down left right_0										
+arduous trail up down			arduous trail up down left	arduous trail up down left right	arduous trail up down right	lava flow up down_0			lava flow up down left_0	lava flow up down left right_0	lava flow up down right_0									
+arduous trail up right		arduous trail up left		arduous trail up left right		lava flow up right_0		lava flow up left_0		lava flow up left right_0										
+castle wall down right	castle wall left right	castle wall down left		castle wall down left right		campsite	homestead	town	city											
+castle wall up down			castle wall up down left	castle wall up down left right	castle wall up down right	checkpoint	fort	castle	palace											
+castle wall up right		castle wall up left		castle wall up left right		bridge n s	bridge ne sw	bridge nw se	bridge e w											
+																				
+MedWep																				
+short sword	elven short sword	orcish short sword	dwarvish short sword	scimitar	katana															
+axe	battle axe																			
+																				
+Misc0																				
+rodent of unusual size	ratzilla	snowy owlbear	owlbear	werebat	pegasus	kirin														
+gremlin	gargoyle	winged gargoyle	uranium imp																	
+kobold	large kobold	kobold shaman	kobold lord																	
+monkey	ape	carnivorous ape																		
+jabberwock	vorpal jabberwock																			
+umber hulk	water hulk	big hallucination	small hallucination																	
+baby terror bird	terror bird																			
+zruty																				
+																				
+Money																				
+pile of copper coins	handful of copper coins	copper coin	pile of stone coins	handful of stone coins	stone coin	stack of green bills	green bill													
+pile of gold coins	handful of gold coins	gold coin	pile of silver coins	handful of silver coins	silver coin	stack of red bills	red bill													
+gleaming clear gem	gleaming white gem	gleaming red gem	gleaming orange gem	gleaming blue gem	gleaming black gem	gleaming violet gem	gleaming green gem													
+gleaming brown gem	gleaming gray gem	gleaming yellow gem	prism	loadstone	luckstone	gold foil	molten gold													
+tinfoil hat	raw crystal ore	lens	obsidian point	touchstone	flint stone															
+dull clear gem	dull white gem	dull red gem	dull orange gem	dull blue gem	dull black gem	dull violet gem	dull green gem													
+dull brown gem	dull gray gem	dull yellow gem	dull prism	dull loadstone	dull luckstone	lead foil	blob of melted metal													
+smudged tinfoil hat	tarnished crystal ore	cloudy lens	dull obsidian point	dull touchstone	dull flint stone															
+																				
+Music																				
+tin whistle	magic whistle	wooden flute	magic flute																	
+tooled horn	frost horn	fire horn	horn of plenty																	
+leather drum	earthquake drum																			
+wooden harp	magic harp																			
+bell	opening bell																			
+bugle																				
+																				
+Ore0																				
+																				
+red ore up	red ore left	red ore right	red ore left right		blue ore up	blue ore left	blue ore right	blue ore left right												
+orange ore up	orange ore left	orange ore right	orange ore left right		silvery ore up	silvery ore left	silvery ore right	silvery ore left right												
+yellow ore up	yellow ore left	yellow ore right	yellow ore left right		pearly ore up	pearly ore left	pearly ore right	pearly ore left right												
+oily ore up	oily ore left	oily ore right	oily ore left right		black ore up	black ore left	black ore right	black ore left right												
+green ore up	green ore left	green ore right	green ore left right		violet ore up	violet ore left	violet ore right	violet ore left right												
+glowing ore up	glowing ore left	glowing ore right	glowing ore left right		pink ore up	pink ore left	pink ore right	pink ore left right												
+																				
+Paladin																				
+paladin s_0	paladin s_1	paladin s_2	paladin s_3																	
+paladin w_0	paladin w_1	paladin w_2	paladin w_3																	
+paladin e_0	paladin e_1	paladin e_2	paladin e_3																	
+paladin n_0	paladin n_1	paladin n_2	paladin n_3																	
+																				
+Pest0																				
+giant tick	giant flea	giant louse	giant beetle	larva	maggot	dung worm	tunnel worm													
+walking stick	dragonfly	bee grub	queen bee	tsetse fly	killer bee															
+cave spider	giant spider	shelob	scorpion	giant scorpion	scorpius															
+baby long worm	long worm	long worm tail	baby purple worm	purple worm																
+giant ant	soldier ant	fire ant	snow ant																	
+firefly	locust	assassin bug																		
+grid bug	xan	chillbug																		
+baby slug	giant slug	baby snail	giant snail																	
+spark bug	arc bug																			
+phase spider	centipede																			
+spitting beetle	killer beetle																			
+																				
+Pit																				
+																				
+																				
+brick pit left up	brick pit up	brick pit right up		brick pit left right up	brick pit left down	brick pit divider	brick pit right down													
+brick pit left	brick pit center	brick pit right		brick pit left right																
+stone pit left up	stone pit up	stone pit right up		stone pit left right up	stone pit left down	stone pit divider	stone pit right down													
+stone pit left	stone pit center	stone pit right		stone pit left right																
+metal pit left up	metal pit up	metal pit right up		metal pit left right up	metal pit left down	metal pit divider	metal pit right down													
+metal pit left	metal pit center	metal pit right		metal pit left right																
+brick clear pool left up	brick clear pool up	brick clear pool right up		brick clear pool left right up	brick clear pool left down	brick clear pool divider	brick clear pool right down													
+brick clear pool left	brick clear pool center	brick clear pool right		brick clear pool left right																
+stone clear pool left up	stone clear pool up	stone clear pool right up		stone clear pool left right up	stone clear pool left down	stone clear pool divider	stone clear pool right down													
+stone clear pool left	stone clear pool center	stone clear pool right		stone clear pool left right																
+metal clear pool left up	metal clear pool up	metal clear pool right up		metal clear pool left right up	metal clear pool left down	metal clear pool divider	metal clear pool right down													
+metal clear pool left	metal clear pool center	metal clear pool right		metal clear pool left right																
+brick murky pool left up	brick murky pool up	brick murky pool right up		brick murky pool left right up	brick murky pool left down	brick murky pool divider	brick murky pool right down													
+brick murky pool left	brick murky pool center	brick murky pool right		brick murky pool left right																
+stone murky pool left up	stone murky pool up	stone murky pool right up		stone murky pool left right up	stone murky pool left down	stone murky pool divider	stone murky pool right down													
+stone murky pool left	stone murky pool center	stone murky pool right		stone murky pool left right																
+metal murky pool left up	metal murky pool up	metal murky pool right up		metal murky pool left right up	metal murky pool left down	metal murky pool divider	metal murky pool right down													
+metal murky pool left	metal murky pool center	metal murky pool right		metal murky pool left right																
+brick toxic pool left up	brick toxic pool up	brick toxic pool right up		brick toxic pool left right up	brick toxic pool left down	brick toxic pool divider	brick toxic pool right down													
+brick toxic pool left	brick toxic pool center	brick toxic pool right		brick toxic pool left right																
+stone toxic pool left up	stone toxic pool up	stone toxic pool right up		stone toxic pool left right up	stone toxic pool left down	stone toxic pool divider	stone toxic pool right down													
+stone toxic pool left	stone toxic pool center	stone toxic pool right		stone toxic pool left right																
+metal toxic pool left up	metal toxic pool up	metal toxic pool right up		metal toxic pool left right up	metal toxic pool left down	metal toxic pool divider	metal toxic pool right down													
+metal toxic pool left	metal toxic pool center	metal toxic pool right		metal toxic pool left right																
+lava pool left up_0	lava pool up_0	lava pool right up_0		lava pool left right up_0	lava pool left down_0	lava pool divider_0	lava pool right down_0													
+lava pool left_0	lava pool center_0	lava pool right_0		lava pool left right_0																
+turbulent pool left up_0	turbulent pool up_0	turbulent pool right up_0		turbulent pool left right up_0	turbulent pool left down_0	turbulent pool divider_0	turbulent pool right down_0													
+turbulent pool left_0	turbulent pool center_0	turbulent pool right_0		turbulent pool left right_0																
+acid pool left up_0	acid pool up_0	acid pool right up_0		acid pool left right up_0	acid pool left down_0	acid pool divider_0	acid pool right down_0													
+acid pool left_0	acid pool center_0	acid pool right_0		acid pool left right_0																
+																				
+Plant0																				
+evil shrub	burning evil shrub	demon shrub	burning demon shrub	blizzard shrub	withered blizzard shrub	maelstrom shrub	withered maelstrom shrub													
+evil tree	burning evil tree	demon tree	burning demon tree	blizzard tree	withered blizzard tree	maelstrom tree	withered maelstrom tree													
+dungeon fern	dungeon fern sprout	dungeon fern spore																		
+arctic fern	arctic fern sprout	arctic fern spore																		
+blazing fern	blazing fern sprout	blazing fern spore																		
+swamp fern	swamp fern sprout	swamp fern spore																		
+devil snare	mould	ungenomold																		
+shrieker																				
+																				
+Player0																				
+ordinary human	fighter	ranger	bandit	valkyrie	slayer	wizard	monk													
+priest	aide	samurai	collector	brute	nomad	tourist	convict													
+																				
+man	knight	yeoman	thief	champion	exterminator	archmage	sensei													
+bishop	healer	ninja	archaeologist	barbarian	caveman	sightseer	desperado													
+ordinary woman	priestess	cavewoman																		
+																				
+earendil	king arthur	orion	master of thieves	norn	van helsing	neferet the green	grand master													
+arch priest	hippocrates	ninja master	lord carnavon	pelias	shaman karnov	twoflower	robert the lifer													
+																				
+																				
+ordinary dwarf	dwarf knight	dwarf barbarian	dwarf archaeologist	dwarf ranger	dwarf nomad	dwarf healer	dwarf expert													
+ordinary orc	orc knight	orc samurai	orc monk	orc rogue	orc barbarian	orc wizard	orc marine													
+ordinary goblin	goblin prince																			
+ordinary kobold	kobold knight	kobold priest	kobold rogue	kobold ranger	kobold barbarian	kobold convict	kobold ascendant													
+																				
+Potion																				
+ruby potion	pink potion	orange potion	yellow potion	emerald potion	dark green potion	cyan potion	sky blue potion													
+brilliant blue potion	magenta potion	purple-red potion	puce potion	milky potion	swirly potion	bubbly potion	smoky potion													
+cloudy potion	effervescent potion	black potion	golden potion	brown potion	fizzy potion	dark potion	white potion													
+murky potion	syrupy potion	sparkly potion	radiant potion	dripping potion	smelly potion	frag grenade	gas grenade													
+winged potion	legged potion	spraying potion	sloshing potion	sealed potion	clear potion	sanguine potion	sinister potion													
+																				
+Quadruped0																				
+baby pig	pig	baby hog	hog	feral hog	baby black boar	black boar	vicious black boar													
+baby dairy cow	dairy cow	baby bull	bull	raging bull	camel	llama														
+baby white goat	white goat	baby gray goat	gray goat	baby black goat	black goat															
+baby white sheep	white sheep	baby gray sheep	gray sheep	baby black sheep	black sheep															
+brown unicorn	white unicorn	gray unicorn	black unicorn																	
+newborn brown horse	baby brown horse	brown horse	strong brown horse																	
+baby gray horse	gray horse	strong gray horse																		
+baby black horse	black horse	strong black horse																		
+baby deer	deer																			
+mastodon	mumak																			
+titanothere	baluchitherium 																				
+wumpus	leocrotta																			
+																				
+Reptile0																				
+baby sphinx	sphinx	baby wyvern	wyvern	baby dreadwyrm	dreadwyrm	baby glendrake	glendrake													
+baby firedrake	firedrake	baby icewyrm	icewyrm	baby sanddrake	sanddrake	baby stormwyrm	storrmwyrm													
+baby darkwyrm	darkwyrm	baby lightwyrm	lightwyrm	baby bogwyrm	bogwyrm	baby sheenwyrm	sheenwyrm													
+baby kingwyrm	kingwyrm	baby searwyrm	searwyrm	hydra	baby hydra															
+garter snake	snake	python	water moccasin	pit viper	cobra	asp	serpent													
+baby red naga	red naga	baby black naga	black naga	baby golden naga	golden naga	baby white naga	white naga													
+baby guardian naga	guardian naga																			
+baby cockatrice	cockatrice	baby pyrolisk	baby pyrolisk																	
+lizard	iguana	chameleon																		
+baby crocodile	crocodile																			
+gecko	komodo dragon	gila monster	newt																	
+giant turtle	giant tortoise	salamander																		
+			platino																	
+																				
+																				
+																				
+																				
+Ring																				
+wooden ring	granite ring	engagement ring	steel ring	glass ring	obsidian ring	copper ring	ivory ring													
+black onyx ring	moonstone ring	tiger eye ring	jade ring	brass ring	opal ring	pearl ring	sapphire ring													
+ruby ring	topaz ring	agate ring	clay ring	coral ring	bronze ring	twisted ring	iron ring													
+silver ring	gold ring	plain ring	emerald ring	wire ring	diamond ring	shiny ring	unique ring a													
+unique ring b	unique ring c	unique ring d	unique ring e	unique ring f	unique ring g	unique ring h	unique ring i													
+unique ring j	unique ring k	unique ring l	unique ring m																	
+																				
+Rock																				
+uranium ore	infernal ore	silvery metal stone	rock																	
+unknown metal tube	pebble	boulder	pile of stones																	
+																				
+Rodent0																				
+red squirrel	gray squirrel	rabbit	jackrabbit	woodchuck																
+sewer rat	giant rat	rabid rat	enormous rat																	
+disintegrator	rust monster	rock mole																		
+wererat																				
+																				
+Rogue																				
+rogue s_0	rogue s_1	rogue s_2	rogue s_3																	
+rogue w_0	rogue w_1	rogue w_2	rogue w_3																	
+rogue e_0	rogue e_1	rogue e_2	rogue e_3																	
+rogue n_0	rogue n_1	rogue n_2	rogue n_3																	
+																				
+Scroll																				
+white scroll	long scroll	dusty white scroll	dusty cyan scroll	dusty yellow scroll	gray scroll	dusty orange scroll	dusty gray scroll													
+dusty red scroll	dusty dark scroll	red scroll	orange scroll	yellow scroll	dusty green scroll	green scroll	dusty blue scroll													
+blue scroll	cyan scroll	dark scroll	bloody scroll	dusty bloody scroll	mystery white scroll	ancient white scroll	ancient cyan scroll													
+ancient yellow scroll	mystery gray scroll	ancient orange scroll	ancient gray scroll	mystery red scroll	mystery orange scroll	mystery yellow scroll	ancient green scroll													
+mystery green scroll	ancient yellow scroll	ancient blue scroll	mystery blue scroll	ancient dark scroll	mystery dark scroll	sacred gray scroll	sacred cyan scroll													
+divine gray scroll	divine cyan scroll	mail	blank scroll																	
+																				
+Shield																				
+small shield	elven shield	white-handed shield	orcish shield	large shield	dwarvish shield	polished silver shield														
+																				
+ShortWep																				
+dagger	elven dagger	orcish dagger	silver dagger	crysknife	scalpel	knife	stiletto													
+athame	silver saber	unicorn horn	worm tooth																	
+club	aklys	flail																		
+hammer	pick axe	mattock																		
+mace	morning star																			
+																				
+Slime0																				
+lichen	brown mold	yellow mold	green mold	red mold	violet fungus															
+gray ooze	brown pudding	black pudding																		
+acid blob	quivering blob	gelatinous cube																		
+blue jelly	spotted jelly	ochre jelly																		
+green slime	blue slime																			
+																				
+Template																				
+template s_0	template s_1	template s_2	template s_3																	
+template w_0	template w_1	template w_2	template w_3																	
+template e_0	template e_1	template e_2	template e_3																	
+template n_0	template n_1	template n_2	template n_3																	
+																				
+Tile																				
+brown tile	deep water tile	shallow water tile	ice tile	acid tile	lava tile	hazard tile	sky tile													
+small stairs up	small stairs down	large stairs up	large stairs down	small ladder up	small ladder down	large ladder up	large ladder down													
+totally dark tile	very dark tile	dark tile	lit tile	very lit tile	totally lit tile	plus tile	diamond tile													
+				staircase up right	staircase up left	staircase down left	staircase down right													
+																				
+Tool																				
+mirror	crystal ball	lenses	blindfold	towel	saddle	leash	stethoscope													
+tinning kit	tin opener	can of grease	bag of tricks	magic marker	land mine	bear trap	smoking pipe													
+squeaky ball	prayer beads	rope	sewing needle																	
+																				
+Trap																				
+arrow trap tile	dart trap tile	falling rock trap tile	squeaky board tile	bear trap tile	land mine tile	rolling boulder trap tile	sleeping gas trap tile													
+rust trap tile	fire trap tile	teleportation trap tile	level teleporter tile	magic portal tile	statue trap tile	magic trap tile	anti magic field tile													
+ice trap tile	polymorph trap tile	pit tile	spiked pit tile	hole tile	trap door tile															
+spikes	thrusting spikes_0	tiny spikes_0	wave spikes_0	thrusting saw_0	slicing saw_0	thrusting teeth_0	intermittent teeth_0													
+																				
+Tree																				
+																				
+																				
+																				
+light oak nw ne sw	light oak nw ne	light oak nw ne se	light oak nw ne sw se	light oak se	light oak sw	bare oak nw ne sw	bare oak nw ne	bare oak nw ne se	bare oak nw ne sw se	bare oak se	bare oak sw									
+light oak nw sw	light oak dense	light oak ne se		light oak ne	light oak nw	bare oak nw sw	bare oak dense	bare oak ne se		bare oak ne	bare oak nw									
+light oak nw sw se	light oak sw se	light oak ne sw se		light oak nw se	light oak ne sw	bare oak nw sw se	bare oak sw se	bare oak ne sw se		bare oak nw se	bare oak ne sw									
+dark oak nw ne sw	dark oak nw ne	dark oak nw ne se	dark oak nw ne sw se	dark oak se	dark oak sw	burning oak nw ne sw_0	burning oak nw ne_0	burning oak nw ne se_0	burning oak nw ne sw se_0	burning oak se_0	burning oak sw_0									
+dark oak nw sw	dark oak dense	dark oak ne se		dark oak ne	dark oak nw	burning oak nw sw_0	burning oak dense_0	burning oak ne se_0		burning oak ne_0	burning oak nw_0									
+dark oak nw sw se	dark oak sw se	dark oak ne sw se		dark oak nw se	dark oak ne sw	burning oak nw sw se_0	burning oak sw se_0	burning oak ne sw se_0		burning oak nw se_0	burning oak ne sw_0									
+light snowy oak nw ne sw	light snowy oak nw ne	light snowy oak nw ne se	light snowy oak nw ne sw se	light snowy oak se	light snowy oak sw	light snowy bare oak nw ne sw	light snowy bare oak nw ne	light snowy bare oak nw ne se	light snowy bare oak nw ne sw se	light snowy bare oak se	light snowy bare oak sw									
+light snowy oak nw sw	light snowy oak dense	light snowy oak ne se		light snowy oak ne	light snowy oak nw	light snowy bare oak nw sw	light snowy bare oak dense	light snowy bare oak ne se		light snowy bare oak ne	light snowy bare oak nw									
+light snowy oak nw sw se	light snowy oak sw se	light snowy oak ne sw se		light snowy oak nw se	light snowy oak ne sw	light snowy bare oak nw sw se	light snowy bare oak sw se	light snowy bare oak ne sw se		light snowy bare oak nw se	light snowy bare oak ne sw									
+dark snowy oak nw ne sw	dark snowy oak nw ne	dark snowy oak nw ne se	dark snowy oak nw ne sw se	dark snowy oak se	dark snowy oak sw	dark snowy bare oak nw ne sw	dark snowy bare oak nw ne	dark snowy bare oak nw ne se	dark snowy bare oak nw ne sw se	dark snowy bare oak se	dark snowy bare oak sw									
+dark snowy oak nw sw	dark snowy oak dense	dark snowy oak ne se		dark snowy oak ne	dark snowy oak nw	dark snowy bare oak nw sw	dark snowy bare oak dense	dark snowy bare oak ne se		dark snowy bare oak ne	dark snowy bare oak nw									
+dark snowy oak nw sw se	dark snowy oak sw se	dark snowy oak ne sw se		dark snowy oak nw se	dark snowy oak ne sw	dark snowy bare oak nw sw se	dark snowy bare oak sw se	dark snowy bare oak ne sw se		dark snowy bare oak nw se	dark snowy bare oak ne sw									
+light pine nw ne sw	light pine nw ne	light pine nw ne se	light pine nw ne sw se	light pine se	light pine sw	bare pine nw ne sw	bare pine nw ne	bare pine nw ne se	bare pine nw ne sw se	bare pine se	bare pine sw									
+light pine nw sw	light pine dense	light pine ne se		light pine ne	light pine nw	bare pine nw sw	bare pine dense	bare pine ne se		bare pine ne	bare pine nw									
+light pine nw sw se	light pine sw se	light pine ne sw se		light pine nw se	light pine ne sw	bare pine nw sw se	bare pine sw se	bare pine ne sw se		bare pine nw se	bare pine ne sw									
+dark pine nw ne sw	dark pine nw ne	dark pine nw ne se	dark pine nw ne sw se	dark pine se	dark pine sw	burning pine nw ne sw_0	burning pine nw ne_0	burning pine nw ne se_0	burning pine nw ne sw se_0	burning pine se_0	burning pine sw_0									
+dark pine nw sw	dark pine dense	dark pine ne se		dark pine ne	dark pine nw	burning pine nw sw_0	burning pine dense_0	burning pine ne se_0		burning pine ne_0	burning pine nw_0									
+dark pine nw sw se	dark pine sw se	dark pine ne sw se		dark pine nw se	dark pine ne sw	burning pine nw sw se_0	burning pine sw se_0	burning pine ne sw se_0		burning pine nw se_0	burning pine ne sw_0									
+light snowy pine nw ne sw	light snowy pine nw ne	light snowy pine nw ne se	light snowy pine nw ne sw se	light snowy pine se	light snowy pine sw	light snowy bare pine nw ne sw	light snowy bare pine nw ne	light snowy bare pine nw ne se	light snowy bare pine nw ne sw se	light snowy bare pine se	light snowy bare pine sw									
+light snowy pine nw sw	light snowy pine dense	light snowy pine ne se		light snowy pine ne	light snowy pine nw	light snowy bare pine nw sw	light snowy bare pine dense	light snowy bare pine ne se		light snowy bare pine ne	light snowy bare pine nw									
+light snowy pine nw sw se	light snowy pine sw se	light snowy pine ne sw se		light snowy pine nw se	light snowy pine ne sw	light snowy bare pine nw sw se	light snowy bare pine sw se	light snowy bare pine ne sw se		light snowy bare pine nw se	light snowy bare pine ne sw									
+dark snowy pine nw ne sw	dark snowy pine nw ne	dark snowy pine nw ne se	dark snowy pine nw ne sw se	dark snowy pine se	dark snowy pine sw	dark snowy bare pine nw ne sw	dark snowy bare pine nw ne	dark snowy bare pine nw ne se	dark snowy bare pine nw ne sw se	dark snowy bare pine se	dark snowy bare pine sw									
+dark snowy pine nw sw	dark snowy pine dense	dark snowy pine ne se		dark snowy pine ne	dark snowy pine nw	dark snowy bare pine nw sw	dark snowy bare pine dense	dark snowy bare pine ne se		dark snowy bare pine ne	dark snowy bare pine nw									
+dark snowy pine nw sw se	dark snowy pine sw se	dark snowy pine ne sw se		dark snowy pine nw se	dark snowy pine ne sw	dark snowy bare pine nw sw se	dark snowy bare pine sw se	dark snowy bare pine ne sw se		dark snowy bare pine nw se	dark snowy bare pine ne sw									
+cactus nw ne sw	cactus nw ne	cactus nw ne se	cactus nw ne sw se	cactus se	cactus sw	palm nw ne sw	palm nw ne	palm nw ne se	palm nw ne sw se	palm se	palm sw									
+cactus nw sw	cactus dense	cactus ne se		cactus ne	cactus nw	palm nw sw	palm dense	palm ne se		palm ne	palm nw									
+cactus nw sw se	cactus sw se	cactus ne sw se		cactus nw se	cactus ne sw	palm nw sw se	palm sw se	palm ne sw se		palm nw se	palm ne sw									
+brown fungus nw ne sw	brown fungus nw ne	brown fungus nw ne se	brown fungus nw ne sw se	brown fungus se	brown fungus sw	white fungus nw ne sw	white fungus nw ne	white fungus nw ne se	white fungus nw ne sw se	white fungus se	white fungus sw									
+brown fungus nw sw	brown fungus dense	brown fungus ne se		brown fungus ne	brown fungus nw	white fungus nw sw	white fungus dense	white fungus ne se		white fungus ne	white fungus nw									
+brown fungus nw sw se	brown fungus sw se	brown fungus ne sw se		brown fungus nw se	brown fungus ne sw	white fungus nw sw se	white fungus sw se	white fungus ne sw se		white fungus nw se	white fungus ne sw									
+light mangrove nw ne sw	light mangrove nw ne	light mangrove nw ne se	light mangrove nw ne sw se	light mangrove se	light mangrove sw	dark mangrove nw ne sw	dark mangrove nw ne	dark mangrove nw ne se	dark mangrove nw ne sw se	dark mangrove se	dark mangrove sw									
+light mangrove nw sw	light mangrove dense	light mangrove ne se		light mangrove ne	light mangrove nw	dark mangrove nw sw	dark mangrove dense	dark mangrove ne se		dark mangrove ne	dark mangrove nw									
+light mangrove nw sw se	light mangrove sw se	light mangrove ne sw se		light mangrove nw se	light mangrove ne sw	dark mangrove nw sw se	dark mangrove sw se	dark mangrove ne sw se		dark mangrove nw se	dark mangrove ne sw									
+																				
+Undead0																				
+kobold zombie	gnome zombie	orc zombie	dwarf zombie	elf zombie	human zombie	ettin zombie	giant zombie													
+kobold mummy	gnome mummy	orc mummy	dwarf mummy	elf mummy	human mummy	ettin mummy	giant mummy													
+skeleton	fire skeleton	plague skeleton	shadow skeleton	lich	demilich	master lich	archlich													
+vampire	vampire lord	vampire mage	vlad the impaler																	
+wisp	spirit	ghost	shade																	
+death	pestilence	famine																		
+wraith	nazgul	barrow wight																		
+charon	wizard of yendor	war																		
+ghoul	dark one																			
+meathead	small meathead																			
+																				
+Wall																				
+																				
+																				
+																				
+bright brick wall right down	bright brick wall left right	bright brick wall left down	bright brick wall flat	bright brick wall left right down			bright fort wall right down	bright fort wall left right	bright fort wall left down	bright fort wall flat	bright fort wall left right down			bright mine wall right down	bright mine wall left right	bright mine wall left down	bright mine wall flat	bright mine wall left right down		
+bright brick wall up down	bright brick wall center		bright brick wall right up down	bright brick wall left right up down	bright brick wall left up down		bright fort wall up down	bright fort wall center		bright fort wall right up down	bright fort wall left right up down	bright fort wall left up down		bright mine wall up down	bright mine wall center		bright mine wall right up down	bright mine wall left right up down	bright mine wall left up down	
+bright brick wall right up		bright brick wall left up		bright brick wall left right up			bright fort wall right up		bright fort wall left up		bright fort wall left right up			bright mine wall right up		bright mine wall left up		bright mine wall left right up		
+lit brick wall right down	lit brick wall left right	lit brick wall left down	lit brick wall flat	lit brick wall left right down			lit fort wall right down	lit fort wall left right	lit fort wall left down	lit fort wall flat	lit fort wall left right down			lit mine wall right down	lit mine wall left right	lit mine wall left down	lit mine wall flat	lit mine wall left right down		
+lit brick wall up down	lit brick wall center		lit brick wall right up down	lit brick wall left right up down	lit brick wall left up down		lit fort wall up down	lit fort wall center		lit fort wall right up down	lit fort wall left right up down	lit fort wall left up down		lit mine wall up down	lit mine wall center		lit mine wall right up down	lit mine wall left right up down	lit mine wall left up down	
+lit brick wall right up		lit brick wall left up		lit brick wall left right up			lit fort wall right up		lit fort wall left up		lit fort wall left right up			lit mine wall right up		lit mine wall left up		lit mine wall left right up		
+dim brick wall right down	dim brick wall left right	dim brick wall left down	dim brick wall flat	dim brick wall left right down			dim fort wall right down	dim fort wall left right	dim fort wall left down	dim fort wall flat	dim fort wall left right down			dim mine wall right down	dim mine wall left right	dim mine wall left down	dim mine wall flat	dim mine wall left right down		
+dim brick wall up down	dim brick wall center		dim brick wall right up down	dim brick wall left right up down	dim brick wall left up down		dim fort wall up down	dim fort wall center		dim fort wall right up down	dim fort wall left right up down	dim fort wall left up down		dim mine wall up down	dim mine wall center		dim mine wall right up down	dim mine wall left right up down	dim mine wall left up down	
+dim brick wall right up		dim brick wall left up		dim brick wall left right up			dim fort wall right up		dim fort wall left up		dim fort wall left right up			dim mine wall right up		dim mine wall left up		dim mine wall left right up		
+dark brick wall right down	dark brick wall left right	dark brick wall left down	dark brick wall flat	dark brick wall left right down			dark fort wall right down	dark fort wall left right	dark fort wall left down	dark fort wall flat	dark fort wall left right down			dark mine wall right down	dark mine wall left right	dark mine wall left down	dark mine wall flat	dark mine wall left right down		
+dark brick wall up down	dark brick wall center		dark brick wall right up down	dark brick wall left right up down	dark brick wall left up down		dark fort wall up down	dark fort wall center		dark fort wall right up down	dark fort wall left right up down	dark fort wall left up down		dark mine wall up down	dark mine wall center		dark mine wall right up down	dark mine wall left right up down	dark mine wall left up down	
+dark brick wall right up		dark brick wall left up		dark brick wall left right up			dark fort wall right up		dark fort wall left up		dark fort wall left right up			dark mine wall right up		dark mine wall left up		dark mine wall left right up		
+bright rock wall right down	bright rock wall left right	bright rock wall left down	bright rock wall flat	bright rock wall left right down			bright deep wall right down	bright deep wall left right	bright deep wall left down	bright deep wall flat	bright deep wall left right down			bright infernal wall right down	bright infernal wall left right	bright infernal wall left down	bright infernal wall flat	bright infernal wall left right down		
+bright rock wall up down	bright rock wall center		bright rock wall right up down	bright rock wall left right up down	bright rock wall left up down		bright deep wall up down	bright deep wall center		bright deep wall right up down	bright deep wall left right up down	bright deep wall left up down		bright infernal wall up down	bright infernal wall center		bright infernal wall right up down	bright infernal wall left right up down	bright infernal wall left up down	
+bright rock wall right up		bright rock wall left up		bright rock wall left right up			bright deep wall right up		bright deep wall left up		bright deep wall left right up			bright infernal wall right up		bright infernal wall left up		bright infernal wall left right up		
+lit rock wall right down	lit rock wall left right	lit rock wall left down	lit rock wall flat	lit rock wall left right down			lit deep wall right down	lit deep wall left right	lit deep wall left down	lit deep wall flat	lit deep wall left right down			lit infernal wall right down	lit infernal wall left right	lit infernal wall left down	lit infernal wall flat	lit infernal wall left right down		
+lit rock wall up down	lit rock wall center		lit rock wall right up down	lit rock wall left right up down	lit rock wall left up down		lit deep wall up down	lit deep wall center		lit deep wall right up down	lit deep wall left right up down	lit deep wall left up down		lit infernal wall up down	lit infernal wall center		lit infernal wall right up down	lit infernal wall left right up down	lit infernal wall left up down	
+lit rock wall right up		lit rock wall left up		lit rock wall left right up			lit deep wall right up		lit deep wall left up		lit deep wall left right up			lit infernal wall right up		lit infernal wall left up		lit infernal wall left right up		
+dim rock wall right down	dim rock wall left right	dim rock wall left down	dim rock wall flat	dim rock wall left right down			dim deep wall right down	dim deep wall left right	dim deep wall left down	dim deep wall flat	dim deep wall left right down			dim infernal wall right down	dim infernal wall left right	dim infernal wall left down	dim infernal wall flat	dim infernal wall left right down		
+dim rock wall up down	dim rock wall center		dim rock wall right up down	dim rock wall left right up down	dim rock wall left up down		dim deep wall up down	dim deep wall center		dim deep wall right up down	dim deep wall left right up down	dim deep wall left up down		dim infernal wall up down	dim infernal wall center		dim infernal wall right up down	dim infernal wall left right up down	dim infernal wall left up down	
+dim rock wall right up		dim rock wall left up		dim rock wall left right up			dim deep wall right up		dim deep wall left up		dim deep wall left right up			dim infernal wall right up		dim infernal wall left up		dim infernal wall left right up		
+dark rock wall right down	dark rock wall left right	dark rock wall left down	dark rock wall flat	dark rock wall left right down			dark deep wall right down	dark deep wall left right	dark deep wall left down	dark deep wall flat	dark deep wall left right down			dark infernal wall right down	dark infernal wall left right	dark infernal wall left down	dark infernal wall flat	dark infernal wall left right down		
+dark rock wall up down	dark rock wall center		dark rock wall right up down	dark rock wall left right up down	dark rock wall left up down		dark deep wall up down	dark deep wall center		dark deep wall right up down	dark deep wall left right up down	dark deep wall left up down		dark infernal wall up down	dark infernal wall center		dark infernal wall right up down	dark infernal wall left right up down	dark infernal wall left up down	
+dark rock wall right up		dark rock wall left up		dark rock wall left right up			dark deep wall right up		dark deep wall left up		dark deep wall left right up			dark infernal wall right up		dark infernal wall left up		dark infernal wall left right up		
+bright ice wall right down	bright ice wall left right	bright ice wall left down	bright ice wall flat	bright ice wall left right down			bright heat wall right down	bright heat wall left right	bright heat wall left down	bright heat wall flat	bright heat wall left right down			bright acid wall right down	bright acid wall left right	bright acid wall left down	bright acid wall flat	bright acid wall left right down		
+bright ice wall up down	bright ice wall center		bright ice wall right up down	bright ice wall left right up down	bright ice wall left up down		bright heat wall up down	bright heat wall center		bright heat wall right up down	bright heat wall left right up down	bright heat wall left up down		bright acid wall up down	bright acid wall center		bright acid wall right up down	bright acid wall left right up down	bright acid wall left up down	
+bright ice wall right up		bright ice wall left up		bright ice wall left right up			bright heat wall right up		bright heat wall left up		bright heat wall left right up			bright acid wall right up		bright acid wall left up		bright acid wall left right up		
+lit ice wall right down	lit ice wall left right	lit ice wall left down	lit ice wall flat	lit ice wall left right down			lit heat wall right down	lit heat wall left right	lit heat wall left down	lit heat wall flat	lit heat wall left right down			lit acid wall right down	lit acid wall left right	lit acid wall left down	lit acid wall flat	lit acid wall left right down		
+lit ice wall up down	lit ice wall center		lit ice wall right up down	lit ice wall left right up down	lit ice wall left up down		lit heat wall up down	lit heat wall center		lit heat wall right up down	lit heat wall left right up down	lit heat wall left up down		lit acid wall up down	lit acid wall center		lit acid wall right up down	lit acid wall left right up down	lit acid wall left up down	
+lit ice wall right up		lit ice wall left up		lit ice wall left right up			lit heat wall right up		lit heat wall left up		lit heat wall left right up			lit acid wall right up		lit acid wall left up		lit acid wall left right up		
+dim ice wall right down	dim ice wall left right	dim ice wall left down	dim ice wall flat	dim ice wall left right down			dim heat wall right down	dim heat wall left right	dim heat wall left down	dim heat wall flat	dim heat wall left right down			dim acid wall right down	dim acid wall left right	dim acid wall left down	dim acid wall flat	dim acid wall left right down		
+dim ice wall up down	dim ice wall center		dim ice wall right up down	dim ice wall left right up down	dim ice wall left up down		dim heat wall up down	dim heat wall center		dim heat wall right up down	dim heat wall left right up down	dim heat wall left up down		dim acid wall up down	dim acid wall center		dim acid wall right up down	dim acid wall left right up down	dim acid wall left up down	
+dim ice wall right up		dim ice wall left up		dim ice wall left right up			dim heat wall right up		dim heat wall left up		dim heat wall left right up			dim acid wall right up		dim acid wall left up		dim acid wall left right up		
+dark ice wall right down	dark ice wall left right	dark ice wall left down	dark ice wall flat	dark ice wall left right down			dark heat wall right down	dark heat wall left right	dark heat wall left down	dark heat wall flat	dark heat wall left right down			dark acid wall right down	dark acid wall left right	dark acid wall left down	dark acid wall flat	dark acid wall left right down		
+dark ice wall up down	dark ice wall center		dark ice wall right up down	dark ice wall left right up down	dark ice wall left up down		dark heat wall up down	dark heat wall center		dark heat wall right up down	dark heat wall left right up down	dark heat wall left up down		dark acid wall up down	dark acid wall center		dark acid wall right up down	dark acid wall left right up down	dark acid wall left up down	
+dark ice wall right up		dark ice wall left up		dark ice wall left right up			dark heat wall right up		dark heat wall left up		dark heat wall left right up			dark acid wall right up		dark acid wall left up		dark acid wall left right up		
+bright orange wall right down	bright orange wall left right	bright orange wall left down	bright orange wall flat	bright orange wall left right down			bright blue wall right down	bright blue wall left right	bright blue wall left down	bright blue wall flat	bright blue wall left right down			bright snow wall right down	bright snow wall left right	bright snow wall left down	bright snow wall flat	bright snow wall left right down		
+bright orange wall up down	bright orange wall center		bright orange wall right up down	bright orange wall left right up down	bright orange wall left up down		bright blue wall up down	bright blue wall center		bright blue wall right up down	bright blue wall left right up down	bright blue wall left up down		bright snow wall up down	bright snow wall center		bright snow wall right up down	bright snow wall left right up down	bright snow wall left up down	
+bright orange wall right up		bright orange wall left up		bright orange wall left right up			bright blue wall right up		bright blue wall left up		bright blue wall left right up			bright snow wall right up		bright snow wall left up		bright snow wall left right up		
+lit orange wall right down	lit orange wall left right	lit orange wall left down	lit orange wall flat	lit orange wall left right down			lit blue wall right down	lit blue wall left right	lit blue wall left down	lit blue wall flat	lit blue wall left right down			lit snow wall right down	lit snow wall left right	lit snow wall left down	lit snow wall flat	lit snow wall left right down		
+lit orange wall up down	lit orange wall center		lit orange wall right up down	lit orange wall left right up down	lit orange wall left up down		lit blue wall up down	lit blue wall center		lit blue wall right up down	lit blue wall left right up down	lit blue wall left up down		lit snow wall up down	lit snow wall center		lit snow wall right up down	lit snow wall left right up down	lit snow wall left up down	
+lit orange wall right up		lit orange wall left up		lit orange wall left right up			lit blue wall right up		lit blue wall left up		lit blue wall left right up			lit snow wall right up		lit snow wall left up		lit snow wall left right up		
+dim orange wall right down	dim orange wall left right	dim orange wall left down	dim orange wall flat	dim orange wall left right down			dim blue wall right down	dim blue wall left right	dim blue wall left down	dim blue wall flat	dim blue wall left right down			dim snow wall right down	dim snow wall left right	dim snow wall left down	dim snow wall flat	dim snow wall left right down		
+dim orange wall up down	dim orange wall center		dim orange wall right up down	dim orange wall left right up down	dim orange wall left up down		dim blue wall up down	dim blue wall center		dim blue wall right up down	dim blue wall left right up down	dim blue wall left up down		dim snow wall up down	dim snow wall center		dim snow wall right up down	dim snow wall left right up down	dim snow wall left up down	
+dim orange wall right up		dim orange wall left up		dim orange wall left right up			dim blue wall right up		dim blue wall left up		dim blue wall left right up			dim snow wall right up		dim snow wall left up		dim snow wall left right up		
+dark orange wall right down	dark orange wall left right	dark orange wall left down	dark orange wall flat	dark orange wall left right down			dark blue wall right down	dark blue wall left right	dark blue wall left down	dark blue wall flat	dark blue wall left right down			dark snow wall right down	dark snow wall left right	dark snow wall left down	dark snow wall flat	dark snow wall left right down		
+dark orange wall up down	dark orange wall center		dark orange wall right up down	dark orange wall left right up down	dark orange wall left up down		dark blue wall up down	dark blue wall center		dark blue wall right up down	dark blue wall left right up down	dark blue wall left up down		dark snow wall up down	dark snow wall center		dark snow wall right up down	dark snow wall left right up down	dark snow wall left up down	
+dark orange wall right up		dark orange wall left up		dark orange wall left right up			dark blue wall right up		dark blue wall left up		dark blue wall left right up			dark snow wall right up		dark snow wall left up		dark snow wall left right up		
+																				
+Wand																				
+glass wand	balsa wand	crystal wand	maple wand	pine wand	oak wand	ebony wand	marble wand													
+tin wand	brass wand	copper wand	silver wand	platinum wand	iridium wand	zinc wand	aluminum wand													
+uranium wand	iron wand	steel wand	hexagonal wand	short wand	runed wand	long wand	curved wand													
+forked wand	spiked wand	jeweled wand	black wand	cold steel wand	ivory wand	chilly wand	hot wand													
+thick wand	swollen wand	perforated wand	cherry wand	koa wand	redwood wand	fortified wand	glimmering wand													
+dull wand	mirrored wand	rusted wand	bent wand	adamantine wand	bone wand	white wand	pocket wand													
+glowing wand																				
+																				
+Warrior																				
+warrior s_0	warrior s_1	warrior s_2	warrior s_3																	
+warrior w_0	warrior w_1	warrior w_2	warrior w_3																	
+warrior e_0	warrior e_1	warrior e_2	warrior e_3																	
+warrior n_0	warrior n_1	warrior n_2	warrior n_3																	

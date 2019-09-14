@@ -40,16 +40,32 @@ public class AtlasEnumGenerator extends ApplicationAdapter {
             indexCounts.put(region.name, Math.max(indexCounts.getOrDefault(region.name, -1), region.index));
         }
         StringBuilder sb = new StringBuilder(indexCounts.size() * 16);
+        sb.append("import com.badlogic.gdx.graphics.g2d.TextureAtlas;\n")
+                .append("import com.badlogic.gdx.utils.Array;\n")
+                .append("import java.util.HashMap;\n\n");
         sb.append("public enum Dawnlike {\n");
         for (Map.Entry<String, Integer> e : indexCounts.entrySet())
         {
-            sb.append(nameEnum(e.getKey())).append("(\"").append(e.getKey()).append("\", ").append(e.getValue() + 1 | e.getValue() >> 31).append("),\n");
+            sb.append('\t').append(nameEnum(e.getKey())).append("(\"").append(e.getKey())
+                    .append("\", ").append(e.getValue() + 1 | e.getValue() >> 31).append("),\n");
         }
         sb.setCharAt(sb.length() - 2, ';');
-        sb.append("\nprotected Dawnlike(String name, int indices) {\n")
-                .append("  this.name = name;\n")
-                .append("  this.indices = indices;\n")
-                .append("}\n").append("}\n");
+        sb
+                .append("\n\tpublic final String name;\n")
+                .append("\tpublic final int indices;\n")
+                .append("\tprotected Dawnlike(String name, int indices) {\n")
+                .append("\t\tthis.name = name;\n")
+                .append("\t\tthis.indices = indices;\n")
+                .append("\t}\n")
+                .append("\tpublic static HashMap<Dawnlike, Array<TextureAtlas.AtlasRegion>> mapping(TextureAtlas atlas) {\n")
+                .append("\t\tfinal Dawnlike[] enums = values();\n")
+                .append("\t\tfinal HashMap<Dawnlike, Array<TextureAtlas.AtlasRegion>> hm = new HashMap<Dawnlike, Array<TextureAtlas.AtlasRegion>>(enums.length);\n")
+                .append("\t\tfor(Dawnlike e : enums) {\n")
+                .append("\t\t\thm.put(e, atlas.findRegions(e.name));\n")
+                .append("\t\t}\n")
+                .append("\t\treturn hm;\n")
+                .append("\t}\n")
+                .append("}\n");
 
         System.out.println(sb);
     }

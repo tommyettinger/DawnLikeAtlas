@@ -8,5 +8,5 @@ baby gray horse	gray horse	strong gray horse
 baby black horse	black horse	strong black horse					
 baby deer	deer						
 mastodon	mumak						
-titanothere	baluchitherium  						
+titanothere	baluchitherium 						
 wumpus	leocrotta						

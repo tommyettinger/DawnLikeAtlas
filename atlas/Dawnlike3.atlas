@@ -1999,14 +1999,14 @@ balsa wand
   orig: 48,48
   offset: 0,0
   index: -1
-baluchitherium  
+baluchitherium
   rotate: false
   xy: 3732,2220
   size: 48,48
   orig: 48,48
   offset: 0,0
   index: 0
-baluchitherium  
+baluchitherium
   rotate: false
   xy: 3786,2274
   size: 48,48
@@ -29880,7 +29880,7 @@ purple worm
   orig: 48,48
   offset: 0,0
   index: 0
-purple-red potion
+purple red potion
   rotate: false
   xy: 4758,2814
   size: 48,48
@@ -36880,7 +36880,7 @@ white wand
   orig: 48,48
   offset: 0,0
   index: -1
-white-handed shield
+white handed shield
   rotate: false
   xy: 2490,2760
   size: 48,48

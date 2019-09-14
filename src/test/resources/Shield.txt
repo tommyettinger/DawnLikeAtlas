@@ -1,1 +1,1 @@
-small shield	elven shield	white-handed shield	orcish shield	large shield	dwarvish shield	polished silver shield
+small shield	elven shield	white handed shield	orcish shield	large shield	dwarvish shield	polished silver shield

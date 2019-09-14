@@ -1,5 +1,5 @@
 ruby potion	pink potion	orange potion	yellow potion	emerald potion	dark green potion	cyan potion	sky blue potion
-brilliant blue potion	magenta potion	purple-red potion	puce potion	milky potion	swirly potion	bubbly potion	smoky potion
+brilliant blue potion	magenta potion	purple red potion	puce potion	milky potion	swirly potion	bubbly potion	smoky potion
 cloudy potion	effervescent potion	black potion	golden potion	brown potion	fizzy potion	dark potion	white potion
 murky potion	syrupy potion	sparkly potion	radiant potion	dripping potion	smelly potion	frag grenade	gas grenade
 winged potion	legged potion	spraying potion	sloshing potion	sealed potion	clear potion	sanguine potion	sinister potion

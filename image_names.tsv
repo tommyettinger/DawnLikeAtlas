@@ -510,7 +510,7 @@ ordinary kobold	kobold knight	kobold priest	kobold rogue	kobold ranger	kobold ba
 																				
 Potion																				
 ruby potion	pink potion	orange potion	yellow potion	emerald potion	dark green potion	cyan potion	sky blue potion													
-brilliant blue potion	magenta potion	purple-red potion	puce potion	milky potion	swirly potion	bubbly potion	smoky potion													
+brilliant blue potion	magenta potion	purple red potion	puce potion	milky potion	swirly potion	bubbly potion	smoky potion													
 cloudy potion	effervescent potion	black potion	golden potion	brown potion	fizzy potion	dark potion	white potion													
 murky potion	syrupy potion	sparkly potion	radiant potion	dripping potion	smelly potion	frag grenade	gas grenade													
 winged potion	legged potion	spraying potion	sloshing potion	sealed potion	clear potion	sanguine potion	sinister potion													
@@ -526,7 +526,7 @@ baby gray horse	gray horse	strong gray horse
 baby black horse	black horse	strong black horse																		
 baby deer	deer																			
 mastodon	mumak																			
-titanothere	baluchitherium 																			
+titanothere	baluchitherium																			
 wumpus	leocrotta																			
 																				
 Reptile0																				
@@ -580,7 +580,7 @@ mystery green scroll	ancient yellow scroll	ancient blue scroll	mystery blue scro
 divine gray scroll	divine cyan scroll	mail	blank scroll																	
 																				
 Shield																				
-small shield	elven shield	white-handed shield	orcish shield	large shield	dwarvish shield	polished silver shield														
+small shield	elven shield	white handed shield	orcish shield	large shield	dwarvish shield	polished silver shield														
 																				
 ShortWep																				
 dagger	elven dagger	orcish dagger	silver dagger	crysknife	scalpel	knife	stiletto													

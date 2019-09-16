@@ -27,7 +27,7 @@ wrapY=ClampToEdge
 premultiplyAlpha=false
 grid=false
 square=false
-bleed=true
+bleed=false
 limitMemory=true
 useIndexes=true
 

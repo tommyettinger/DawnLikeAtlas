@@ -2,6 +2,7 @@ import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
+import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ObjectMap;
@@ -73,13 +74,23 @@ public class AtlasEnumGenerator extends ApplicationAdapter {
 
         System.out.println(sb);
     }
-    public static LinkedHashMap<String, Array<TextureAtlas.AtlasRegion>> mapping(final TextureAtlas atlas){ 
+    public static LinkedHashMap<String, Array<TextureAtlas.AtlasRegion>> mapping(final TextureAtlas atlas){
         final Array<TextureAtlas.AtlasRegion> regions = atlas.getRegions();
-        final TextureAtlas.AtlasRegion[] items = regions.items;
+        TextureAtlas.AtlasRegion item;
         final LinkedHashMap<String, Array<TextureAtlas.AtlasRegion>> lhm = new LinkedHashMap<String, Array<TextureAtlas.AtlasRegion>>(regions.size, 0.5f);
         for (int i = 0; i < regions.size; i++) {
-            if(!lhm.containsKey(items[i].name)) 
-                lhm.put(items[i].name, atlas.findRegions(items[i].name));
+            if(!lhm.containsKey((item = regions.get(i)).name))
+                lhm.put(item.name, atlas.findRegions(item.name));
+        }
+        return lhm;
+    }
+    public static LinkedHashMap<String, Animation<TextureAtlas.AtlasRegion>> animationMapping(final TextureAtlas atlas, final float frameTime){
+        final Array<TextureAtlas.AtlasRegion> regions = atlas.getRegions();
+        TextureAtlas.AtlasRegion item;
+        final LinkedHashMap<String, Animation<TextureAtlas.AtlasRegion>> lhm = new LinkedHashMap<>(regions.size, 0.5f);
+        for (int i = 0; i < regions.size; i++) {
+            if(!lhm.containsKey((item = regions.get(i)).name))
+                lhm.put(item.name, new Animation<>(frameTime, atlas.findRegions(item.name), Animation.PlayMode.LOOP));
         }
         return lhm;
     }

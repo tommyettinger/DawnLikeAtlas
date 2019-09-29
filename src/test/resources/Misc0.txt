@@ -1,4 +1,4 @@
-rodent of unusual size	ratzilla	snowy owlbear	owlbear	werebat	pegasus	kirin
+rodent of unusual size	ratzilla	snowy owlbear	owlbear	spriggan	pegasus	kirin
 gremlin	gargoyle	winged gargoyle	uranium imp			
 kobold	large kobold	kobold shaman	kobold lord			
 monkey	ape	carnivorous ape				

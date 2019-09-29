@@ -5,7 +5,7 @@ baby kingwyrm	kingwyrm	baby searwyrm	searwyrm	hydra	baby hydra
 garter snake	snake	python	water moccasin	pit viper	cobra	asp	serpent
 baby red naga	red naga	baby black naga	black naga	baby golden naga	golden naga	baby white naga	white naga
 baby guardian naga	guardian naga						
-baby cockatrice	cockatrice	baby pyrolisk	baby pyrolisk				
+baby cockatrice	cockatrice	baby pyrolisk	pyrolisk				
 lizard	iguana	chameleon					
 baby crocodile	crocodile						
 gecko	komodo dragon	gila monster	newt				

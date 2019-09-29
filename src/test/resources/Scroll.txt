@@ -1,6 +1,6 @@
 white scroll	long scroll	dusty white scroll	dusty cyan scroll	dusty yellow scroll	gray scroll	dusty orange scroll	dusty gray scroll
 dusty red scroll	dusty dark scroll	red scroll	orange scroll	yellow scroll	dusty green scroll	green scroll	dusty blue scroll
 blue scroll	cyan scroll	dark scroll	bloody scroll	dusty bloody scroll	mystery white scroll	ancient white scroll	ancient cyan scroll
-ancient yellow scroll	mystery gray scroll	ancient orange scroll	ancient gray scroll	mystery red scroll	mystery orange scroll	mystery yellow scroll	ancient green scroll
+ancient orange scroll	mystery gray scroll	ancient red scroll	ancient gray scroll	mystery red scroll	mystery orange scroll	mystery yellow scroll	ancient green scroll
 mystery green scroll	ancient yellow scroll	ancient blue scroll	mystery blue scroll	ancient dark scroll	mystery dark scroll	sacred gray scroll	sacred cyan scroll
 divine gray scroll	divine cyan scroll	mail	blank scroll				

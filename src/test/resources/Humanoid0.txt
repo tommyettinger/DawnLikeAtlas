@@ -1,6 +1,6 @@
 giant	stone giant	hill giant	fire giant	frost giant	storm giant	ettin	titan
 minotaur	cyclops	surtur					
-keystone kop	kop sergeant	kop lieutenant	kop kaptain	shopkeeper	executioner	ninja	prisoner
+keystone kop	kop sergeant	kop lieutenant	kop kaptain	shopkeeper	executioner	assassin	prisoner
 forest sprite	forest fairy	forest spirit	mountain sprite	mountain fairy	mountain spirit	green wings	gold wings
 orc	hill orc	deep orc	militant orc	orc shaman	orc king	uruk	
 soldier	sergeant	lieutenant	captain	watchman	watch captain	guard	

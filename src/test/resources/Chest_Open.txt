@@ -1,3 +1,3 @@
-open chest	open big chest	broken chest	open safe	open big safe	broken safe	open ice chest	broken ice chest
-open barrel	open keg	broken barrel	broken keg				
-bag	waterskin	magic bag_1	hungry bag				
+open chest	open big chest		open safe	open big safe		open ice chest	
+open barrel	open keg						
+		magic bag_1					

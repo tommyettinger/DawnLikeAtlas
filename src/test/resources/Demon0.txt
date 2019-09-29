@@ -1,7 +1,7 @@
 barbed devil	marilith	vrock	lava demon	juiblex	yeenoghu	orcus	geryon
-sandestin	lesser devil	nalfeshnee	pit fiend	horned devil	minion of huhetotl	water demon	mail daemon
+sandestin	lesser devil	pit fiend	nalzok	ixoth	minion of huhetotl	water demon	mail daemon
 asmodeus	baalzebub	dispater	erinys	demogorgon	cthulhu	balrog	
-bone devil	ice devil	fire devil					
+bone devil	ice devil	horned devil					
 homunculus	manes	lemure					
 imp	quasit						
 succubus	incubus						

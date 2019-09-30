@@ -39,5 +39,5 @@ inputFiles=[{path:renamed,type:Input,dirFilePrefix:null,recursive:false,flattenP
 
 version=4.8.2
 fileTypeType=png
-fileTypeData={encoding:RGBA8888,compType:PNG8,compData:"{level:6,threshold:0,dithering:false}"}
+fileTypeData={encoding:RGBA8888,compType:PNG8,compData:"{level:5,threshold:0,dithering:false}"}
 previewBackgroundColor=ffffffff

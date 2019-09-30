@@ -145,6 +145,13 @@ public class Palettizer extends ApplicationAdapter {
 
     public void split() {
         try {
+            {
+                Gdx.files.local("renamed").mkdirs();
+                Pixmap p = new Pixmap(Gdx.files.internal("clumped/Effect0.png"));
+                png8.writePreciseSection(Gdx.files.local("renamed/pixel.png"),
+                        p, Coloring.DB16, 24, 24, 1, 1);
+            }
+
 //            for(String name : listing) {
 //                Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
 //                png8.writePrecisely(Gdx.files.local("flat/" + name), p, Coloring.DB16, true, 0);
@@ -173,21 +180,22 @@ public class Palettizer extends ApplicationAdapter {
 //                    }
 //                }
 //            }
-            for(String name : altListing) {
-                Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
-                reducer.analyze(p, 0);
-//                png8.writePrecisely(Gdx.files.local("flat/" + name), p, true, 0);
-                int frame = -1;
-                String abbr = name.substring(0, name.length() - 4);
-                int w = p.getWidth() >>> 4, h = p.getHeight() >>> 4;
-                Gdx.files.local("altIndividual").mkdirs();
-                for (int y = 0; y < h; y++) {
-                    for (int x = 0; x < w; x++) {
-                        png8.writePreciseSection(Gdx.files.local("altIndividual/"+abbr+"_"+x+"x"+y+".png"),
-                                p, null, x<<4, y<<4, 16, 16);
-                    }
-                }
-            }
+
+//            for(String name : altListing) {
+//                Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
+//                reducer.analyze(p, 0);
+////                png8.writePrecisely(Gdx.files.local("flat/" + name), p, true, 0);
+//                int frame = -1;
+//                String abbr = name.substring(0, name.length() - 4);
+//                int w = p.getWidth() >>> 4, h = p.getHeight() >>> 4;
+//                Gdx.files.local("altIndividual").mkdirs();
+//                for (int y = 0; y < h; y++) {
+//                    for (int x = 0; x < w; x++) {
+//                        png8.writePreciseSection(Gdx.files.local("altIndividual/"+abbr+"_"+x+"x"+y+".png"),
+//                                p, null, x<<4, y<<4, 16, 16);
+//                    }
+//                }
+//            }
         } catch (IOException ignored) {
         }
     }

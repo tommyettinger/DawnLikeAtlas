@@ -673,8 +673,8 @@ public class PaletteReducer {
      * Constructs a default PaletteReducer that uses the DawnBringer Aurora palette.
      */
     public PaletteReducer() {
-        //this(Coloring.AURORA);
-        exact(Coloring.AURORA, ENCODED_AURORA);
+        this(Coloring.DB16);
+//        exact(Coloring.AURORA, ENCODED_AURORA);
     }
 
     /**

@@ -227,11 +227,6 @@ target/
 
 *.jar
 
-# javadoc
-*.html
-*.css
-
-
 # jEdit garbage
 *~
 *#*#

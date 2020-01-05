@@ -31,10 +31,10 @@ public class Scale2K extends ApplicationAdapter {
 
 	 public static void scale2x (ByteBuffer dest, int A, int B, int C, int D, int E, int F, int G, int H, int I, int p0, int p1,
 		 int p2, int p3) {
-		  dest.putInt(p0, (D == B && B != F && D != H) && E != 0 ? D : E);
-		  dest.putInt(p1, (B == F && B != D && F != H) && E != 0 ? F : E);
-		  dest.putInt(p2, (D == H && D != B && H != F) && E != 0 ? D : E);
-		  dest.putInt(p3, (H == F && D != H && B != F) && E != 0 ? F : E);
+		  dest.putInt(p0, D != 0 && ((D == B && B != F && D != H) || (E == 0 && D != 0 && B != 0)) ? D : E);
+		  dest.putInt(p1, B != 0 && ((B == F && B != D && F != H) || (E == 0 && B != 0 && F != 0)) ? B : E);
+		  dest.putInt(p2, H != 0 && ((D == H && D != B && H != F) || (E == 0 && D != 0 && H != 0)) ? H : E);
+		  dest.putInt(p3, F != 0 && ((H == F && D != H && B != F) || (E == 0 && H != 0 && F != 0)) ? F : E);
 	 }
 	 public static void scale2k (ByteBuffer dest, int A, int B, int C, int D, int E, int F, int G, int H, int I, int p0, int p1,
 		 int p2, int p3) {
@@ -83,7 +83,15 @@ public class Scale2K extends ApplicationAdapter {
 					 p1 = (y * dw + x << 1 | 1) << 2;
 					 p2 = ((y * dw + x << 1) + dw) << 2;
 					 p3 = ((y * dw + x << 1 | 1) + dw) << 2;
+					 
 					 scale2x(pixels, A, B, C, D, E, F, G, H, I, p0, p1, p2, p3);
+
+//					 scale2x(pixels, A, B, C, D, E, F, G, H, I, p0, p1, p2, p3);
+//					 scale2x(pixels, G, D, A, H, E, B, I, F, C, p2, p0, p3, p1);
+//					 scale2x(pixels, I, H, G, F, E, D, C, B, A, p3, p2, p1, p0);
+//					 scale2x(pixels, C, F, I, B, E, H, A, D, G, p1, p3, p0, p2);
+
+
 //					 scale2k(pixels, A, B, C, D, E, F, G, H, I, p0, p1, p2, p3);
 //					 scale2k(pixels, G, D, A, H, E, B, I, F, C, p2, p0, p3, p1);
 //					 scale2k(pixels, I, H, G, F, E, D, C, B, A, p3, p2, p1, p0);
@@ -100,7 +108,8 @@ public class Scale2K extends ApplicationAdapter {
 		  png.setFlipY(false);
 		  png.palette = new PaletteReducer(Coloring.DB16);
 		  try {
-				png.writePrecisely(Gdx.files.local("alternateScaling/Dawnlike2.png"), dest, Coloring.DB16, false, 64);
+				Gdx.files.local("alternateScaling/next").mkdirs();
+				png.writePrecisely(Gdx.files.local("alternateScaling/next/Dawnlike2.png"), dest, Coloring.DB16, false, 64);
 		  } catch (IOException e) {
 				e.printStackTrace();
 		  }

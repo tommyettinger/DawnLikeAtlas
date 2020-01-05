@@ -101,15 +101,18 @@ public class Scale2K extends ApplicationAdapter {
 	 }
 
 	 public void create () {
-		  Pixmap source = new Pixmap(Gdx.files.local("atlasWithTallFont/Dawnlike.png"));
+		  Pixmap source = new Pixmap(Gdx.files.local("atlas/Dawnlike.png"));
 		  Pixmap dest = new Pixmap(source.getWidth() * 2, source.getHeight() * 2, Pixmap.Format.RGBA8888);
+		  Pixmap dest4 = new Pixmap(source.getWidth() * 4, source.getHeight() * 4, Pixmap.Format.RGBA8888);
 		  scale(source, dest);
+		  scale(dest, dest4);
 		  PNG8 png = new PNG8();
 		  png.setFlipY(false);
 		  png.palette = new PaletteReducer(Coloring.DB16);
 		  try {
-				Gdx.files.local("alternateScaling/next").mkdirs();
-				png.writePrecisely(Gdx.files.local("alternateScaling/next/Dawnlike2.png"), dest, Coloring.DB16, false, 64);
+//				Gdx.files.local("alternateScaling/next").mkdirs();
+				png.writePrecisely(Gdx.files.local("atlas/Dawnlike2.png"), dest, Coloring.DB16, false, 64);
+				png.writePrecisely(Gdx.files.local("atlas/Dawnlike4.png"), dest4, Coloring.DB16, false, 64);
 		  } catch (IOException e) {
 				e.printStackTrace();
 		  }

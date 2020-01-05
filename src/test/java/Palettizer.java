@@ -171,6 +171,7 @@ public class Palettizer extends ApplicationAdapter {
 //                }
 //            }
 
+            //unused
 //            for(String name : altListing) {
 //                Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
 //                reducer.analyze(p, 0);

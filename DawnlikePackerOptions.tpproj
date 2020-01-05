@@ -1,6 +1,6 @@
 name=Dawnlike
 filename=
-output=atlasWithTallFont/next
+output=atlas
 
 alias=true
 alphaThreshold=0
@@ -31,7 +31,7 @@ bleed=false
 limitMemory=true
 useIndexes=true
 
-scaleFactors=[{suffix:"",factor:1,resampling:bicubic}]
+scaleFactors=[{suffix:"",factor:1,resampling:nearest}]
 inputFiles=[{path:renamed,type:Input,dirFilePrefix:null,recursive:false,flattenPaths:false}]
 
 

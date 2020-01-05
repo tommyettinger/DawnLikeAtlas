@@ -33,7 +33,7 @@ public class Splitter extends ApplicationAdapter {
             "Cat0",
             "Chest_Closed",
             "Chest_Open",
-            "Decor0",
+            "Decor",
             "Demon0",
             "Dog0",
             "Door_Closed",
@@ -135,7 +135,7 @@ public class Splitter extends ApplicationAdapter {
                     }
                 }
             }
-            else if("GUI".equals(name) || "Ground".equals(name) || "Hill".equals(name) || "Map".equals(name)
+            else if("Decor".equals(name) || "GUI".equals(name) || "Ground".equals(name) || "Hill".equals(name) || "Map".equals(name)
                     || "Pit".equals(name) || "Trap".equals(name) || "Tree".equals(name))
             {
                 for (int i = 0; i < lines.length; i++) {
@@ -152,18 +152,18 @@ public class Splitter extends ApplicationAdapter {
                     }
                 }
             }
-            else if("Dungeon".equals(name))
-            {
-                for (int i = 0; i < lines.length; i++) {
-                    String[] cell = lines[i].split("\t");
-                    for (int j = 0; j < cell.length; j++) {
-                        if(! "".equals(cell[j]))
-                        {
-                            Gdx.files.local("altIndividual/"+name+"_"+j+"x"+i+".png").moveTo(Gdx.files.local("altIndividual/"+cell[j]+".png"));
-                        }
-                    }
-                }
-            }
+//            else if("Dungeon".equals(name))
+//            {
+//                for (int i = 0; i < lines.length; i++) {
+//                    String[] cell = lines[i].split("\t");
+//                    for (int j = 0; j < cell.length; j++) {
+//                        if(! "".equals(cell[j]))
+//                        {
+//                            Gdx.files.local("altIndividual/"+name+"_"+j+"x"+i+".png").moveTo(Gdx.files.local("altIndividual/"+cell[j]+".png"));
+//                        }
+//                    }
+//                }
+//            }
             else
             {
                 for (int i = 0; i < lines.length; i++) {
@@ -181,9 +181,14 @@ public class Splitter extends ApplicationAdapter {
     }
 
     public void animate() {
-        Gdx.files.local("animated/").mkdirs();
+        Gdx.files.local("docs/animated/").mkdirs();
         Array<Pixmap> arr = new Array<>(4);
         StringBuilder sb = new StringBuilder(65536);
+        sb.append("<html>\n" + "<head>\n" + "\t<title>Dawnlike Atlas Preview!</title>\n" + "</head>\n" + "<body>\n"
+           + "<p>This is a listing of the tiles in the <a href=\"https://opengameart.org/content/dawnlike-16x16-universal-rogue-like-tileset-v181\">DawnLike tileset by DragonDePlatino and DawnBringer</a>.\n"
+           + "The specific variant used is <a href=\"https://github.com/tommyettinger/DawnLikeAtlas\">DawnLikeAtlas</a>, which splits up DawnLike into these individual tiles for usage by libGDX in a TextureAtlas," 
+           + "or by other engines/frameworks that work better when accessing tiles by name.\n"
+           + "The tileset is CC-BY-4.0 licensed. The code is Apache 2.0 licensed.</p>\n" + "<br>\n");
         for(String name : listing) {
             String contents = Gdx.files.internal(name + ".txt").readString();
             String[] lines = contents.split("\\R");
@@ -201,7 +206,7 @@ public class Splitter extends ApplicationAdapter {
                             arr.add(new Pixmap(Gdx.files.local("renamed/"+cell[j]+"_0.png")));
                             arr.add(new Pixmap(Gdx.files.local("renamed/"+cell[j]+"_1.png")));
                             try {
-                                png8.write(Gdx.files.local("animated/"+cell[j]+".png"), arr, 2, false);
+                                png8.write(Gdx.files.local("docs/animated/"+cell[j]+".png"), arr, 2, false);
                             } catch (IOException e) {
                                 System.err.println("HAD A PROBLEM IN GROUP " + name2 + " WITH " + cell[j]);
                             }
@@ -228,7 +233,7 @@ public class Splitter extends ApplicationAdapter {
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j] + ".png")));
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j].substring(0, cell[j].length() - 2) + "_1.png")));
                                 try {
-                                    png8.write(Gdx.files.local("animated/" + cell[j].substring(0, cell[j].length() - 2) + ".png"), arr, 2, false);
+                                    png8.write(Gdx.files.local("docs/animated/" + cell[j].substring(0, cell[j].length() - 2) + ".png"), arr, 2, false);
                                 } catch (IOException e) {
                                     System.err.println("HAD A PROBLEM IN GROUP " + name2 + " WITH " + cell[j]);
                                 }
@@ -236,7 +241,7 @@ public class Splitter extends ApplicationAdapter {
                             }
                             else if(!cell[j].endsWith("_1"))
                             {
-                                Gdx.files.local("renamed/"+cell[j]+".png").copyTo(Gdx.files.local("animated/"+cell[j]+".png"));
+                                Gdx.files.local("renamed/"+cell[j]+".png").copyTo(Gdx.files.local("docs/animated/"+cell[j]+".png"));
                                 sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j]).append(".png\" />\n");
                             }
                         }
@@ -244,7 +249,7 @@ public class Splitter extends ApplicationAdapter {
                     sb.append("</p>\n");
                 }
             }
-            else if("GUI".equals(name) || "Ground".equals(name) || "Hill".equals(name) || "Map".equals(name)
+            else if("Decor".equals(name) || "GUI".equals(name) || "Ground".equals(name) || "Hill".equals(name) || "Map".equals(name)
                     || "Pit".equals(name) || "Trap".equals(name) || "Tree".equals(name))
             {
                 sb.append("<h2>").append(name).append("</h2>\n");
@@ -261,7 +266,7 @@ public class Splitter extends ApplicationAdapter {
                                 arr.add(new Pixmap(Gdx.files.local("renamed/"+cell[j]+".png")));
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j].substring(0, cell[j].length() - 2) + "_1.png")));
                                 try {
-                                    png8.write(Gdx.files.local("animated/"+cell[j].substring(0, cell[j].length() - 2)+".png"), arr, 2, false);
+                                    png8.write(Gdx.files.local("docs/animated/"+cell[j].substring(0, cell[j].length() - 2)+".png"), arr, 2, false);
                                 } catch (IOException e) {
                                     System.err.println("HAD A PROBLEM IN GROUP " + name + " WITH " + cell[j]);
                                 }
@@ -269,7 +274,7 @@ public class Splitter extends ApplicationAdapter {
                             }
                             else
                             {
-                                Gdx.files.local("renamed/"+cell[j]+".png").copyTo(Gdx.files.local("animated/"+cell[j]+".png"));
+                                Gdx.files.local("renamed/"+cell[j]+".png").copyTo(Gdx.files.local("docs/animated/"+cell[j]+".png"));
                                 sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j]).append(".png\" />\n");
                             } 
                         }
@@ -298,7 +303,7 @@ public class Splitter extends ApplicationAdapter {
                     for (int j = 0; j < cell.length; j++) {
                         if(! "".equals(cell[j]))
                         {
-                            Gdx.files.local("renamed/"+cell[j]+".png").copyTo(Gdx.files.local("animated/"+cell[j]+".png"));
+                            Gdx.files.local("renamed/"+cell[j]+".png").copyTo(Gdx.files.local("docs/animated/"+cell[j]+".png"));
                             sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j]).append(".png\" />\n");
                         }
                     }
@@ -306,7 +311,8 @@ public class Splitter extends ApplicationAdapter {
                 }
             }
         }
-        Gdx.files.local("list.html").writeString(sb.toString(), false, "UTF8");
+        sb.append("</body>\n" + "</html>\n");
+        Gdx.files.local("docs/index.html").writeString(sb.toString(), false, "UTF8");
 
     }
 
@@ -317,7 +323,7 @@ public class Splitter extends ApplicationAdapter {
         png8 = new PNG8();
         png8.palette = reducer;
         png8.setFlipY(false);
-//        split();
+        split();
         animate();
         Gdx.app.exit();
     }

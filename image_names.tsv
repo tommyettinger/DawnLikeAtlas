@@ -74,11 +74,11 @@ closed barrel	closed keg	broken barrel	broken keg
 bag	waterskin	magic bag_0	hungry bag																	
 																				
 Chest_Open																				
-open chest	open big chest	broken chest	open safe	open big safe	broken safe	open ice chest	broken ice chest													
-open barrel	open keg	broken barrel	broken keg																	
-bag	waterskin	magic bag_1	hungry bag																	
+open chest	open big chest		open safe	open big safe		open ice chest														
+open barrel	open keg																			
+		magic bag_1																		
 																				
-Decor0																				
+Decor																				
 window frame center	window frame left	window frame right	window frame inner	hole frame center	hole frame left	hole frame right	hole frame inner													
 window center	window left	window right	window inner	hole center	hole left	hole right	hole inner													
 smoke up	smoke down	smoke left	smoke right	sparks a	sparks b	sparks c	sparks d													
@@ -87,11 +87,12 @@ empty shelves	assorted shelves	crystal shelves	food shelves	sparse shelves	full 
 sign a	sign b	sign c	spooky sign	board a	board b	board c	spooky board													
 empty shop sign	restaurant sign	armory sign	smithy sign	church sign	pub sign	inn sign	home sign													
 wooden chair left	wooden table	wooden chair right	stone chair left	stone table	stone chair right	throne														
-candle	candle pair	ornate candle	ornate candelabra	black candle	black candle pair	sacrificial candle	sacrificial candelabra													
+candle_0	candle pair_0	ornate candle_0	ornate candelabra_0	black candle_0	black candle pair_0	sacrificial candle_0	sacrificial candelabra_0													
 bed a	bed b	trunk a	trunk b	sleeping bag a	sleeping bag b	mat a	mat b													
 pew left	pew horizontal	pew right	pew up	pew vertical	pew down	coffin a	coffin b													
-skull	bones	old skull	old bones	magic skull	magic bones															
-dragon skull	ribcage	old dragon skull	old ribcage	magic dragon skull	magic ribcage															
+armor stand empty	armor stand full	left weapon rest empty	left weapon rest full	right weapon rest empty	right weapon rest full	woodpile														
+skull	bones	old skull	old bones	magic skull_0	magic bones_0															
+dragon skull	ribcage	old dragon skull	old ribcage	magic dragon skull_0	magic ribcage_0															
 red carpet nw	red carpet n	red carpet ne	gray carpet nw	gray carpet n	gray carpet ne															
 red carpet w	red carpet c	red carpet e	gray carpet w	gray carpet c	gray carpet e															
 red carpet sw	red carpet s	red carpet se	gray carpet sw	gray carpet s	gray carpet se															
@@ -99,13 +100,13 @@ gravestone a	gravestone b	gravestone c	gravestone d	broken gravestone a
 gravestone e	gravestone f	gravestone g	gravestone h	broken gravestone b																
 webbing a	webbing b	webbing c	webbing d	webbing e																
 altar	bloodied altar	pedestal	statue	mounted statue																
-basin	fountain																			
+basin_0	fountain_0																			
 																				
 Demon0																				
 barbed devil	marilith	vrock	lava demon	juiblex	yeenoghu	orcus	geryon													
-sandestin	lesser devil	nalfeshnee	pit fiend	horned devil	minion of huhetotl	water demon	mail daemon													
+sandestin	lesser devil	pit fiend	nalzok	ixoth	minion of huhetotl	water demon	mail daemon													
 asmodeus	baalzebub	dispater	erinys	demogorgon	cthulhu	balrog														
-bone devil	ice devil	fire devil																		
+bone devil	ice devil	horned devil																		
 homunculus	manes	lemure																		
 imp	quasit																			
 succubus	incubus																			
@@ -134,7 +135,7 @@ open stone door front	open stone door side
 open iron portcullis front	open iron portcullis side																			
 open gold portcullis front	open gold portcullis side																			
 																				
-stone archway	stone portal_1	gold archway	gold portal_1	heavenly archway	heavenly portal_1	infernal archway	infernal portal_1													
+	stone portal_1		gold portal_1		heavenly portal_1		infernal portal_1													
 																				
 Effect0																				
 fire burst nw	fire burst n	fire burst ne	mud burst nw	mud burst n	mud burst ne															
@@ -318,7 +319,7 @@ red volcano sw_0	red volcano s_0	red volcano se_0		green volcano sw_0	green volc
 Humanoid0																				
 giant	stone giant	hill giant	fire giant	frost giant	storm giant	ettin	titan													
 minotaur	cyclops	surtur																		
-keystone kop	kop sergeant	kop lieutenant	kop kaptain	shopkeeper	executioner	ninja	prisoner													
+keystone kop	kop sergeant	kop lieutenant	kop kaptain	shopkeeper	executioner	assassin	prisoner													
 forest sprite	forest fairy	forest spirit	mountain sprite	mountain fairy	mountain spirit	green wings	gold wings													
 orc	hill orc	deep orc	militant orc	orc shaman	orc king	uruk														
 soldier	sergeant	lieutenant	captain	watchman	watch captain	guard														
@@ -392,7 +393,7 @@ short sword	elven short sword	orcish short sword	dwarvish short sword	scimitar	k
 axe	battle axe																			
 																				
 Misc0																				
-rodent of unusual size	ratzilla	snowy owlbear	owlbear	werebat	pegasus	kirin														
+rodent of unusual size	ratzilla	snowy owlbear	owlbear	spriggan	pegasus	kirin														
 gremlin	gargoyle	winged gargoyle	uranium imp																	
 kobold	large kobold	kobold shaman	kobold lord																	
 monkey	ape	carnivorous ape																		
@@ -537,7 +538,7 @@ baby kingwyrm	kingwyrm	baby searwyrm	searwyrm	hydra	baby hydra
 garter snake	snake	python	water moccasin	pit viper	cobra	asp	serpent													
 baby red naga	red naga	baby black naga	black naga	baby golden naga	golden naga	baby white naga	white naga													
 baby guardian naga	guardian naga																			
-baby cockatrice	cockatrice	baby pyrolisk	baby pyrolisk																	
+baby cockatrice	cockatrice	baby pyrolisk	pyrolisk																	
 lizard	iguana	chameleon																		
 baby crocodile	crocodile																			
 gecko	komodo dragon	gila monster	newt																	
@@ -575,7 +576,7 @@ Scroll
 white scroll	long scroll	dusty white scroll	dusty cyan scroll	dusty yellow scroll	gray scroll	dusty orange scroll	dusty gray scroll													
 dusty red scroll	dusty dark scroll	red scroll	orange scroll	yellow scroll	dusty green scroll	green scroll	dusty blue scroll													
 blue scroll	cyan scroll	dark scroll	bloody scroll	dusty bloody scroll	mystery white scroll	ancient white scroll	ancient cyan scroll													
-ancient yellow scroll	mystery gray scroll	ancient orange scroll	ancient gray scroll	mystery red scroll	mystery orange scroll	mystery yellow scroll	ancient green scroll													
+ancient orange scroll	mystery gray scroll	ancient red scroll	ancient gray scroll	mystery red scroll	mystery orange scroll	mystery yellow scroll	ancient green scroll													
 mystery green scroll	ancient yellow scroll	ancient blue scroll	mystery blue scroll	ancient dark scroll	mystery dark scroll	sacred gray scroll	sacred cyan scroll													
 divine gray scroll	divine cyan scroll	mail	blank scroll																	
 																				
@@ -585,9 +586,9 @@ small shield	elven shield	white handed shield	orcish shield	large shield	dwarvis
 ShortWep																				
 dagger	elven dagger	orcish dagger	silver dagger	crysknife	scalpel	knife	stiletto													
 athame	silver saber	unicorn horn	worm tooth																	
-club	aklys	flail																		
+aklys	club	nunchaku																		
 hammer	pick axe	mattock																		
-mace	morning star																			
+morning star	flail																			
 																				
 Slime0																				
 lichen	brown mold	yellow mold	green mold	red mold	violet fungus															

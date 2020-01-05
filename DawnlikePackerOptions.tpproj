@@ -1,6 +1,6 @@
 name=Dawnlike
 filename=
-output=atlasWithTallFont
+output=atlasWithTallFont/next
 
 alias=true
 alphaThreshold=0

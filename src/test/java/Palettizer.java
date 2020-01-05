@@ -130,16 +130,6 @@ public class Palettizer extends ApplicationAdapter {
         config.useVsync(true);
         config.setResizable(false);
         final Palettizer app = new Palettizer();
-//        config.setWindowListener(new Lwjgl3WindowAdapter() {
-//            @Override
-//            public void filesDropped(String[] files) {
-//                if (files != null && files.length > 0) {
-//                    if (files[0].endsWith(".png") || files[0].endsWith(".jpg") || files[0].endsWith(".jpeg"))
-//                        app.load(files[0]);
-//                }
-//            }
-//        });
-
         new Lwjgl3Application(app, config);
     }
 

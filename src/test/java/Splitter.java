@@ -235,11 +235,11 @@ public class Splitter extends ApplicationAdapter {
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j] + ".png")));
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j].substring(0, cell[j].length() - 2) + "_1.png")));
                                 try {
-                                    gif.write(Gdx.files.local("docs/animated/" + cell[j].substring(0, cell[j].length() - 2) + ".png"), arr, 2);
+                                    gif.write(Gdx.files.local("docs/animated/" + cell[j].substring(0, cell[j].length() - 2) + ".gif"), arr, 2);
                                 } catch (IOException e) {
                                     System.err.println("HAD A PROBLEM IN GROUP " + name2 + " WITH " + cell[j]);
                                 }
-                                sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j], 0, cell[j].length() - 2).append(".gif\" />\n");
+                                sb.append(cell[j], 0, cell[j].length() - 2).append(": <img src=\"animated/").append(cell[j], 0, cell[j].length() - 2).append(".gif\" />\n");
                             }
                             else if(!cell[j].endsWith("_1"))
                             {
@@ -268,11 +268,11 @@ public class Splitter extends ApplicationAdapter {
                                 arr.add(new Pixmap(Gdx.files.local("renamed/"+cell[j]+".png")));
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j].substring(0, cell[j].length() - 2) + "_1.png")));
                                 try {
-                                    gif.write(Gdx.files.local("docs/animated/"+cell[j].substring(0, cell[j].length() - 2)+".png"), arr, 2);
+                                    gif.write(Gdx.files.local("docs/animated/"+cell[j].substring(0, cell[j].length() - 2)+".gif"), arr, 2);
                                 } catch (IOException e) {
                                     System.err.println("HAD A PROBLEM IN GROUP " + name + " WITH " + cell[j]);
                                 }
-                                sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j], 0, cell[j].length() - 2).append(".gif\" />\n");
+                                sb.append(cell[j], 0, cell[j].length() - 2).append(": <img src=\"animated/").append(cell[j], 0, cell[j].length() - 2).append(".gif\" />\n");
                             }
                             else
                             {

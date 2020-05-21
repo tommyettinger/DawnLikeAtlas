@@ -5,6 +5,7 @@ import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.utils.Array;
+import dawnliker.AnimatedGif;
 import dawnliker.Coloring;
 import dawnliker.PNG8;
 import dawnliker.PaletteReducer;
@@ -21,6 +22,7 @@ public class Splitter extends ApplicationAdapter {
 //    protected BitmapFont font;
     protected PaletteReducer reducer;
     protected PNG8 png8;
+    protected AnimatedGif gif;
 
     public static final String[] listing = {
             "Ammo",
@@ -206,11 +208,11 @@ public class Splitter extends ApplicationAdapter {
                             arr.add(new Pixmap(Gdx.files.local("renamed/"+cell[j]+"_0.png")));
                             arr.add(new Pixmap(Gdx.files.local("renamed/"+cell[j]+"_1.png")));
                             try {
-                                png8.write(Gdx.files.local("docs/animated/"+cell[j]+".png"), arr, 2, false);
+                                gif.write(Gdx.files.local("docs/animated/"+cell[j]+".gif"), arr, 2);
                             } catch (IOException e) {
                                 System.err.println("HAD A PROBLEM IN GROUP " + name2 + " WITH " + cell[j]);
                             }
-                            sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j]).append(".png\" />\n");
+                            sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j]).append(".gif\" />\n");
                         }
                     }
                     sb.append("</p>\n");
@@ -233,11 +235,11 @@ public class Splitter extends ApplicationAdapter {
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j] + ".png")));
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j].substring(0, cell[j].length() - 2) + "_1.png")));
                                 try {
-                                    png8.write(Gdx.files.local("docs/animated/" + cell[j].substring(0, cell[j].length() - 2) + ".png"), arr, 2, false);
+                                    gif.write(Gdx.files.local("docs/animated/" + cell[j].substring(0, cell[j].length() - 2) + ".png"), arr, 2);
                                 } catch (IOException e) {
                                     System.err.println("HAD A PROBLEM IN GROUP " + name2 + " WITH " + cell[j]);
                                 }
-                                sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j], 0, cell[j].length() - 2).append(".png\" />\n");
+                                sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j], 0, cell[j].length() - 2).append(".gif\" />\n");
                             }
                             else if(!cell[j].endsWith("_1"))
                             {
@@ -266,11 +268,11 @@ public class Splitter extends ApplicationAdapter {
                                 arr.add(new Pixmap(Gdx.files.local("renamed/"+cell[j]+".png")));
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j].substring(0, cell[j].length() - 2) + "_1.png")));
                                 try {
-                                    png8.write(Gdx.files.local("docs/animated/"+cell[j].substring(0, cell[j].length() - 2)+".png"), arr, 2, false);
+                                    gif.write(Gdx.files.local("docs/animated/"+cell[j].substring(0, cell[j].length() - 2)+".png"), arr, 2);
                                 } catch (IOException e) {
                                     System.err.println("HAD A PROBLEM IN GROUP " + name + " WITH " + cell[j]);
                                 }
-                                sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j], 0, cell[j].length() - 2).append(".png\" />\n");
+                                sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j], 0, cell[j].length() - 2).append(".gif\" />\n");
                             }
                             else
                             {
@@ -323,7 +325,10 @@ public class Splitter extends ApplicationAdapter {
         png8 = new PNG8();
         png8.palette = reducer;
         png8.setFlipY(false);
-        split();
+        gif = new AnimatedGif();
+        gif.palette = reducer;
+        gif.setFlipY(false);
+//        split();
         animate();
         Gdx.app.exit();
     }

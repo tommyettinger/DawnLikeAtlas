@@ -3,6 +3,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
 import com.badlogic.gdx.graphics.Pixmap;
+import com.badlogic.gdx.math.Interpolation;
 import dawnliker.PNG8;
 import dawnliker.PaletteReducer;
 
@@ -100,38 +101,44 @@ public class Scale2K extends ApplicationAdapter {
 	 }
 
 	 public void create () {
-		  Pixmap source = new Pixmap(Gdx.files.local("atlas/Dawnlike.png"));
-		  Pixmap dest = new Pixmap(source.getWidth() * 2, source.getHeight() * 2, Pixmap.Format.RGBA8888);
-		  Pixmap dest4 = new Pixmap(source.getWidth() * 4, source.getHeight() * 4, Pixmap.Format.RGBA8888);
-		  scale(source, dest);
-		  scale(dest, dest4);
-		  PNG8 png = new PNG8();
-		  png.setFlipY(false);
-		 int[] palette = new int[]{0x00000000, 0x101313FF, 0x373730FF, 0x505B5BFF,
-				 0x808070FF, 0xA4A490FF, 0xB0C9C9FF, 0xEDEDD0FF,
-				 0x346836FF, 0x76C070FF, 0xD8F8D0FF,
-							  0x702028FF, 0xD05030FF, 0xFFC080FF,
-				 0x6E5A54FF, };
-//		 for (int i = 1; i < 8; i++) {
-//			 int r = (int)(Math.pow(i / 6.25, 0.75) * 222);
-//			 palette[i] = r * 0x01010100 | 0xFF;
-//		 }
-		  png.palette = new PaletteReducer(palette);
-		  try {
-				Gdx.files.local("otherColors/pulp").mkdirs();
+		 Pixmap source = new Pixmap(Gdx.files.local("atlas/Dawnlike.png"));
+		 Pixmap dest = new Pixmap(source.getWidth() * 2, source.getHeight() * 2, Pixmap.Format.RGBA8888);
+		 Pixmap dest4 = new Pixmap(source.getWidth() * 4, source.getHeight() * 4, Pixmap.Format.RGBA8888);
+		 scale(source, dest);
+		 scale(dest, dest4);
+		 PNG8 png = new PNG8();
+		 png.setFlipY(false);
+		 int[] palette = new int[8];
+//				 new int[]{0x00000000, 0x101313FF, 0x373730FF, 0x505B5BFF,
+//				 0x808070FF, 0xA4A490FF, 0xB0C9C9FF, 0xEDEDD0FF,
+//				 0x346836FF, 0x76C070FF, 0xD8F8D0FF,
+//							  0x702028FF, 0xD05030FF, 0xFFC080FF,
+//				 0x6E5A54FF, };
+		 System.out.print("0x00000000, ");
+		 for (int i = 1; i < 8; i++) {
+			 int r = (int) Interpolation.smoother.apply(0f, 255f, (float)Math.sqrt(i / 10f));
+			 //(int)(Math.pow(i / 6.25, 0.625) * 222);
+			 palette[i] = r * 0x01010100 | 0xFF;
+			 System.out.printf("0x%08X, ", palette[i]);
+		 }
+		 System.out.println();
+		 png.palette = new PaletteReducer(palette);
+		 try {
+			 String dir = "otherColors/curved";
+			 Gdx.files.local(dir).mkdirs();
 //							  0x081820FF, 0x346856FF, 0x88C070FF, 0xE0F8D0FF,
 //							  0x400810FF, 0x802438FF, 0xE08058FF, 0xFFB090FF
 //							  {0x00000000, 0x101010FF, 0x323232FF, 0x494949FF, 0x5B5B5BFF, 0x6E6E6EFF,
 //					  0x808080FF, 0x929292FF, 0xA4A4A4FF, 0xB6B6B6FF, 0xC9C9C9FF, 0xDBDBDBFF, 0xEDEDEDFF,
 //					  0xEE1100FF,0xCC1908FF,0x9F2010FF,}
-			  
-				png.write(Gdx.files.local("otherColors/pulp/Dawnlike.png"), source, false, true, 64);
-				png.write(Gdx.files.local("otherColors/pulp/Dawnlike2.png"), dest, false, true, 64);
-				png.write(Gdx.files.local("otherColors/pulp/Dawnlike4.png"), dest4, false, true, 64);
-		  } catch (IOException e) {
-				e.printStackTrace();
-		  }
-		  Gdx.app.exit();
+
+			 png.write(Gdx.files.local(dir + "/Dawnlike.png"), source, false, true, 64);
+			 png.write(Gdx.files.local(dir + "/Dawnlike2.png"), dest, false, true, 64);
+			 png.write(Gdx.files.local(dir + "/Dawnlike4.png"), dest4, false, true, 64);
+		 } catch (IOException e) {
+			 e.printStackTrace();
+		 }
+		 Gdx.app.exit();
 	 }
 
 	 public static void main(String[] arg) {

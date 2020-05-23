@@ -235,7 +235,7 @@ public class PaletteReducer {
                 L = LAB[0][indexA] - LAB[0][indexB],
                 A = LAB[1][indexA] - LAB[1][indexB],
                 B = LAB[2][indexA] - LAB[2][indexB];
-        return (L * L * 7 + A * A + B * B);
+        return (L * L * 11 + A * A + B * B);
     }
 
 
@@ -256,7 +256,7 @@ public class PaletteReducer {
                 L = LAB[0][indexA] - LAB[0][indexB],
                 A = LAB[1][indexA] - LAB[1][indexB],
                 B = LAB[2][indexA] - LAB[2][indexB];
-        return (L * L * 7 + A * A + B * B);
+        return (L * L * 11 + A * A + B * B);
     }
 
     /**
@@ -279,7 +279,7 @@ public class PaletteReducer {
                 L = LAB[0][indexA] - LAB[0][indexB],
                 A = LAB[1][indexA] - LAB[1][indexB],
                 B = LAB[2][indexA] - LAB[2][indexB];
-        return (L * L * 7 + A * A + B * B);
+        return (L * L * 11 + A * A + B * B);
     }
 
     /**

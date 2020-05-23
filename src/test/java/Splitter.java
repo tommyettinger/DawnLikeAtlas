@@ -186,11 +186,26 @@ public class Splitter extends ApplicationAdapter {
         Gdx.files.local("docs/animated/").mkdirs();
         Array<Pixmap> arr = new Array<>(4);
         StringBuilder sb = new StringBuilder(65536);
-        sb.append("<html>\n" + "<head>\n" + "\t<title>Dawnlike Atlas Preview!</title>\n" + "</head>\n" + "<body>\n"
+        sb.append(
+                "<html>\n" 
+                        + "<head>\n" 
+                        + "<title>Dawnlike Atlas Preview!</title>\n" 
+                        + "<style>" +
+                        "img{\n" +
+                        "-ms-interpolation-mode: nearest-neighbor;\n" +
+                        "    image-rendering: -webkit-optimize-contrast;\n" +
+                        "    image-rendering: -moz-crisp-edges;\n" +
+                        "    image-rendering: -o-pixelated;\n" +
+                        "    image-rendering: pixelated;\n" +
+                        "    width: 32px;\n" +
+                        "    height: 32px;\n" +
+                        "}</style>\n" 
+                        + "</head>\n" 
+                        + "<body>\n"
            + "<p>This is a listing of the tiles in the <a href=\"https://opengameart.org/content/dawnlike-16x16-universal-rogue-like-tileset-v181\">DawnLike tileset by DragonDePlatino and DawnBringer</a>.\n"
            + "The specific variant used is <a href=\"https://github.com/tommyettinger/DawnLikeAtlas\">DawnLikeAtlas</a>, which splits up DawnLike into these individual tiles for usage by libGDX in a TextureAtlas," 
            + "or by other engines/frameworks that work better when accessing tiles by name.\n"
-           + "The tileset is CC-BY-4.0 licensed. The code is Apache 2.0 licensed.</p>\n" + "<br>\n");
+           + "The tileset is CC-BY-4.0 licensed, requiring attribution to DragonDePlatino and DawnBringer. The code is Apache 2.0 licensed.</p>\n" + "<br>\n");
         for(String name : listing) {
             String contents = Gdx.files.internal(name + ".txt").readString();
             String[] lines = contents.split("\\R");
@@ -314,7 +329,11 @@ public class Splitter extends ApplicationAdapter {
             }
         }
         sb.append("</body>\n" + "</html>\n");
-        Gdx.files.local("docs/index.html").writeString(sb.toString(), false, "UTF8");
+        String sbs = sb.toString();
+        Gdx.files.local("docs/index.html").writeString(sbs, false, "UTF8");
+        Gdx.files.local("docs/indexSmall.html").writeString(sbs.replace(
+                "    width: 32px;\n" +
+                "    height: 32px;\n", ""), false, "UTF8");
 
     }
 

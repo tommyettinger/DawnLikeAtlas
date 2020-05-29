@@ -22,103 +22,103 @@ public class Palettizer extends ApplicationAdapter {
     protected PNG8 png8;
 
     public static final String[] listing = {
-            "Ammo.png",
-            "Amulet.png",
-            "Aquatic0.png",
-            "Aquatic1.png",
-            "Armor.png",
-            "Avian0.png",
-            "Avian1.png",
-            "Book.png",
-            "Boot.png",
-            "Cat0.png",
-            "Cat1.png",
-            "Chest0.png",
-            "Chest1.png",
-            "Decor0.png",
-            "Decor1.png",
-            "Demon0.png",
-            "Demon1.png",
-            "Dog0.png",
-            "Dog1.png",
-            "Door0.png",
-            "Door1.png",
+//            "Ammo.png",
+//            "Amulet.png",
+//            "Aquatic0.png",
+//            "Aquatic1.png",
+//            "Armor.png",
+//            "Avian0.png",
+//            "Avian1.png",
+//            "Book.png",
+//            "Boot.png",
+//            "Cat0.png",
+//            "Cat1.png",
+//            "Chest0.png",
+//            "Chest1.png",
+//            "Decor0.png",
+//            "Decor1.png",
+//            "Demon0.png",
+//            "Demon1.png",
+//            "Dog0.png",
+//            "Dog1.png",
+//            "Door0.png",
+//            "Door1.png",
             "Effect0.png",
             "Effect1.png",
-            "Elemental0.png",
-            "Elemental1.png",
-            "Engineer.png",
-            "Engineer_Clothes.png",
-            "Fence.png",
-            "Flesh.png",
-            "Floor.png",
-            "Food.png",
-            "GUI0.png",
-            "GUI1.png",
-            "Glove.png",
-            "Ground0.png",
-            "Ground1.png",
-            "Hat.png",
-            "Hill0.png",
-            "Hill1.png",
-            "Humanoid0.png",
-            "Humanoid1.png",
-            "Icons.png",
-            "Key.png",
-            "Light.png",
-            "Logo.png",
-            "LongWep.png",
-            "Mage.png",
-            "Mage_Clothes.png",
-            "Map0.png",
-            "Map1.png",
-            "MedWep.png",
-            "Misc0.png",
-            "Misc1.png",
-            "Money.png",
-            "Music.png",
-            "Ore0.png",
-            "Ore1.png",
-            "Paladin.png",
-            "Paladin_Clothes.png",
-            "Pest0.png",
-            "Pest1.png",
-            "Pit0.png",
-            "Pit1.png",
-            "Plant0.png",
-            "Plant1.png",
-            "Player0.png",
-            "Player1.png",
-            "Potion.png",
-            "Quadruped0.png",
-            "Quadruped1.png",
-            "Reptile0.png",
-            "Reptile1.png",
-            "Ring.png",
-            "Rock.png",
-            "Rodent0.png",
-            "Rodent1.png",
-            "Rogue.png",
-            "Rogue_Clothes.png",
-            "Scroll.png",
-            "Shield.png",
-            "ShortWep.png",
-            "Slime0.png",
-            "Slime1.png",
-            "Template.png",
-            "Tile.png",
-            "Tool.png",
-            "Trap0.png",
-            "Trap1.png",
-            "Tree0.png",
-            "Tree1.png",
-            "Undead0.png",
-            "Undead1.png",
-            "Wall.png",
-            "Wand.png",
-            "Warrior.png",
-            "Warrior_Clothes.png",
-            "Warrior_Clothes_Back.png",
+//            "Elemental0.png",
+//            "Elemental1.png",
+//            "Engineer.png",
+//            "Engineer_Clothes.png",
+//            "Fence.png",
+//            "Flesh.png",
+//            "Floor.png",
+//            "Food.png",
+//            "GUI0.png",
+//            "GUI1.png",
+//            "Glove.png",
+//            "Ground0.png",
+//            "Ground1.png",
+//            "Hat.png",
+//            "Hill0.png",
+//            "Hill1.png",
+//            "Humanoid0.png",
+//            "Humanoid1.png",
+//            "Icons.png",
+//            "Key.png",
+//            "Light.png",
+//            "Logo.png",
+//            "LongWep.png",
+//            "Mage.png",
+//            "Mage_Clothes.png",
+//            "Map0.png",
+//            "Map1.png",
+//            "MedWep.png",
+//            "Misc0.png",
+//            "Misc1.png",
+//            "Money.png",
+//            "Music.png",
+//            "Ore0.png",
+//            "Ore1.png",
+//            "Paladin.png",
+//            "Paladin_Clothes.png",
+//            "Pest0.png",
+//            "Pest1.png",
+//            "Pit0.png",
+//            "Pit1.png",
+//            "Plant0.png",
+//            "Plant1.png",
+//            "Player0.png",
+//            "Player1.png",
+//            "Potion.png",
+//            "Quadruped0.png",
+//            "Quadruped1.png",
+//            "Reptile0.png",
+//            "Reptile1.png",
+//            "Ring.png",
+//            "Rock.png",
+//            "Rodent0.png",
+//            "Rodent1.png",
+//            "Rogue.png",
+//            "Rogue_Clothes.png",
+//            "Scroll.png",
+//            "Shield.png",
+//            "ShortWep.png",
+//            "Slime0.png",
+//            "Slime1.png",
+//            "Template.png",
+//            "Tile.png",
+//            "Tool.png",
+//            "Trap0.png",
+//            "Trap1.png",
+//            "Tree0.png",
+//            "Tree1.png",
+//            "Undead0.png",
+//            "Undead1.png",
+//            "Wall.png",
+//            "Wand.png",
+//            "Warrior.png",
+//            "Warrior_Clothes.png",
+//            "Warrior_Clothes_Back.png",
     }, altListing = {
             "Dungeon.png"
     };
@@ -142,34 +142,34 @@ public class Palettizer extends ApplicationAdapter {
                         p, Coloring.DB16, 24, 24, 1, 1);
             }
 
-//            for(String name : listing) {
-//                Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
-//                png8.writePrecisely(Gdx.files.local("flat/" + name), p, Coloring.DB16, true, 0);
-//                int frame = -1;
-//                String abbr;
-//                if(name.endsWith("0.png")){
-//                    abbr = name.substring(0, name.length() - 5);
-//                    frame = 0;
-//                }
-//                else if(name.endsWith("1.png")){
-//                    abbr = name.substring(0, name.length() - 5);
-//                    frame = 1;
-//                }
-//                else
-//                    abbr = name.substring(0, name.length() - 4);
-//                int w = p.getWidth() >>> 4, h = p.getHeight() >>> 4;
-//                Gdx.files.local("individual").mkdirs();
-//                for (int y = 0; y < h; y++) {
-//                    for (int x = 0; x < w; x++) {
-//                        if(frame >= 0)
-//                            png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+"_"+frame+".png"),
-//                                    p, Coloring.DB16, x<<4, y<<4, 16, 16);
-//                        else
-//                            png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+".png"),
-//                                    p, Coloring.DB16, x<<4, y<<4, 16, 16);
-//                    }
-//                }
-//            }
+            for(String name : listing) {
+                Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
+                png8.writePrecisely(Gdx.files.local("flat/" + name), p, Coloring.DB16, true, 0);
+                int frame = -1;
+                String abbr;
+                if(name.endsWith("0.png")){
+                    abbr = name.substring(0, name.length() - 5);
+                    frame = 0;
+                }
+                else if(name.endsWith("1.png")){
+                    abbr = name.substring(0, name.length() - 5);
+                    frame = 1;
+                }
+                else
+                    abbr = name.substring(0, name.length() - 4);
+                int w = p.getWidth() >>> 4, h = p.getHeight() >>> 4;
+                Gdx.files.local("individual").mkdirs();
+                for (int y = 0; y < h; y++) {
+                    for (int x = 0; x < w; x++) {
+                        if(frame >= 0)
+                            png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+"_"+frame+".png"),
+                                    p, Coloring.DB16, x<<4, y<<4, 16, 16);
+                        else
+                            png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+".png"),
+                                    p, Coloring.DB16, x<<4, y<<4, 16, 16);
+                    }
+                }
+            }
 
             //unused
 //            for(String name : altListing) {

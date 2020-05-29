@@ -17,6 +17,7 @@ fire beam v	fire beam h	fire beam l	fire beam r	flash beam v	flash beam h	flash 
 cold beam v	cold beam h	cold beam l	cold beam r	sleep beam v	sleep beam h	sleep beam l	sleep beam r
 shock beam v	shock beam h	shock beam l	shock beam r	death beam v	death beam h	death beam l	death beam r
 force beam v	force beam h	force beam l	force beam r	zap beam v	zap beam h	zap beam l	zap beam r
+poison beam v	poison beam h	poison beam l	poison beam r	acid beam v	acid beam h	acid beam l	acid beam r
 rope v	rope h	rope l	rope r	grappling hook v	grappling hook h	grappling hook l	grappling hook r
 little flame	big flame	little flood	big flood	little freeze	big freeze	little distortion	big distortion
 little thorns	big thorns	little quake	big quake	little tornado	big tornado	little shine	big shine

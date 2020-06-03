@@ -1,6 +1,6 @@
 name=Dawnlike
 filename=
-output=atlas
+output=atlas/new
 
 alias=true
 alphaThreshold=0

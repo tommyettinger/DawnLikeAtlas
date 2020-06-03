@@ -6,10 +6,10 @@ import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.utils.*;
 
-import java.io.ByteArrayOutputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.zip.CRC32;
 import java.util.zip.CheckedOutputStream;
 import java.util.zip.Deflater;
@@ -1298,6 +1298,100 @@ public class PNG8 implements Disposable {
             target.writeInt((int)crc.getValue());
             buffer.reset();
             crc.reset();
+        }
+    }
+    /**
+     * Simple PNG IO from https://www.java-tips.org/java-se-tips-100019/23-java-awt-image/2283-png-file-format-decoder-in-java.html .
+     * @param inStream
+     * @return
+     * @throws IOException
+     */
+    protected static LinkedHashMap<String, byte[]> readChunks(InputStream inStream) throws IOException {
+        DataInputStream in = new DataInputStream(inStream);
+        if(in.readLong() != 0x89504e470d0a1a0aL)
+            throw  new IOException("PNG signature not found!");
+        LinkedHashMap<String, byte[]> chunks = new LinkedHashMap<>(10);
+        boolean trucking = true;
+        while (trucking) {
+            try {
+                // Read the length.
+                int length = in.readInt();
+                if (length < 0)
+                    throw new IOException("Sorry, that file is too long.");
+                // Read the type.
+                byte[] typeBytes = new byte[4];
+                in.readFully(typeBytes);
+                // Read the data.
+                byte[] data = new byte[length];
+                in.readFully(data);
+                // Read the CRC, discard it.
+                int crc = in.readInt();
+                String type = new String(typeBytes, StandardCharsets.UTF_8);
+                chunks.put(type, data);
+            } catch (EOFException eofe) {
+                trucking = false;
+            }
+        }
+        in.close();
+        return chunks;
+    }
+
+    /**
+     * Simple PNG IO from https://www.java-tips.org/java-se-tips-100019/23-java-awt-image/2283-png-file-format-decoder-in-java.html .
+     * @param outStream
+     * @param chunks
+     */
+    protected static void writeChunks(OutputStream outStream, LinkedHashMap<String, byte[]> chunks) {
+        DataOutputStream out = new DataOutputStream(outStream);
+        CRC32 crc = new CRC32();
+        try {
+            out.writeLong(0x89504e470d0a1a0aL);
+            for (HashMap.Entry<String, byte[]> ent : chunks.entrySet()) {
+                out.writeInt(ent.getValue().length);
+                out.writeBytes(ent.getKey());
+                crc.update(ent.getKey().getBytes(StandardCharsets.UTF_8));
+                out.write(ent.getValue());
+                crc.update(ent.getValue());
+                out.writeInt((int) crc.getValue());
+                crc.reset();
+            }
+            out.flush();
+            out.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Given a FileHandle to read from and a FileHandle to write to, duplicates the input FileHandle and changes its
+     * palette (in full and in order) to exactly match {@code palette}. This is only likely to work if the input file
+     * was written with the same palette order, such as by specifying an {@code exactPalette} in
+     * {@link #writePrecisely(FileHandle, Pixmap, int[], boolean, int)} where that exactPalette has similar colors at
+     * each palette index to {@code palette}.
+     * @param input FileHandle to read from that should have a similar palette (and very similar order) to {@code palette}
+     * @param output FileHandle that should be writable and empty
+     * @param palette RGBA8888 color array, as in {@link Coloring}
+     */
+    public static void swapPalette(FileHandle input, FileHandle output, int[] palette)
+    {
+        try {
+            InputStream inputStream = input.read();
+            LinkedHashMap<String, byte[]> chunks = readChunks(inputStream);
+            byte[] pal = chunks.get("PLTE");
+            if(pal == null)
+            {
+                output.write(inputStream, false);
+                return;
+            }
+            for (int i = 0, p = 0; i < palette.length && p < pal.length - 2; i++) {
+                int rgba = palette[i];
+                pal[p++] = (byte) (rgba >>> 24);
+                pal[p++] = (byte) (rgba >>> 16);
+                pal[p++] = (byte) (rgba >>> 8);
+            }
+            writeChunks(output.write(false), chunks);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

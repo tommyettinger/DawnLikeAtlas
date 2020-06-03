@@ -108,23 +108,24 @@ public class Scale2K extends ApplicationAdapter {
 		 scale(dest, dest4);
 		 PNG8 png = new PNG8();
 		 png.setFlipY(false);
-		 int[] palette = new int[8];
+		 int[] palette = new int[16];
 //				 new int[]{0x00000000, 0x101313FF, 0x373730FF, 0x505B5BFF,
 //				 0x808070FF, 0xA4A490FF, 0xB0C9C9FF, 0xEDEDD0FF,
 //				 0x346836FF, 0x76C070FF, 0xD8F8D0FF,
 //							  0x702028FF, 0xD05030FF, 0xFFC080FF,
 //				 0x6E5A54FF, };
-		 System.out.print("0x00000000, ");
-		 for (int i = 1; i < 8; i++) {
-			 int r = (int) Interpolation.smoother.apply(0f, 255f, (float)Math.sqrt(i / 10f));
-			 //(int)(Math.pow(i / 6.25, 0.625) * 222);
+		 for (int i = 1; i < palette.length; i++) {
+//			 int r = (int) Interpolation.smoother.apply(0f, 255f, (float)Math.sqrt((i - 0.75f) / (palette.length + 0.5f)));
+//			 int r = (i - 1) * 36 + 2;
+			 int r = (i - 1) * 17;
 			 palette[i] = r * 0x01010100 | 0xFF;
-			 System.out.printf("0x%08X, ", palette[i]);
+//			 System.out.printf("0x%08X, ", palette[i]);
 		 }
 		 System.out.println();
 		 png.palette = new PaletteReducer(palette);
 		 try {
-			 String dir = "otherColors/curved";
+			 String dir = "otherColors/gray16";
+			 String dir2 = "otherColors/curved16";
 			 Gdx.files.local(dir).mkdirs();
 //							  0x081820FF, 0x346856FF, 0x88C070FF, 0xE0F8D0FF,
 //							  0x400810FF, 0x802438FF, 0xE08058FF, 0xFFB090FF
@@ -135,6 +136,18 @@ public class Scale2K extends ApplicationAdapter {
 			 png.write(Gdx.files.local(dir + "/Dawnlike.png"), source, false, true, 64);
 			 png.write(Gdx.files.local(dir + "/Dawnlike2.png"), dest, false, true, 64);
 			 png.write(Gdx.files.local(dir + "/Dawnlike4.png"), dest4, false, true, 64);
+			 int[] palette2 = new int[palette.length];
+			 System.out.print("0x00000000, ");
+			 for (int i = 1; i < palette.length; i++) { 
+//			 	int r = (int) Interpolation.smoother.apply(0f, 255f, (float)Math.sqrt((i - 0.75f) / (palette.length + 0.75f)));
+			 	int r = (int) Interpolation.circle.apply(0f, 255f, (float)Math.sqrt((i - 0.25f) / (palette.length + 1f)));
+			 	palette2[i] = r * 0x01010100 | 0xFF;
+			 	System.out.printf("0x%08X, ", palette2[i]);
+			 }
+			 PNG8.swapPalette(Gdx.files.local(dir + "/Dawnlike.png"), Gdx.files.local(dir2 + "/Dawnlike.png"), palette2);
+			 PNG8.swapPalette(Gdx.files.local(dir + "/Dawnlike2.png"), Gdx.files.local(dir2 + "/Dawnlike2.png"), palette2);
+			 PNG8.swapPalette(Gdx.files.local(dir + "/Dawnlike4.png"), Gdx.files.local(dir2 + "/Dawnlike4.png"), palette2);
+
 		 } catch (IOException e) {
 			 e.printStackTrace();
 		 }

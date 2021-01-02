@@ -1,6 +1,6 @@
 name=Dawnlike
 filename=
-output=atlas/new
+output=thirteen
 
 alias=true
 alphaThreshold=0
@@ -37,7 +37,7 @@ inputFiles=[{path:renamed,type:Input,dirFilePrefix:null,recursive:false,flattenP
 
 -PROJ-
 
-version=4.8.2
+version=4.9.1
 fileTypeType=png
-fileTypeData={encoding:RGBA8888,compType:PNG8,compData:"{level:5,threshold:0,dithering:false}"}
+fileTypeData={encoding:RGBA8888}
 previewBackgroundColor=ffffffff

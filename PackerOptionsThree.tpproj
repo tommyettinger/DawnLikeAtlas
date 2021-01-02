@@ -1,6 +1,6 @@
 name=Dawnlike3
 filename=
-output=atlas/three
+output=thirteen/thirteen_three
 
 alias=true
 alphaThreshold=0
@@ -27,17 +27,17 @@ wrapY=ClampToEdge
 premultiplyAlpha=false
 grid=false
 square=false
-bleed=true
+bleed=false
 limitMemory=true
 useIndexes=true
 
 scaleFactors=[{suffix:"",factor:1,resampling:bicubic}]
-inputFiles=[{path:atlas/new,type:Input,dirFilePrefix:null,recursive:true,flattenPaths:true}]
+inputFiles=[{path:thirteen/three,type:Input,dirFilePrefix:null,recursive:true,flattenPaths:true}]
 
 
 -PROJ-
 
-version=4.8.2
+version=4.9.1
 fileTypeType=png
-fileTypeData={encoding:RGBA8888,compType:PNG8,compData:"{level:5,threshold:0,dithering:false}"}
+fileTypeData={encoding:RGBA8888}
 previewBackgroundColor=ffffffff

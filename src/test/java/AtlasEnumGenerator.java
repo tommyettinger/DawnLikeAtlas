@@ -8,8 +8,6 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ObjectMap;
 import com.badlogic.gdx.utils.OrderedMap;
 
-import java.util.LinkedHashMap;
-
 /**
  * Created by Tommy Ettinger on 9/14/2019.
  */
@@ -74,20 +72,20 @@ public class AtlasEnumGenerator extends ApplicationAdapter {
 
         System.out.println(sb);
     }
-    public static LinkedHashMap<String, Array<TextureAtlas.AtlasRegion>> mapping(final TextureAtlas atlas){
+    public static OrderedMap<String, Array<TextureAtlas.AtlasRegion>> mapping(final TextureAtlas atlas){
         final Array<TextureAtlas.AtlasRegion> regions = atlas.getRegions();
         TextureAtlas.AtlasRegion item;
-        final LinkedHashMap<String, Array<TextureAtlas.AtlasRegion>> lhm = new LinkedHashMap<String, Array<TextureAtlas.AtlasRegion>>(regions.size, 0.5f);
+        final OrderedMap<String, Array<TextureAtlas.AtlasRegion>> lhm = new OrderedMap<String, Array<TextureAtlas.AtlasRegion>>(regions.size, 0.5f);
         for (int i = 0; i < regions.size; i++) {
             if(!lhm.containsKey((item = regions.get(i)).name))
                 lhm.put(item.name, atlas.findRegions(item.name));
         }
         return lhm;
     }
-    public static LinkedHashMap<String, Animation<TextureAtlas.AtlasRegion>> animationMapping(final TextureAtlas atlas, final float frameTime){
+    public static OrderedMap<String, Animation<TextureAtlas.AtlasRegion>> animationMapping(final TextureAtlas atlas, final float frameTime){
         final Array<TextureAtlas.AtlasRegion> regions = atlas.getRegions();
         TextureAtlas.AtlasRegion item;
-        final LinkedHashMap<String, Animation<TextureAtlas.AtlasRegion>> lhm = new LinkedHashMap<>(regions.size, 0.5f);
+        final OrderedMap<String, Animation<TextureAtlas.AtlasRegion>> lhm = new OrderedMap<>(regions.size, 0.5f);
         for (int i = 0; i < regions.size; i++) {
             if(!lhm.containsKey((item = regions.get(i)).name))
                 lhm.put(item.name, new Animation<>(frameTime, atlas.findRegions(item.name), Animation.PlayMode.LOOP));

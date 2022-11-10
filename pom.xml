@@ -66,8 +66,9 @@
         <maven.source.version>3.0.1</maven.source.version>
         <maven.gpg.version>1.6</maven.gpg.version>
         <jdk.version>1.7</jdk.version>
-        <junit.version>4.13.1</junit.version>
-        <gdx.version>1.9.10</gdx.version>
+        <junit.version>4.13.2</junit.version>
+        <gdx.version>1.11.0</gdx.version>
+        <anim8.version>0.3.11</anim8.version>
     </properties>
 
 
@@ -99,9 +100,16 @@
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations-java5</artifactId>
-            <version>17.0.0</version>
+            <version>23.0.0</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.tommyettinger</groupId>
+            <artifactId>anim8-gdx</artifactId>
+            <version>${anim8.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
         <!--        <dependency>-->
 <!--            <groupId>com.github.Anuken</groupId>-->
 <!--            <artifactId>GdxGifRecorder</artifactId>-->

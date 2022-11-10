@@ -4,11 +4,10 @@ import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Pixmap;
+import com.github.tommyettinger.anim8.PNG8;
+import com.github.tommyettinger.anim8.PaletteReducer;
 import dawnliker.Coloring;
-import dawnliker.PNG8;
-import dawnliker.PaletteReducer;
 
-import java.io.IOException;
 import java.nio.ByteBuffer;
 
 /**
@@ -189,41 +188,37 @@ public class ScaleP extends ApplicationAdapter {
 		 palette = Coloring.DB16;
 		 png.palette = new PaletteReducer(palette);
 
-		 try {
-			 String dir = "otherColors/db16";
-			 String dir2 = "otherColors/desat16";
-			 Gdx.files.local(dir).mkdirs();
-			 Gdx.files.local(dir2).mkdirs();
+		 String dir = "otherColors/db16";
+		 String dir2 = "otherColors/desat16";
+		 Gdx.files.local(dir).mkdirs();
+		 Gdx.files.local(dir2).mkdirs();
 //							  0x081820FF, 0x346856FF, 0x88C070FF, 0xE0F8D0FF,
 //							  0x400810FF, 0x802438FF, 0xE08058FF, 0xFFB090FF
 //							  {0x00000000, 0x101010FF, 0x323232FF, 0x494949FF, 0x5B5B5BFF, 0x6E6E6EFF,
 //					  0x808080FF, 0x929292FF, 0xA4A4A4FF, 0xB6B6B6FF, 0xC9C9C9FF, 0xDBDBDBFF, 0xEDEDEDFF,
 //					  0xEE1100FF,0xCC1908FF,0x9F2010FF,}
 
-			 png.write(Gdx.files.local(dir + "/Dawnlike.png"), source, false, true, 64);
-			 png.write(Gdx.files.local(dir + "/Dawnlike2.png"), dest, false, true, 64);
-			 png.write(Gdx.files.local(dir + "/Dawnlike3.png"), dest3, false, true, 64);
-			 png.write(Gdx.files.local(dir + "/Dawnlike4.png"), dest4, false, true, 64);
-			 int[] palette2 = new int[palette.length];
-			 System.out.print("0x00000000, ");
-			 float[] hsv = new float[3];
-			 Color temp = new Color();
-			 for (int i = 1; i < palette.length; i++) { 
+		 png.write(Gdx.files.local(dir + "/Dawnlike.png"), source, false, true, 64);
+		 png.write(Gdx.files.local(dir + "/Dawnlike2.png"), dest, false, true, 64);
+		 png.write(Gdx.files.local(dir + "/Dawnlike3.png"), dest3, false, true, 64);
+		 png.write(Gdx.files.local(dir + "/Dawnlike4.png"), dest4, false, true, 64);
+		 int[] palette2 = new int[palette.length];
+		 System.out.print("0x00000000, ");
+		 float[] hsv = new float[3];
+		 Color temp = new Color();
+		 for (int i = 1; i < palette.length; i++) {
 //			 	int r = (int) (Interpolation.sineOut.apply(0f, 135f, (i) / (palette.length - 1f)) + Interpolation.linear.apply(0f, 120f, (i) / (palette.length - 1f)));
 //			 	palette2[i] = r * 0x01010100 | 0xFF;
-				temp.set(palette[i]).toHsv(hsv);
-				hsv[1] *= 0.5f;
-				palette2[i] = Color.rgba8888(temp.fromHsv(hsv));
-			 	System.out.printf("0x%08X, ", palette2[i]);
-			 }
-			 PNG8.swapPalette(Gdx.files.local(dir + "/Dawnlike.png"), Gdx.files.local(dir2 + "/Dawnlike.png"), palette2);
-			 PNG8.swapPalette(Gdx.files.local(dir + "/Dawnlike2.png"), Gdx.files.local(dir2 + "/Dawnlike2.png"), palette2);
-			 PNG8.swapPalette(Gdx.files.local(dir + "/Dawnlike3.png"), Gdx.files.local(dir2 + "/Dawnlike3.png"), palette2);
-			 PNG8.swapPalette(Gdx.files.local(dir + "/Dawnlike4.png"), Gdx.files.local(dir2 + "/Dawnlike4.png"), palette2);
-
-		 } catch (IOException e) {
-			 e.printStackTrace();
+			temp.set(palette[i]).toHsv(hsv);
+			hsv[1] *= 0.5f;
+			palette2[i] = Color.rgba8888(temp.fromHsv(hsv));
+			 System.out.printf("0x%08X, ", palette2[i]);
 		 }
+		 PNG8.swapPalette(Gdx.files.local(dir + "/Dawnlike.png"), Gdx.files.local(dir2 + "/Dawnlike.png"), palette2);
+		 PNG8.swapPalette(Gdx.files.local(dir + "/Dawnlike2.png"), Gdx.files.local(dir2 + "/Dawnlike2.png"), palette2);
+		 PNG8.swapPalette(Gdx.files.local(dir + "/Dawnlike3.png"), Gdx.files.local(dir2 + "/Dawnlike3.png"), palette2);
+		 PNG8.swapPalette(Gdx.files.local(dir + "/Dawnlike4.png"), Gdx.files.local(dir2 + "/Dawnlike4.png"), palette2);
+
 		 Gdx.app.exit();
 	 }
 

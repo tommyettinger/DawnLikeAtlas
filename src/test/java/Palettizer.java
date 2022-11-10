@@ -4,11 +4,9 @@ import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Pixmap;
+import com.github.tommyettinger.anim8.PNG8;
+import com.github.tommyettinger.anim8.PaletteReducer;
 import dawnliker.Coloring;
-import dawnliker.PNG8;
-import dawnliker.PaletteReducer;
-
-import java.io.IOException;
 
 public class Palettizer extends ApplicationAdapter {
     //public static final int backgroundColor = Color.rgba8888(Color.DARK_GRAY);
@@ -134,44 +132,43 @@ public class Palettizer extends ApplicationAdapter {
     }
 
     public void split() {
-        try {
-            {
-                Gdx.files.local("renamed").mkdirs();
-                Pixmap p = new Pixmap(Gdx.files.internal("clumped/Effect0.png"));
-                png8.writePreciseSection(Gdx.files.local("renamed/pixel.png"),
-                        p, Coloring.DB16, 24, 24, 1, 1);
-            }
+        {
+            Gdx.files.local("renamed").mkdirs();
+            Pixmap p = new Pixmap(Gdx.files.internal("clumped/Effect0.png"));
+            png8.writePreciseSection(Gdx.files.local("renamed/pixel.png"),
+                    p, Coloring.DB16, 24, 24, 1, 1);
+        }
 
-            for(String name : listing) {
-                Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
-                png8.writePrecisely(Gdx.files.local("flat/" + name), p, Coloring.DB16, true, 0);
-                int frame = -1;
-                String abbr;
-                if(name.endsWith("0.png")){
-                    abbr = name.substring(0, name.length() - 5);
-                    frame = 0;
-                }
-                else if(name.endsWith("1.png")){
-                    abbr = name.substring(0, name.length() - 5);
-                    frame = 1;
-                }
-                else
-                    abbr = name.substring(0, name.length() - 4);
-                int w = p.getWidth() >>> 4, h = p.getHeight() >>> 4;
-                Gdx.files.local("individual").mkdirs();
-                for (int y = 0; y < h; y++) {
-                    for (int x = 0; x < w; x++) {
-                        if(frame >= 0)
-                            png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+"_"+frame+".png"),
-                                    p, Coloring.DB16, x<<4, y<<4, 16, 16);
-                        else
-                            png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+".png"),
-                                    p, Coloring.DB16, x<<4, y<<4, 16, 16);
-                    }
+        for(String name : listing) {
+            Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
+            png8.writePrecisely(Gdx.files.local("flat/" + name), p, Coloring.DB16, true, 0);
+            int frame = -1;
+            String abbr;
+            if(name.endsWith("0.png")){
+                abbr = name.substring(0, name.length() - 5);
+                frame = 0;
+            }
+            else if(name.endsWith("1.png")){
+                abbr = name.substring(0, name.length() - 5);
+                frame = 1;
+            }
+            else
+                abbr = name.substring(0, name.length() - 4);
+            int w = p.getWidth() >>> 4, h = p.getHeight() >>> 4;
+            Gdx.files.local("individual").mkdirs();
+            for (int y = 0; y < h; y++) {
+                for (int x = 0; x < w; x++) {
+                    if(frame >= 0)
+                        png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+"_"+frame+".png"),
+                                p, Coloring.DB16, x<<4, y<<4, 16, 16);
+                    else
+                        png8.writePreciseSection(Gdx.files.local("individual/"+abbr+"_"+x+"x"+y+".png"),
+                                p, Coloring.DB16, x<<4, y<<4, 16, 16);
                 }
             }
+        }
 
-            //unused
+        //unused
 //            for(String name : altListing) {
 //                Pixmap p = new Pixmap(Gdx.files.internal("clumped/" + name));
 //                reducer.analyze(p, 0);
@@ -187,8 +184,6 @@ public class Palettizer extends ApplicationAdapter {
 //                    }
 //                }
 //            }
-        } catch (IOException ignored) {
-        }
     }
 
     @Override

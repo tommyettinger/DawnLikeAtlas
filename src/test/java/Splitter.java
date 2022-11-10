@@ -5,12 +5,10 @@ import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.utils.Array;
-import dawnliker.AnimatedGif;
+import com.github.tommyettinger.anim8.AnimatedGif;
+import com.github.tommyettinger.anim8.PNG8;
+import com.github.tommyettinger.anim8.PaletteReducer;
 import dawnliker.Coloring;
-import dawnliker.PNG8;
-import dawnliker.PaletteReducer;
-
-import java.io.IOException;
 
 public class Splitter extends ApplicationAdapter {
     //public static final int backgroundColor = Color.rgba8888(Color.DARK_GRAY);
@@ -222,11 +220,7 @@ public class Splitter extends ApplicationAdapter {
                             arr.clear();
                             arr.add(new Pixmap(Gdx.files.local("renamed/"+cell[j]+"_0.png")));
                             arr.add(new Pixmap(Gdx.files.local("renamed/"+cell[j]+"_1.png")));
-                            try {
-                                gif.write(Gdx.files.local("docs/animated/"+cell[j]+".gif"), arr, 2);
-                            } catch (IOException e) {
-                                System.err.println("HAD A PROBLEM IN GROUP " + name2 + " WITH " + cell[j]);
-                            }
+                            gif.write(Gdx.files.local("docs/animated/"+cell[j]+".gif"), arr, 2);
                             sb.append(cell[j]).append(": <img src=\"animated/").append(cell[j]).append(".gif\" />\n");
                         }
                     }
@@ -249,11 +243,7 @@ public class Splitter extends ApplicationAdapter {
                                 arr.clear();
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j] + ".png")));
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j].substring(0, cell[j].length() - 2) + "_1.png")));
-                                try {
-                                    gif.write(Gdx.files.local("docs/animated/" + cell[j].substring(0, cell[j].length() - 2) + ".gif"), arr, 2);
-                                } catch (IOException e) {
-                                    System.err.println("HAD A PROBLEM IN GROUP " + name2 + " WITH " + cell[j]);
-                                }
+                                gif.write(Gdx.files.local("docs/animated/" + cell[j].substring(0, cell[j].length() - 2) + ".gif"), arr, 2);
                                 sb.append(cell[j], 0, cell[j].length() - 2).append(": <img src=\"animated/").append(cell[j], 0, cell[j].length() - 2).append(".gif\" />\n");
                             }
                             else if(!cell[j].endsWith("_1"))
@@ -282,11 +272,7 @@ public class Splitter extends ApplicationAdapter {
                                 arr.clear();
                                 arr.add(new Pixmap(Gdx.files.local("renamed/"+cell[j]+".png")));
                                 arr.add(new Pixmap(Gdx.files.local("renamed/" + cell[j].substring(0, cell[j].length() - 2) + "_1.png")));
-                                try {
-                                    gif.write(Gdx.files.local("docs/animated/"+cell[j].substring(0, cell[j].length() - 2)+".gif"), arr, 2);
-                                } catch (IOException e) {
-                                    System.err.println("HAD A PROBLEM IN GROUP " + name + " WITH " + cell[j]);
-                                }
+                                gif.write(Gdx.files.local("docs/animated/"+cell[j].substring(0, cell[j].length() - 2)+".gif"), arr, 2);
                                 sb.append(cell[j], 0, cell[j].length() - 2).append(": <img src=\"animated/").append(cell[j], 0, cell[j].length() - 2).append(".gif\" />\n");
                             }
                             else

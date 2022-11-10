@@ -504,4 +504,13 @@ public class Coloring {
             0xCFB690FF, 0xB67C74FF, 0x845A78FF, 0x555461FF,
             0x746658FF, 0x6B7B89FF, 0x939388FF
     };
+
+    /**
+     * A 12-color palette by Polyducks, drawn from the colors used in older Japanese woodblock prints.
+     * <a href="https://lospec.com/palette-list/japanese-woodblock">Source here</a>.
+     */
+    public static final int[] JAPANESE_WOODBLOCK_12 = {
+            0x00000000, 0x2B2821FF, 0x624C3CFF, 0xD9AC8BFF, 0xE3CFB4FF, 0x243D5CFF, 0x5D7275FF, 0x5C8B93FF,
+            0xB1A58DFF, 0xB03A48FF, 0xD4804DFF, 0xE0C872FF, 0x3E6958FF,
+    };
 }

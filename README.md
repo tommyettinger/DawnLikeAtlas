@@ -1,6 +1,12 @@
 # DawnLikeAtlas
 DragonDePlatino and DawnBringer's DawnLike assets, split up and named for use in texture atlases
 
+## tl;dr
+There are libGDX atlases with a whole lot of pixel-art sprites in the `thirteen` directory, or
+`atlases` if you have to use an older version of libGDX (that is, 1.9.12 or older). You only need
+`Dawnlike.atlas`, `Dawnlike.png`, and optionally `font.fnt` to use this without scaled assets.
+You can still scale up the sprites and font yourself, probably to an integer multiple.
+
 ## What?
 DawnLike is great! It is a huge set of 16x16 tiles/sprites, many with two-frame animations, meant
 for roguelike and similar games. [It was originally posted on OpenGameArt](https://opengameart.org/comment/60159).
@@ -43,9 +49,10 @@ animated GIFs.
  
 ## Also,
 There's a simple demo that uses this, so you can see it in action in your browser,
-[here on GitHub Pages](https://yellowstonegames.github.io/SquidLib-Demos/dawnlike/).
-The demo scales the sprites up using Hyllian's xBR-lv3 Shader, which makes them easier to see
-on high-DPI screens but loses the pixel-art details to some extent. A different demo avoids
-using any scaling shader, but also happens to be used to test a color-adjustment library, so
-if you try [this unscaled demo](https://yellowstonegames.github.io/SquidLib-Demos/colorful/),
-you can just ignore the rapidly-sped-up day-night cycle.
+[here on GitHub Pages](https://yellowstonegames.github.io/SquidLib-Demos/squidsquad/daybreak/).
+This first demo scales up the sprites 2x without any other changes, so each pixel is visible.
+[There's another demo here](https://yellowstonegames.github.io/SquidLib-Demos/dawnlike/). The
+second demo scales the sprites up using Hyllian's xBR-lv3 Shader, which makes them easier to see
+on high-DPI screens but loses the pixel-art details to some extent. The first shader is quite a
+bit newer, so it has more fanciness like smooth pop-in and fade-out for areas that just became
+visible or concealed, respectively.

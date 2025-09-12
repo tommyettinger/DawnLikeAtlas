@@ -513,4 +513,18 @@ public class Coloring {
             0x00000000, 0x2B2821FF, 0x624C3CFF, 0xD9AC8BFF, 0xE3CFB4FF, 0x243D5CFF, 0x5D7275FF, 0x5C8B93FF,
             0xB1A58DFF, 0xB03A48FF, 0xD4804DFF, 0xE0C872FF, 0x3E6958FF,
     };
+    /**
+     * <a href="https://lospec.com/palette-list/prospecal-8">Prospecal-8 by polyphrog</a>.
+     */
+    public static final int[] PROSPECAL = {
+            0x00000000,
+            0x6DB5BAFF,
+            0x26544CFF,
+            0x76AA3AFF,
+            0xFBFDBEFF,
+            0xD23C4FFF,
+            0x2B1328FF,
+            0x753D38FF,
+            0xEFAD5FFF,
+    };
 }

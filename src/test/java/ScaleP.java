@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.Pixmap;
 import com.github.tommyettinger.anim8.Dithered;
 import com.github.tommyettinger.anim8.PNG8;
 import com.github.tommyettinger.anim8.PaletteReducer;
+import com.github.tommyettinger.anim8.QualityPalette;
 import dawnliker.Coloring;
 
 import java.nio.ByteBuffer;
@@ -171,32 +172,14 @@ public class ScaleP extends ApplicationAdapter {
 		 scale2(dest, dest4);
 		 PNG8 png = new PNG8();
 		 png.setFlipY(false);
-		 int[] palette;//= new int[16];
-//				 new int[]{0x00000000, 0x101313FF, 0x373730FF, 0x505B5BFF,
-//				 0x808070FF, 0xA4A490FF, 0xB0C9C9FF, 0xEDEDD0FF,
-//				 0x346836FF, 0x76C070FF, 0xD8F8D0FF,
-//							  0x702028FF, 0xD05030FF, 0xFFC080FF,
-//				 0x6E5A54FF, };
-//		 for (int i = 1; i < palette.length; i++) {
-////			 int r = (int) Interpolation.smoother.apply(0f, 255f, (float)Math.sqrt((i - 0.75f) / (palette.length + 0.5f)));
-////			 int r = (i - 1) * 36 + 2;
-//			 int r = (i - 1) * 18;
-//			 palette[i] = r * 0x01010100 | 0xFF;
-////			 System.out.printf("0x%08X, ", palette[i]);
-//		 }
-//		 System.out.println();
-		 if("db16 version? yes".endsWith("yes")) {
+		 int[] palette;
+         if("db16 version? yes".endsWith("yes")) {
 			 palette = Coloring.DB16;
 			 png.palette = new PaletteReducer(palette);
 			 png.setDitherAlgorithm(Dithered.DitherAlgorithm.NONE);
 
 		 String dir = "otherColorsNew/db16/";
 			 Gdx.files.local(dir).mkdirs();
-//							  0x081820FF, 0x346856FF, 0x88C070FF, 0xE0F8D0FF,
-//							  0x400810FF, 0x802438FF, 0xE08058FF, 0xFFB090FF
-//							  {0x00000000, 0x101010FF, 0x323232FF, 0x494949FF, 0x5B5B5BFF, 0x6E6E6EFF,
-//					  0x808080FF, 0x929292FF, 0xA4A4A4FF, 0xB6B6B6FF, 0xC9C9C9FF, 0xDBDBDBFF, 0xEDEDEDFF,
-//					  0xEE1100FF,0xCC1908FF,0x9F2010FF,}
 
 			 png.write(Gdx.files.local(dir + "Dawnlike.png"), source, false, true, 100);
 			 png.write(Gdx.files.local(dir + "Dawnlike2.png"), dest, false, true, 100);
@@ -207,78 +190,68 @@ public class ScaleP extends ApplicationAdapter {
 			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
 			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
 		 }
-		 if("japanese woodblock version? no".endsWith("yes")) {
-			 palette = Coloring.JAPANESE_WOODBLOCK_12;
-			 png.palette = new PaletteReducer(palette);
-			 png.setDitherAlgorithm(Dithered.DitherAlgorithm.ROBERTS);
-
-			 String dir = "otherColorsNew/jw12/";
-//		 String dir = "otherColorsNew/db16/";
-			 Gdx.files.local(dir).mkdirs();
-//							  0x081820FF, 0x346856FF, 0x88C070FF, 0xE0F8D0FF,
-//							  0x400810FF, 0x802438FF, 0xE08058FF, 0xFFB090FF
-//							  {0x00000000, 0x101010FF, 0x323232FF, 0x494949FF, 0x5B5B5BFF, 0x6E6E6EFF,
-//					  0x808080FF, 0x929292FF, 0xA4A4A4FF, 0xB6B6B6FF, 0xC9C9C9FF, 0xDBDBDBFF, 0xEDEDEDFF,
-//					  0xEE1100FF,0xCC1908FF,0x9F2010FF,}
-
-			 png.write(Gdx.files.local(dir + "Dawnlike.png"), source, false, true, 100);
-			 png.write(Gdx.files.local(dir + "Dawnlike2.png"), dest, false, true, 100);
-			 png.write(Gdx.files.local(dir + "Dawnlike3.png"), dest3, false, true, 100);
-			 png.write(Gdx.files.local(dir + "Dawnlike4.png"), dest4, false, true, 100);
-			 Gdx.files.local("thirteen/Dawnlike.atlas").copyTo(Gdx.files.local(dir));
-			 Gdx.files.local("thirteen/Dawnlike2.atlas").copyTo(Gdx.files.local(dir));
-			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
-			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
-		 }
-		 if("desaturated version? no".endsWith("yes")) {
-			 String dir = "otherColorsNew/desat16/";
-			 Gdx.files.local(dir).mkdirs();
-
-			 int[] palette2 = new int[Coloring.DB16.length];
-			 System.out.print("0x00000000, ");
-			 final float[][] oklab = PaletteReducer.OKLAB;
-			 for (int i = 1; i < palette2.length; i++) {
-//			 	int r = (int) (Interpolation.sineOut.apply(0f, 135f, (i) / (palette.length - 1f)) + Interpolation.linear.apply(0f, 120f, (i) / (palette.length - 1f)));
-//			 	palette2[i] = r * 0x01010100 | 0xFF;
-				 int s = PaletteReducer.shrink(Coloring.DB16[i]);
-				 palette2[i] = PaletteReducer.oklabToRGB(oklab[0][s], oklab[1][s] * 0.5f, oklab[2][s] * 0.5f, 1f);
-				 System.out.printf("0x%08X, ", palette2[i]);
-			 }
-			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike.png"), Gdx.files.local(dir + "/Dawnlike.png"), palette2);
-			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike2.png"), Gdx.files.local(dir + "/Dawnlike2.png"), palette2);
-			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike3.png"), Gdx.files.local(dir + "/Dawnlike3.png"), palette2);
-			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike4.png"), Gdx.files.local(dir + "/Dawnlike4.png"), palette2);
-
-			 Gdx.files.local("thirteen/Dawnlike.atlas").copyTo(Gdx.files.local(dir));
-			 Gdx.files.local("thirteen/Dawnlike2.atlas").copyTo(Gdx.files.local(dir));
-			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
-			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
-		 }
-		 if("high-saturated version? yes".endsWith("yes")) {
-			 String dir = "otherColorsNew/hisat16/";
-			 Gdx.files.local(dir).mkdirs();
-
-			 int[] palette2 = new int[Coloring.DB16.length];
-			 System.out.print("0x00000000, ");
-			 final float[][] oklab = PaletteReducer.OKLAB;
-			 for (int i = 1; i < palette2.length - 1; i++) {
-//			 	int r = (int) (Interpolation.sineOut.apply(0f, 135f, (i) / (palette.length - 1f)) + Interpolation.linear.apply(0f, 120f, (i) / (palette.length - 1f)));
-//			 	palette2[i] = r * 0x01010100 | 0xFF;
-				 int s = PaletteReducer.shrink(Coloring.DB16[i]);
-				 palette2[i] = PaletteReducer.oklabToRGB(oklab[0][s], oklab[1][s] * 1.75f, oklab[2][s] * 1.75f, 1f);
-				 System.out.printf("0x%08X, ", palette2[i]);
-			 }
-			 palette2[palette2.length - 1] = 0xFFFFFFFF;
-			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike.png"), Gdx.files.local(dir + "/Dawnlike.png"), palette2);
-			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike2.png"), Gdx.files.local(dir + "/Dawnlike2.png"), palette2);
-			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike3.png"), Gdx.files.local(dir + "/Dawnlike3.png"), palette2);
-			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike4.png"), Gdx.files.local(dir + "/Dawnlike4.png"), palette2);
-
-			 Gdx.files.local("thirteen/Dawnlike.atlas").copyTo(Gdx.files.local(dir));
-			 Gdx.files.local("thirteen/Dawnlike2.atlas").copyTo(Gdx.files.local(dir));
-			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
-			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
-		 }
+//		 if("japanese woodblock version? yes".endsWith("yes")) {
+//			 palette = Coloring.JAPANESE_WOODBLOCK_12;
+//			 png.palette = new QualityPalette(palette);
+//			 png.setDitherAlgorithm(Dithered.DitherAlgorithm.MARTEN);
+//
+//			 String dir = "otherColorsNew/jw12/";
+//			 Gdx.files.local(dir).mkdirs();
+//
+//			 png.write(Gdx.files.local(dir + "Dawnlike.png"), source, false, true, 100);
+//			 png.write(Gdx.files.local(dir + "Dawnlike2.png"), dest, false, true, 100);
+//			 png.write(Gdx.files.local(dir + "Dawnlike3.png"), dest3, false, true, 100);
+//			 png.write(Gdx.files.local(dir + "Dawnlike4.png"), dest4, false, true, 100);
+//			 Gdx.files.local("thirteen/Dawnlike.atlas").copyTo(Gdx.files.local(dir));
+//			 Gdx.files.local("thirteen/Dawnlike2.atlas").copyTo(Gdx.files.local(dir));
+//			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
+//			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
+//		 }
+//		 if("desaturated version? yes".endsWith("yes")) {
+//			 String dir = "otherColorsNew/desat16/";
+//			 Gdx.files.local(dir).mkdirs();
+//
+//			 int[] palette2 = new int[Coloring.DB16.length];
+//			 System.out.print("0x00000000, ");
+//			 final float[][] oklab = PaletteReducer.OKLAB;
+//			 for (int i = 1; i < palette2.length; i++) {
+//				 int s = PaletteReducer.shrink(Coloring.DB16[i]);
+//				 palette2[i] = PaletteReducer.oklabToRGB(oklab[0][s], oklab[1][s] * 0.5f, oklab[2][s] * 0.5f, 1f);
+//				 System.out.printf("0x%08X, ", palette2[i]);
+//			 }
+//			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike.png"), Gdx.files.local(dir + "/Dawnlike.png"), palette2);
+//			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike2.png"), Gdx.files.local(dir + "/Dawnlike2.png"), palette2);
+//			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike3.png"), Gdx.files.local(dir + "/Dawnlike3.png"), palette2);
+//			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike4.png"), Gdx.files.local(dir + "/Dawnlike4.png"), palette2);
+//
+//			 Gdx.files.local("thirteen/Dawnlike.atlas").copyTo(Gdx.files.local(dir));
+//			 Gdx.files.local("thirteen/Dawnlike2.atlas").copyTo(Gdx.files.local(dir));
+//			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
+//			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
+//		 }
+//		 if("high-saturated version? yes".endsWith("yes")) {
+//			 String dir = "otherColorsNew/hisat16/";
+//			 Gdx.files.local(dir).mkdirs();
+//
+//			 int[] palette2 = new int[Coloring.DB16.length];
+//			 System.out.print("0x00000000, ");
+//			 final float[][] oklab = PaletteReducer.OKLAB;
+//			 for (int i = 1; i < palette2.length - 1; i++) {
+//				 int s = PaletteReducer.shrink(Coloring.DB16[i]);
+//				 palette2[i] = PaletteReducer.oklabToRGB(oklab[0][s], oklab[1][s] * 1.75f, oklab[2][s] * 1.75f, 1f);
+//				 System.out.printf("0x%08X, ", palette2[i]);
+//			 }
+//			 palette2[palette2.length - 1] = 0xFFFFFFFF;
+//			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike.png"), Gdx.files.local(dir + "/Dawnlike.png"), palette2);
+//			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike2.png"), Gdx.files.local(dir + "/Dawnlike2.png"), palette2);
+//			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike3.png"), Gdx.files.local(dir + "/Dawnlike3.png"), palette2);
+//			 PNG8.swapPalette(Gdx.files.local("otherColorsNew/db16/Dawnlike4.png"), Gdx.files.local(dir + "/Dawnlike4.png"), palette2);
+//
+//			 Gdx.files.local("thirteen/Dawnlike.atlas").copyTo(Gdx.files.local(dir));
+//			 Gdx.files.local("thirteen/Dawnlike2.atlas").copyTo(Gdx.files.local(dir));
+//			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
+//			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
+//		 }
 		 Gdx.app.exit();
 	 }
 

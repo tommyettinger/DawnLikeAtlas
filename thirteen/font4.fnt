@@ -1,7 +1,7 @@
-info face="PlainAndSimplePlus" size=-16 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=0 aa=1 padding=2,2,2,2 spacing=2,2 outline=0
-common lineHeight=14 base=11 scaleW=256 scaleH=128 pages=1 packed=0 alphaChnl=0 redChnl=4 greenChnl=4 blueChnl=4
+info face="PlainAndSimplePlus" size=-64 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=0 aa=1 padding=8,8,8,8 spacing=8,8 outline=0
+common lineHeight=56 base=44 scaleW=1024 scaleH=512 pages=1 packed=0 alphaChnl=0 redChnl=4 greenChnl=4 blueChnl=4
 page id=0 file="font.png"
-chars count=215
+chars count=216
 char id=32 x=680 y=432 width=20 height=20 xoffset=-8 yoffset=-8 xadvance=12 page=0 chnl=15
 char id=33 x=212 y=132 width=20 height=52 xoffset=-8 yoffset=4 xadvance=8 page=0 chnl=15
 char id=34 x=236 y=464 width=28 height=24 xoffset=-8 yoffset=4 xadvance=16 page=0 chnl=15
@@ -211,6 +211,7 @@ char id=8249 x=96 y=464 width=24 height=28 xoffset=-8 yoffset=12 xadvance=12 pag
 char id=8250 x=128 y=464 width=24 height=28 xoffset=-8 yoffset=12 xadvance=12 page=0 chnl=15
 char id=8364 x=572 y=240 width=36 height=48 xoffset=-8 yoffset=4 xadvance=24 page=0 chnl=15
 char id=8482 x=888 y=68 width=36 height=52 xoffset=-8 yoffset=4 xadvance=24 page=0 chnl=15
+char id=9608 x=1016 y=504 width=1 height=1 xoffset=0 yoffset=0 xadvance=1 page=0 chnl=15
 char id=64256 x=416 y=132 width=44 height=48 xoffset=-8 yoffset=4 xadvance=32 page=0 chnl=15
 char id=64257 x=468 y=132 width=40 height=48 xoffset=-8 yoffset=4 xadvance=28 page=0 chnl=15
 char id=64258 x=748 y=240 width=36 height=48 xoffset=-8 yoffset=4 xadvance=24 page=0 chnl=15

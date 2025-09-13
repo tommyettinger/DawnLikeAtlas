@@ -513,6 +513,7 @@ public class Coloring {
             0x00000000, 0x2B2821FF, 0x624C3CFF, 0xD9AC8BFF, 0xE3CFB4FF, 0x243D5CFF, 0x5D7275FF, 0x5C8B93FF,
             0xB1A58DFF, 0xB03A48FF, 0xD4804DFF, 0xE0C872FF, 0x3E6958FF,
     };
+
     /**
      * <a href="https://lospec.com/palette-list/prospecal-8">Prospecal-8 by polyphrog</a>.
      */
@@ -526,5 +527,24 @@ public class Coloring {
             0x2B1328FF,
             0x753D38FF,
             0xEFAD5FFF,
+    };
+
+    /**
+     * <a href="https://lospec.com/palette-list/super-spark">Super-Spark by Anubi</a>.
+     */
+    public static final int[] SUPER_SPARK = {
+            0x00000000,
+            0x19181CFF,
+            0x57607DFF,
+            0x959984FF,
+            0xE8EDECFF,
+            0xF0B47FFF,
+            0xBF75BFFF,
+            0xB8636EFF,
+            0x554F69FF,
+            0x5262A1FF,
+            0x7BBCE8FF,
+            0x5C8559FF,
+            0x74C261FF,
     };
 }

@@ -547,4 +547,27 @@ public class Coloring {
             0x5C8559FF,
             0x74C261FF,
     };
+
+    /**
+     * <a href="https://lospec.com/palette-list/fantasy-kitchen-16">Fantasy Kitchen 16 by Qirlfriend</a>.
+     */
+    public static final int[] FANTASY_KITCHEN = {
+            0x00000000,
+            0x120E23FF,
+            0x5A265EFF,
+            0x8D2D4EFF,
+            0xBA6156FF,
+            0xF2A65EFF,
+            0xFFCE95FF,
+            0x10D275FF,
+            0x007899FF,
+            0x473B78FF,
+            0x323E4FFF,
+            0x636686FF,
+            0x8C88A5FF,
+            0xE2D9EAFF,
+            0xFFFFF5FF,
+            0xEACEBDFF,
+            0xB48894FF,
+    };
 }

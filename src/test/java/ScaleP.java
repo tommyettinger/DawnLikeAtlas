@@ -232,6 +232,24 @@ public class ScaleP extends ApplicationAdapter {
 			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
 			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
 		 }
+		 if("fantasy kitchen version? yes".endsWith("yes")) {
+			 palette = Coloring.FANTASY_KITCHEN;
+			 png.palette = new QualityPalette(palette);
+			 png.setDitherAlgorithm(Dithered.DitherAlgorithm.GOURD);
+             png.setDitherStrength(0.25f);
+
+			 String dir = "otherColorsNew/fantasykitchen16/";
+			 Gdx.files.local(dir).mkdirs();
+
+			 png.write(Gdx.files.local(dir + "Dawnlike.png"), source, false, true, 100);
+			 png.write(Gdx.files.local(dir + "Dawnlike2.png"), dest, false, true, 100);
+			 png.write(Gdx.files.local(dir + "Dawnlike3.png"), dest3, false, true, 100);
+			 png.write(Gdx.files.local(dir + "Dawnlike4.png"), dest4, false, true, 100);
+			 Gdx.files.local("thirteen/Dawnlike.atlas").copyTo(Gdx.files.local(dir));
+			 Gdx.files.local("thirteen/Dawnlike2.atlas").copyTo(Gdx.files.local(dir));
+			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
+			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
+		 }
 		 if("prospecal version? yes".endsWith("no")) {
 			 palette = Coloring.PROSPECAL;
 			 png.palette = new QualityPalette(palette);

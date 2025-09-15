@@ -214,7 +214,7 @@ public class ScaleP extends ApplicationAdapter {
 			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
 			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
 		 }
-		 if("super-spark version? yes".endsWith("yes")) {
+		 if("super-spark version? yes".endsWith("no")) {
 			 palette = Coloring.SUPER_SPARK;
 			 png.palette = new QualityPalette(palette);
 			 png.setDitherAlgorithm(Dithered.DitherAlgorithm.GOURD);
@@ -232,13 +232,31 @@ public class ScaleP extends ApplicationAdapter {
 			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
 			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
 		 }
-		 if("fantasy kitchen version? yes".endsWith("yes")) {
+		 if("fantasy kitchen version? yes".endsWith("no")) {
 			 palette = Coloring.FANTASY_KITCHEN;
 			 png.palette = new QualityPalette(palette);
 			 png.setDitherAlgorithm(Dithered.DitherAlgorithm.GOURD);
              png.setDitherStrength(0.25f);
 
 			 String dir = "otherColorsNew/fantasykitchen16/";
+			 Gdx.files.local(dir).mkdirs();
+
+			 png.write(Gdx.files.local(dir + "Dawnlike.png"), source, false, true, 100);
+			 png.write(Gdx.files.local(dir + "Dawnlike2.png"), dest, false, true, 100);
+			 png.write(Gdx.files.local(dir + "Dawnlike3.png"), dest3, false, true, 100);
+			 png.write(Gdx.files.local(dir + "Dawnlike4.png"), dest4, false, true, 100);
+			 Gdx.files.local("thirteen/Dawnlike.atlas").copyTo(Gdx.files.local(dir));
+			 Gdx.files.local("thirteen/Dawnlike2.atlas").copyTo(Gdx.files.local(dir));
+			 Gdx.files.local("thirteen/Dawnlike3.atlas").copyTo(Gdx.files.local(dir));
+			 Gdx.files.local("thirteen/Dawnlike4.atlas").copyTo(Gdx.files.local(dir));
+		 }
+		 if("na16 version? yes".endsWith("yes")) {
+			 palette = Coloring.NA16;
+			 png.palette = new QualityPalette(palette);
+			 png.setDitherAlgorithm(Dithered.DitherAlgorithm.GOURD);
+             png.setDitherStrength(0.25f);
+
+			 String dir = "otherColorsNew/na16/";
 			 Gdx.files.local(dir).mkdirs();
 
 			 png.write(Gdx.files.local(dir + "Dawnlike.png"), source, false, true, 100);

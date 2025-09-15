@@ -570,4 +570,27 @@ public class Coloring {
             0xEACEBDFF,
             0xB48894FF,
     };
+
+    /**
+     * <a href="https://lospec.com/palette-list/na16">NA16 by Nauris</a>.
+     */
+    public static final int[] NA16 = {
+            0x00000000,
+            0x8C8FAEFF,
+            0x584563FF,
+            0x3E2137FF,
+            0x9A6348FF,
+            0xD79B7DFF,
+            0xF5EDBAFF,
+            0xC0C741FF,
+            0x647D34FF,
+            0xE4943AFF,
+            0x9D303BFF,
+            0xD26471FF,
+            0x70377FFF,
+            0x7EC4C1FF,
+            0x34859DFF,
+            0x17434BFF,
+            0x1F0E1CFF,
+    };
 }

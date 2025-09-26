@@ -28,16 +28,20 @@ premultiplyAlpha=false
 grid=false
 square=false
 bleed=false
-limitMemory=true
+limitMemory=false
 useIndexes=true
+prettyPrint=false
+legacyOutput=false
 
 scaleFactors=[{suffix:"",factor:1,resampling:nearest}]
-inputFiles=[{path:renamed,type:Input,dirFilePrefix:null,recursive:false,flattenPaths:false}]
+inputFiles=[{path:renamed,type:Input,dirFilePrefix:null,recursive:false,flattenPaths:false},{path:fonts/font.png,type:Input,regionName:null}]
+keepInputFileExtensions=false
 
 
 -PROJ-
 
-version=4.9.1
+version=4.13.0
 fileTypeType=png
 fileTypeData={encoding:RGBA8888}
 previewBackgroundColor=ffffffff
+projectSettings={inputFiles:{}}
